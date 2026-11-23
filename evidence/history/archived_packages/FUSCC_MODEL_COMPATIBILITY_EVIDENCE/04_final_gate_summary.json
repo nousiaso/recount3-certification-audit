@@ -1,0 +1,65 @@
+{
+  "version": "recount3_stage5_final_technical_evidence_v1_0_0",
+  "status": "TECHNICAL_EVIDENCE_COMPLETE_MODEL_INPUT_NOT_APPROVED",
+  "n_studies": 129,
+  "n_runs": 4166,
+  "n_libraries": 3639,
+  "n_DGE_excluded": 37,
+  "n_remaining_provisional_libraries": 3602,
+  "n_libraries_with_more_than_one_run": 227,
+  "n_multirun_pairs": 1353,
+  "n_libraries_with_some_run_low_detection": 59,
+  "n_libraries_with_some_run_top10_concentration": 202,
+  "n_libraries_with_some_study_relative_outlier": 171,
+  "n_libraries_with_some_mapped_length_lt40bp": 63,
+  "n_libraries_with_multirun_low_concordance_review": 7,
+  "frozen_W_G026_mapping_preflight": {
+    "version": "recount3_stage5_final_technical_evidence_v1_0_0",
+    "status": "PREFLIGHT_COMPLETE_NOT_MODEL_RELEASE",
+    "n_selected_libraries": 3639,
+    "n_selected_runs": 4166,
+    "n_source_gene_rows": 63856,
+    "n_unique_source_gene_bases": 63811,
+    "n_unique_annotated_gene_bases": 63811,
+    "n_ambiguous_gene_rows": 9618,
+    "n_frozen_W_harmonization_rows": 1497,
+    "n_unique_frozen_W_gene_indices": 499,
+    "n_frozen_W_rows_unambiguous": 1428,
+    "n_frozen_W_rows_missing": 0,
+    "n_frozen_W_rows_ambiguous": 69,
+    "all_study_gene_axis_hash": "3e4bde5146353005a4cdcbe7d5ec3dcc95dbc6f9abdefe8d303014ad8a5c7d69",
+    "frozen_W_harmonization_SHA256": "fee127d95fcd94db2fd8d110c222428cf7298f838b8e5e3ce239de7415e71706",
+    "source_xlsx_sha256": "0b438ac4ceb09648e07f3376e30d227e2a1765af795d8b1820b02985ee2e7001",
+    "caveat": "Candidate mapping only; no claim of compatibility with frozen-W projection algorithm or model calibration"
+  },
+  "bridge_availability": {
+    "bridge_is_only_same_specimen_calibration_candidates": true,
+    "no_expression_correlations_or_projection_estimated": true,
+    "studies": [
+      {
+        "study": "SRP074349",
+        "n_libraries": 143,
+        "n_expected_runs": 454,
+        "study_gene_file_present": true,
+        "n_source_columns": 668,
+        "n_bridge_run_ids_found": 454
+      },
+      {
+        "study": "SRP157215",
+        "n_libraries": 22,
+        "n_expected_runs": 22,
+        "study_gene_file_present": false,
+        "n_source_columns": 0,
+        "n_bridge_run_ids_found": 0
+      }
+    ]
+  },
+  "nonnegotiable_outstanding_approval_conditions": [
+    "sample and patient source verification including cross-atlas linkage",
+    "run-level replicate QC decisions and aggregation without independent-count inflation",
+    "explicit row-level gene mapping of validated W to compatible recount3 expression",
+    "same-specimen assay bridge evaluating frozen W projection and cross-study transfer",
+    "final prespecified inclusion and independence manifest"
+  ],
+  "scientific_limit": "Read-count approximations and technical-run correlation do not certify cross-platform expression equivalence; no fixed-W SE projection performed."
+}

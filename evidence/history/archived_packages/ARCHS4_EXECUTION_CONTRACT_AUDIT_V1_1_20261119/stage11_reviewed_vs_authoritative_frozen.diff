@@ -1,0 +1,17 @@
+--- reviewed_stage11_from_library_sha_cec6fd51
++++ authoritative_frozen_stage11_sha_529551d7
+@@ -283,13 +283,13 @@
+     x,
+     na.rm = TRUE
+   )
+ 
+   scale_value <- stats::mad(
+     x,
+-    centre = centre,
++    center = centre,
+     constant = 1.4826,
+     na.rm = TRUE
+   )
+ 
+   if (
+     !is.finite(scale_value) ||

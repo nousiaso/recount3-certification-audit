@@ -1,0 +1,22 @@
+RECOUNT3 SCIENTIFIC RELEASE POLICY v1.0.1
+
+Evidence lock (v1.0.0): retained, unmodified, SHA256 verified.
+Separate cohort v1.0.1: only primary-tumour specimen for the primary cohort,
+  with exact accession evidence, study reference, reviewer, positive patient
+  mapping, resolved within-patient repeated-sampling status, retained run(s),
+  and no discordant retained technical-run pair.
+Technical runs: no inclusion merely by 0.9 correlation if the run has other
+  unexplained QC warnings; human adjudication remains required.
+Exclusions: 37 known DGE experiment libraries are immutable exclusions.
+Biological analyses: use patient-clustered methods for multiregion/longitudinal
+  repeated samples. Cross-study sample counts are not automatically patient counts.
+Cross-atlas: absence of a known match from partial 740/9465 linkage is not
+  sufficient proof of independence. Same-source 143 lung specimens are
+  calibration-only, never independent external validation.
+Model: the original 499 W features and three branches must be preserved;
+  465/499 identity agreement can support descriptive assay diagnostics only.
+Cross-platform transfer: high expression correlation is not programme/ecotype
+  score equivalence. Actual frozen-code scores, source processing, and independent
+  study evidence are needed before any pooled or comparative model release.
+Limitations: source study records and reviewer attestations are not independently
+  fetched by v1.0.1; they must be supplied and audited. HOLD is correct otherwise.

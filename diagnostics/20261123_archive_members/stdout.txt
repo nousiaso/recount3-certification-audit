@@ -1,0 +1,252 @@
+=== HISTORICAL ARCHIVE MEMBER INVENTORY ===
+No extraction or scientific execution performed
+
+======================================================================
+ARCHIVE: ARCHS4_EXECUTION_CONTRACT_AUDIT_V1_1_20261119.zip
+STATUS: READABLE
+FILE COUNT: 6
+UNCOMPRESSED BYTES: 33410
+FILE TYPES: {'.py': 1, '.md': 1, '.json': 1, '.diff': 1, '.txt': 2}
+
+CODE MEMBERS: 1
+  CODE 14031 audit_frozen_outputs_READONLY_v1_1.py
+
+EVIDENCE / REPORT MEMBERS: 4
+  EVIDENCE 15978 EXECUTION_CONTRACT_SOURCE_AUDIT_V1_1.md
+  EVIDENCE 823 STAGE11_SOURCE_ADJUDICATION.json
+  EVIDENCE 1749 README_RUN_CLUSTER.txt
+  EVIDENCE 510 SHA256SUMS.txt
+
+OTHER MEMBERS: 1
+  OTHER 319 stage11_reviewed_vs_authoritative_frozen.diff
+
+======================================================================
+ARCHIVE: RECOUNT3_W34_ATLAS_CANDIDATES.tar.gz
+STATUS: READABLE
+FILE COUNT: 4
+UNCOMPRESSED BYTES: 103604
+FILE TYPES: {'.tsv': 2, '.json': 1, '.txt': 1}
+
+CODE MEMBERS: 0
+
+EVIDENCE / REPORT MEMBERS: 4
+  EVIDENCE 15481 01_W34_metadata_candidates.tsv
+  EVIDENCE 84836 02_GSM_direct_overlap_candidates.tsv
+  EVIDENCE 2990 03_readonly_probe_summary.json
+  EVIDENCE 297 SHA256SUMS.txt
+
+OTHER MEMBERS: 0
+
+======================================================================
+ARCHIVE: RECOUNT3_SOURCE_EVIDENCE_3602.tar.gz
+STATUS: READABLE
+FILE COUNT: 4
+UNCOMPRESSED BYTES: 4386282
+FILE TYPES: {'.tsv': 2, '.txt': 1, '.json': 1}
+
+CODE MEMBERS: 0
+
+EVIDENCE / REPORT MEMBERS: 4
+  EVIDENCE 4365167 source_evidence_v1_0_0/accession_source_evidence_3602.tsv
+  EVIDENCE 295 source_evidence_v1_0_0/SHA256SUMS.txt
+  EVIDENCE 5014 source_evidence_v1_0_0/source_evidence_summary.json
+  EVIDENCE 15806 source_evidence_v1_0_0/source_metadata_fingerprints.tsv
+
+OTHER MEMBERS: 0
+
+======================================================================
+ARCHIVE: RECOUNT3_CERTIFICATION_ADJUDICATION_20261119.zip
+STATUS: READABLE
+FILE COUNT: 16
+UNCOMPRESSED BYTES: 2056488
+FILE TYPES: {'.txt': 4, '.tsv': 8, '.json': 1, '.py': 3}
+
+CODE MEMBERS: 3
+  CODE 7729 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/probe_W34_and_ARCHS4_atlas_READONLY.py
+  CODE 2108 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/test_reconciled_review.py
+  CODE 18826 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/build_adjudication.py
+
+EVIDENCE / REPORT MEMBERS: 13
+  EVIDENCE 5474 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/README_CLUSTER_AND_SCIENCE.txt
+  EVIDENCE 139276 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/REVIEW_OUTPUT/05_run_hold_queue_409.tsv
+  EVIDENCE 3947 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/REVIEW_OUTPUT/04_additional_possible_patient_relationships.tsv
+  EVIDENCE 67699 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/REVIEW_OUTPUT/03_direct_patient_token_evidence_281.tsv
+  EVIDENCE 6268 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/REVIEW_OUTPUT/06_held_W_feature_gates_34.tsv
+  EVIDENCE 1019 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/REVIEW_OUTPUT/SHA256SUMS.txt
+  EVIDENCE 2895 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/REVIEW_OUTPUT/README_REVIEW_FIRST.txt
+  EVIDENCE 1749866 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/REVIEW_OUTPUT/01_accession_specimen_review_3602.tsv
+  EVIDENCE 15652 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/REVIEW_OUTPUT/02_study_adjudication_queue_126.tsv
+  EVIDENCE 867 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/REVIEW_OUTPUT/07_public_source_registry_REVIEW_ONLY.tsv
+  EVIDENCE 1854 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/REVIEW_OUTPUT/09_adjudication_summary.json
+  EVIDENCE 31372 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/REVIEW_OUTPUT/08_repeated_curated_subject_groups_109.tsv
+  EVIDENCE 1636 RECOUNT3_CERTIFICATION_ADJUDICATION_20261119/PACKAGE_SHA256SUMS.txt
+
+OTHER MEMBERS: 0
+
+======================================================================
+ARCHIVE: RECOUNT3_CERTIFICATION_V1_0_1_20261118.zip
+STATUS: READABLE
+FILE COUNT: 6
+UNCOMPRESSED BYTES: 93811
+FILE TYPES: {'.txt': 3, '.py': 3}
+
+CODE MEMBERS: 3
+  CODE 46612 cert_v101/_v100_reference_readonly.py
+  CODE 28061 cert_v101/certify.py
+  CODE 7827 cert_v101/tests/test_v101.py
+
+EVIDENCE / REPORT MEMBERS: 3
+  EVIDENCE 478 CERT_V101_PACKAGE_SHA256SUMS.txt
+  EVIDENCE 9313 README_START_HERE.txt
+  EVIDENCE 1520 SCIENCE_AND_RELEASE_POLICY_v1_0_1.txt
+
+OTHER MEMBERS: 0
+
+======================================================================
+ARCHIVE: RECOUNT3_STAGE41_V101_REVIEW_RESULTS.tar.gz
+STATUS: READABLE
+FILE COUNT: 13
+UNCOMPRESSED BYTES: 12283726
+FILE TYPES: {'.tsv': 10, '.md': 1, '.txt': 1, '.json': 1}
+
+CODE MEMBERS: 0
+
+EVIDENCE / REPORT MEMBERS: 13
+  EVIDENCE 2422008 ./03_candidate_integrated_evidence_3602.tsv
+  EVIDENCE 4246 ./README.md
+  EVIDENCE 2645036 ./02_source_qualified_identity_edges.tsv
+  EVIDENCE 30871 ./11_input_SHA256_ledger.tsv
+  EVIDENCE 946071 ./09_graph_coverage_and_source_conflicts.tsv
+  EVIDENCE 1209 ./SHA256SUMS.txt
+  EVIDENCE 2167721 ./05_GEO_clinical_evidence_for_candidates.tsv
+  EVIDENCE 799527 ./01_full_source_experiment_identity_5221.tsv
+  EVIDENCE 694104 ./07_review_exception_queue.tsv
+  EVIDENCE 2822 ./10_summary.json
+  EVIDENCE 6810 ./08_study_adjudication_summary_126.tsv
+  EVIDENCE 2505371 ./04_UNSIGNED_review_adjudication_3602.tsv
+  EVIDENCE 57930 ./06_patient_group_proposals_UNCERTIFIED.tsv
+
+OTHER MEMBERS: 0
+
+======================================================================
+ARCHIVE: FUSCC_COHORT_RECONCILIATION_UNSIGNED_20261120.zip
+STATUS: READABLE
+FILE COUNT: 8
+UNCOMPRESSED BYTES: 538543
+FILE TYPES: {'.md': 1, '.tsv': 4, '.json': 1, '.py': 1, '.txt': 1}
+
+CODE MEMBERS: 1
+  CODE 2694 06_FUSCC_original_hold_QC_readonly.py
+
+EVIDENCE / REPORT MEMBERS: 7
+  EVIDENCE 5275 00_FUSCC_SCIENTIFIC_ASSESSMENT.md
+  EVIDENCE 262468 01_FUSCC_360_library_evidence_UNSIGNED.tsv
+  EVIDENCE 246377 02_FUSCC_334_main_screen_UNSIGNED.tsv
+  EVIDENCE 16746 03_FUSCC_26_historical_run_holds.tsv
+  EVIDENCE 3774 04_FUSCC_4_WES_context_warnings.tsv
+  EVIDENCE 505 05_summary.json
+  EVIDENCE 704 SHA256SUMS.txt
+
+OTHER MEMBERS: 0
+
+======================================================================
+ARCHIVE: FUSCC_MODEL_COMPATIBILITY_EVIDENCE.tar.gz
+STATUS: READABLE
+FILE COUNT: 12
+UNCOMPRESSED BYTES: 4610654
+FILE TYPES: {'.tsv': 5, '.json': 7}
+
+CODE MEMBERS: 0
+
+EVIDENCE / REPORT MEMBERS: 12
+  EVIDENCE 105720 stage5_output/00_frozen_W_to_G026_candidate_mapping.tsv
+  EVIDENCE 4412715 stage5_output/00_gene_row_mapping.tsv
+  EVIDENCE 925 stage5_output/00_preflight_summary.json
+  EVIDENCE 2858 stage5_output/04_final_gate_summary.json
+  EVIDENCE 1849 stage5_output/bridge_SRP074349/axis_validation_report.json
+  EVIDENCE 1048 stage5_output/bridge_SRP074349/bridge_report.json
+  EVIDENCE 2782 stage5_output/bridge_SRP074349/gene_axis_diagnostic_report.json
+  EVIDENCE 54456 stage5_output/bridge_SRP074349/per_W_gene_across_specimen_transfer.tsv
+  EVIDENCE 15544 stage5_output/bridge_SRP074349/per_specimen_same_source_gene_profile.tsv
+  EVIDENCE 9015 stage4_contract_output/03_frozen_reference_file_contract.tsv
+  EVIDENCE 1871 stage2_output/studies/SRP157974/study_qc.json
+  EVIDENCE 1871 stage2_output/studies/SRP074349/study_qc.json
+
+OTHER MEMBERS: 0
+
+======================================================================
+ARCHIVE: FUSCC_FROZEN_W_PROJECTION_METHODS.tar.gz
+STATUS: READABLE
+FILE COUNT: 4
+UNCOMPRESSED BYTES: 89105
+FILE TYPES: {'.rds': 1, '.tsv': 1, '.json': 1, '.md': 1}
+
+CODE MEMBERS: 0
+
+EVIDENCE / REPORT MEMBERS: 3
+  EVIDENCE 58878 PROJECT_TREE/11_pan_cancer_fixed_anchor_projection_v1_0_4/16A_frozen_W_gene_symbol_harmonization.tsv
+  EVIDENCE 1122 PROJECT_TREE/Unified_SE_Discovery_v1/config_ARCHS4_all.json
+  EVIDENCE 3695 09_DOCUMENTATION/README_RELEASE.md
+
+OTHER MEMBERS: 1
+  OTHER 25410 02_MODEL/Bulk_SE_Recovery_W.rds
+
+======================================================================
+ARCHIVE: FUSCC_ORIGINAL_PROJECTION_SOURCE.tar.gz
+STATUS: READABLE
+FILE COUNT: 9
+UNCOMPRESSED BYTES: 551091
+FILE TYPES: {'.py': 2, '.r': 4, '.rds': 1, '.tsv': 1, '.md': 1}
+
+CODE MEMBERS: 6
+  CODE 55823 06_audit_ARCHS4_primary_expression_compatibility_v1.py
+  CODE 76045 09_prepare_ARCHS4_locked_expression_and_normalization_v1_0_1.py
+  CODE 80747 10_run_ARCHS4_pan_cancer_fixed_anchor_projection_v1_0_4.R
+  CODE 71616 11_build_ARCHS4_layer1_adequacy_robustness_atlas_v1_0_2_1.R
+  CODE 114499 12_run_ARCHS4_cancer_specific_fixed_anchor_projection_v1_0_3.R
+  CODE 64378 13_build_ARCHS4_projection_use_analysis_ready_atlas_v1_0_3.R
+
+EVIDENCE / REPORT MEMBERS: 2
+  EVIDENCE 58878 PROJECT_TREE/11_pan_cancer_fixed_anchor_projection_v1_0_4/16A_frozen_W_gene_symbol_harmonization.tsv
+  EVIDENCE 3695 09_DOCUMENTATION/README_RELEASE.md
+
+OTHER MEMBERS: 1
+  OTHER 25410 02_MODEL/Bulk_SE_Recovery_W.rds
+
+======================================================================
+ARCHIVE: FUSCC_FIXED_W_SOURCE_REVIEW_AND_PREFLIGHT_20261120.zip
+STATUS: READABLE
+FILE COUNT: 5
+UNCOMPRESSED BYTES: 14998
+FILE TYPES: {'.md': 1, '.tsv': 2, '.py': 1, '.txt': 1}
+
+CODE MEMBERS: 1
+  CODE 4533 03_exact_cluster_transfer_contract_READONLY.py
+
+EVIDENCE / REPORT MEMBERS: 4
+  EVIDENCE 7426 00_source_anchored_scientific_review.md
+  EVIDENCE 1638 01_nine_annotation_discrepancy_W_loadings.tsv
+  EVIDENCE 767 02_nine_gene_bridge_observations.tsv
+  EVIDENCE 634 04_README_RUN.txt
+
+OTHER MEMBERS: 0
+
+======================================================================
+ARCHIVE: ARCHS4_FROZEN_GENE_PROVENANCE_SOURCE.tar.gz
+STATUS: READABLE
+FILE COUNT: 5
+UNCOMPRESSED BYTES: 286974
+FILE TYPES: {'.py': 2, '.r': 1, '.tsv': 2}
+
+CODE MEMBERS: 3
+  CODE 55823 06_audit_ARCHS4_primary_expression_compatibility_v1.py
+  CODE 76045 09_prepare_ARCHS4_locked_expression_and_normalization_v1_0_1.py
+  CODE 80747 10_run_ARCHS4_pan_cancer_fixed_anchor_projection_v1_0_4.R
+
+EVIDENCE / REPORT MEMBERS: 2
+  EVIDENCE 58878 11_pan_cancer_fixed_anchor_projection_v1_0_4/16A_frozen_W_gene_symbol_harmonization.tsv
+  EVIDENCE 15481 01_W34_metadata_candidates.tsv
+
+OTHER MEMBERS: 0
+
+READ_ONLY_ARCHIVE_INVENTORY_COMPLETE

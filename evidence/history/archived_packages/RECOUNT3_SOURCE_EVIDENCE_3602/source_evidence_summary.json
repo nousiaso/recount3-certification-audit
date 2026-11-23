@@ -1,0 +1,226 @@
+{
+  "tool_version": "recount3_accession_source_evidence_v1_0_0",
+  "created_utc": "2026-11-18T22:51:33.333808+00:00",
+  "status": "EXACT_SOURCE_LINKAGE_VERIFIED_EVIDENCE_ONLY_NOT_CERTIFIED",
+  "studies_total": 129,
+  "source_run_rows": 4166,
+  "selected_libraries": 3639,
+  "candidate_libraries": 3602,
+  "protocol_excluded_libraries": 37,
+  "candidate_metadata_with_sample_attributes": 3599,
+  "candidate_with_direct_patient_attribute": 281,
+  "candidate_keyword_alert_counts": {
+    "explicit_primary_tumour": 635,
+    "normal_or_control": 58,
+    "metastasis": 12,
+    "treatment_or_timepoint": 98,
+    "multiple_regions": 45,
+    "cell_line_or_culture": 3
+  },
+  "study_candidate_counts": {
+    "DRP005276": 103,
+    "ERP006077": 1,
+    "ERP010930": 19,
+    "ERP017433": 4,
+    "ERP023222": 26,
+    "ERP117419": 6,
+    "SRP002628": 20,
+    "SRP003611": 3,
+    "SRP009386": 2,
+    "SRP012656": 6,
+    "SRP018008": 3,
+    "SRP022054": 4,
+    "SRP026387": 7,
+    "SRP027364": 6,
+    "SRP027383": 272,
+    "SRP027530": 20,
+    "SRP036848": 89,
+    "SRP039694": 8,
+    "SRP040442": 9,
+    "SRP040998": 16,
+    "SRP042184": 22,
+    "SRP044373": 48,
+    "SRP045225": 70,
+    "SRP045645": 3,
+    "SRP049592": 8,
+    "SRP049710": 2,
+    "SRP049967": 4,
+    "SRP050087": 8,
+    "SRP052740": 15,
+    "SRP055438": 1,
+    "SRP056696": 50,
+    "SRP057793": 148,
+    "SRP058107": 8,
+    "SRP058626": 11,
+    "SRP060016": 5,
+    "SRP062247": 1,
+    "SRP063460": 6,
+    "SRP064894": 15,
+    "SRP066571": 6,
+    "SRP067524": 47,
+    "SRP068551": 7,
+    "SRP069212": 20,
+    "SRP070723": 6,
+    "SRP072492": 51,
+    "SRP072494": 20,
+    "SRP073789": 36,
+    "SRP074349": 56,
+    "SRP074425": 11,
+    "SRP075319": 3,
+    "SRP075759": 21,
+    "SRP076032": 8,
+    "SRP076801": 12,
+    "SRP078535": 1,
+    "SRP079899": 1,
+    "SRP082503": 7,
+    "SRP083311": 3,
+    "SRP089805": 8,
+    "SRP089923": 6,
+    "SRP090137": 5,
+    "SRP090460": 23,
+    "SRP090799": 26,
+    "SRP090849": 31,
+    "SRP091303": 51,
+    "SRP094795": 24,
+    "SRP095491": 19,
+    "SRP099053": 21,
+    "SRP102456": 1,
+    "SRP102722": 9,
+    "SRP106011": 51,
+    "SRP108851": 2,
+    "SRP109781": 30,
+    "SRP111481": 96,
+    "SRP112623": 12,
+    "SRP112751": 17,
+    "SRP113639": 42,
+    "SRP113755": 77,
+    "SRP114429": 85,
+    "SRP114518": 74,
+    "SRP114925": 3,
+    "SRP116023": 22,
+    "SRP117020": 130,
+    "SRP117178": 1,
+    "SRP118614": 16,
+    "SRP119607": 46,
+    "SRP119676": 30,
+    "SRP119775": 10,
+    "SRP119917": 44,
+    "SRP124458": 24,
+    "SRP126672": 30,
+    "SRP131744": 3,
+    "SRP133401": 10,
+    "SRP134188": 8,
+    "SRP136093": 1,
+    "SRP139591": 45,
+    "SRP140592": 3,
+    "SRP141440": 24,
+    "SRP142570": 4,
+    "SRP143488": 1,
+    "SRP144303": 7,
+    "SRP148500": 10,
+    "SRP151026": 3,
+    "SRP152822": 21,
+    "SRP156049": 25,
+    "SRP156081": 25,
+    "SRP156355": 6,
+    "SRP156394": 30,
+    "SRP157974": 360,
+    "SRP158272": 134,
+    "SRP159264": 15,
+    "SRP159526": 4,
+    "SRP161484": 10,
+    "SRP163173": 92,
+    "SRP173488": 11,
+    "SRP174991": 35,
+    "SRP183009": 6,
+    "SRP185703": 75,
+    "SRP194626": 4,
+    "SRP199749": 3,
+    "SRP200495": 3,
+    "SRP211816": 1,
+    "SRP212704": 30,
+    "SRP214745": 24,
+    "SRP215995": 8,
+    "SRP218935": 76,
+    "SRP218959": 3,
+    "SRP221385": 51
+  },
+  "per_study_alert_counts": {
+    "ERP006077": {
+      "explicit_primary_tumour": 1
+    },
+    "ERP017433": {
+      "normal_or_control": 4
+    },
+    "ERP117419": {
+      "normal_or_control": 6
+    },
+    "SRP009386": {
+      "normal_or_control": 1
+    },
+    "SRP026387": {
+      "metastasis": 7
+    },
+    "SRP040998": {
+      "explicit_primary_tumour": 16
+    },
+    "SRP049967": {
+      "explicit_primary_tumour": 4
+    },
+    "SRP055438": {
+      "normal_or_control": 1
+    },
+    "SRP060016": {
+      "normal_or_control": 5,
+      "metastasis": 5
+    },
+    "SRP067524": {
+      "normal_or_control": 5
+    },
+    "SRP069212": {
+      "explicit_primary_tumour": 20
+    },
+    "SRP072494": {
+      "treatment_or_timepoint": 20
+    },
+    "SRP073789": {
+      "normal_or_control": 36
+    },
+    "SRP074425": {
+      "explicit_primary_tumour": 11
+    },
+    "SRP102456": {
+      "explicit_primary_tumour": 1
+    },
+    "SRP112623": {
+      "explicit_primary_tumour": 12
+    },
+    "SRP114429": {
+      "explicit_primary_tumour": 85
+    },
+    "SRP114518": {
+      "treatment_or_timepoint": 74
+    },
+    "SRP119607": {
+      "explicit_primary_tumour": 46
+    },
+    "SRP139591": {
+      "multiple_regions": 45
+    },
+    "SRP151026": {
+      "cell_line_or_culture": 3,
+      "explicit_primary_tumour": 3
+    },
+    "SRP157974": {
+      "explicit_primary_tumour": 360
+    },
+    "SRP194626": {
+      "treatment_or_timepoint": 4
+    },
+    "SRP218935": {
+      "explicit_primary_tumour": 76
+    }
+  },
+  "restriction": "No automatic class, patient, run, source attestation, or model-transfer approvals.",
+  "next_use": "Reviewer/source-backed adjudication and separately controlled entry into v1.0.1 review ledgers."
+}

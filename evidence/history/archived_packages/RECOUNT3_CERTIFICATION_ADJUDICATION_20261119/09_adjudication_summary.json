@@ -1,0 +1,38 @@
+{
+  "version": "recount3_accession_evidence_adjudication_v1_0_0",
+  "status": "EVIDENCE_ADJUDICATION_PREPARED_NO_RELEASE_DECISIONS",
+  "n_libraries": 3602,
+  "n_studies": 126,
+  "n_source_primary_origin_phrases": 920,
+  "evidence_category_distribution": {
+    "SPECIMEN_ELIGIBILITY_UNRESOLVED": 2251,
+    "DIRECT_PRIMARY_ORIGIN_METADATA": 920,
+    "SOURCE_EXPLICIT_NON_TUMOUR": 11,
+    "DIRECT_TUMOUR_METADATA_PRIMARY_UNPROVEN": 214,
+    "WHOLE_TUMOUR_COMPOSITION_REVIEW": 63,
+    "KNOWN_TREATMENT_CONTEXT_REVIEW": 94,
+    "MULTIREGION_DESIGN_PATIENT_AWARE": 45,
+    "PROTOCOL_COMPATIBILITY_HOLD": 4
+  },
+  "n_source_explicit_nontumour": 11,
+  "n_assay_incompatibility_holds": 4,
+  "n_direct_source_patient_tokens": 281,
+  "n_studies_with_direct_patient_tokens": 13,
+  "n_source_patient_tokens_mapping_to_multiple_curated_groups": 0,
+  "n_curated_groups_with_multiple_direct_source_tokens": 1,
+  "n_possible_additional_relationship_groups": 25,
+  "n_run_holds": 409,
+  "n_repeated_curated_patient_groups": 109,
+  "n_W_feature_holds": 34,
+  "crossatlas_alias_coverage": "740_OF_9465_ONLY_FROM_PREVIOUS_AUDIT",
+  "frozen_model_score_transfer": "NOT_PERFORMED",
+  "n_certified_libraries": 0,
+  "scope": "source evidence triage; no execution of release assessor or expression projection",
+  "source_input_sha256": {
+    "accession_source_evidence_3602.tsv": "6e02f58da20f3a2d585e5e0384e4e6b2c565aeb6d6dcd2236724d226b18b17d5",
+    "01_candidate_source_triage_3602.tsv": "8473768b5890bbd309391a06eff8583206bf72ea71478058bd0174b4ce3917d3",
+    "02_run_holds_triage_409.tsv": "d275c77591e7b93582708746e45d69ae817c8e2d13b3bb5b7f63e2e56fa56f0c",
+    "03_repeated_subject_priority_109.tsv": "18eeb5583ff45f5edfa606f195f07cd8c137ae8af9b43fb1ae1a86c482177d94",
+    "05_W_held_features_34.tsv": "e5f03b9b1f11027e7271c4c4bf5154135eb31e6e5ca9f5fd386d4ab02773408d"
+  }
+}

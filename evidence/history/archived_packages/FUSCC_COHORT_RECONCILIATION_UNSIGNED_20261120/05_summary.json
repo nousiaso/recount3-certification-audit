@@ -1,0 +1,16 @@
+{
+  "candidate_tumour_libraries": 360,
+  "full_source_experiments": 448,
+  "noncandidate_source_experiments": 88,
+  "focused_nonheld": 334,
+  "historical_run_holds": 26,
+  "distinct_SRX_SRS_BioSample_RNA_tokens": 360,
+  "GEO_corroborated_focused": 279,
+  "RNA_isolate_only_focused": 55,
+  "WES_context_cautions": 4,
+  "original_SRA_selection_cDNA": 318,
+  "original_SRA_selection_Inverse_rRNA": 42,
+  "curated_Inverse_rRNA": 360,
+  "new_GSM_SRX_BioSample_atlas_matches": 0,
+  "strict_certifications": 0
+}

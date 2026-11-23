@@ -1,0 +1,18 @@
+{
+  "source": "uploaded ARCHS4_STAGE11_FROZEN_SOURCE.tar.gz",
+  "frozen_actual_sha256": "529551d7ecce253b1ab8626956afd076690631bf7d8b51cfcf0c613440a603f5",
+  "reviewed_library_sha256": "cec6fd5143af5ceaecedbcd6b567a8687c13bc9ffca7fea9049b61ed17b77153",
+  "byte_size_each": 71616,
+  "lines_each": 2728,
+  "differing_byte_offsets_zero_based": [
+    6379,
+    6380
+  ],
+  "diff_line": 289,
+  "reviewed_line": "    centre = centre,",
+  "frozen_line": "    center = centre,",
+  "semantic_resolution": "Frozen code has valid stats::mad(center=...) argument. Historical reviewed copy has misspelled centre= argument.",
+  "downstream": "Stage 11 robust_z study-median adequacy outliers; not the primary pan/cancer deconvolution or sample-tier definitions.",
+  "rerun_archs4_needed": false,
+  "recount3_transfer_certified": false
+}

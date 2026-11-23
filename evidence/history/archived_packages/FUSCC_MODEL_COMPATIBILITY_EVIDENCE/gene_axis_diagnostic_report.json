@@ -1,0 +1,122 @@
+{
+  "status": "DIAGNOSTIC_ONLY_NO_EXPRESSION_READ",
+  "H5_expression_shape": [
+    67186,
+    1093742
+  ],
+  "H5_chunk_shape": [
+    2000,
+    1
+  ],
+  "H5_sample_axis_present": true,
+  "H5_symbol_axis_present": true,
+  "H5_ensembl_axis_present": true,
+  "H5_first_gene_labels": [
+    {
+      "row": 0,
+      "symbol": "TSPAN6",
+      "ensembl": "ENSG00000000003"
+    },
+    {
+      "row": 1,
+      "symbol": "TNMD",
+      "ensembl": "ENSG00000000005"
+    },
+    {
+      "row": 2,
+      "symbol": "DPM1",
+      "ensembl": "ENSG00000000419"
+    },
+    {
+      "row": 3,
+      "symbol": "SCYL3",
+      "ensembl": "ENSG00000000457"
+    },
+    {
+      "row": 4,
+      "symbol": "C1ORF112",
+      "ensembl": "ENSG00000000460"
+    },
+    {
+      "row": 5,
+      "symbol": "FGR",
+      "ensembl": "ENSG00000000938"
+    },
+    {
+      "row": 6,
+      "symbol": "CFH",
+      "ensembl": "ENSG00000000971"
+    },
+    {
+      "row": 7,
+      "symbol": "FUCA2",
+      "ensembl": "ENSG00000001036"
+    }
+  ],
+  "sample_axis_checks": [
+    {
+      "offset": 0,
+      "matched": 143,
+      "tested": 143,
+      "mismatch_examples": []
+    },
+    {
+      "offset": -1,
+      "matched": 0,
+      "tested": 143,
+      "mismatch_examples": [
+        {
+          "gsm": "GSM2142443",
+          "observed": "GSM2142434",
+          "index": 43019
+        },
+        {
+          "gsm": "GSM2142445",
+          "observed": "GSM2142444",
+          "index": 43021
+        },
+        {
+          "gsm": "GSM2142446",
+          "observed": "GSM2142445",
+          "index": 43022
+        },
+        {
+          "gsm": "GSM2142447",
+          "observed": "GSM2142446",
+          "index": 43023
+        },
+        {
+          "gsm": "GSM2142448",
+          "observed": "GSM2142447",
+          "index": 43024
+        },
+        {
+          "gsm": "GSM2142451",
+          "observed": "GSM2142450",
+          "index": 43027
+        },
+        {
+          "gsm": "GSM2142452",
+          "observed": "GSM2142451",
+          "index": 43028
+        },
+        {
+          "gsm": "GSM2142454",
+          "observed": "GSM2142453",
+          "index": 43030
+        }
+      ]
+    }
+  ],
+  "n_W_frozen_rows": 1497,
+  "n_joint_unique_H5_rows": 0,
+  "W_row_mapping_status_counts": {
+    "NOT_UNAMBIGUOUS_IN_G026": 1497
+  },
+  "n_frozen_index_0_symbol_matches": 0,
+  "n_frozen_index_minus1_symbol_matches": 3,
+  "example_of_joint_match": null,
+  "frozen_harmonization_sha256": "fee127d95fcd94db2fd8d110c222428cf7298f838b8e5e3ce239de7415e71706",
+  "recount3_W_mapping_sha256": "dff6677a01130b604aae5b098f8cb6f2eddf80d44538da99e7c6e717d1eb6886",
+  "limitations": "Exact symbol + matching Ensembl ID both required for candidate H5 gene row; no changes to projection/index/provenance or source matrices; calibration NOT approved."
+}

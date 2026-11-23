@@ -1,0 +1,20 @@
+{
+  "version": "recount3_stage5_final_technical_evidence_v1_0_0",
+  "source_study": "SRP074349",
+  "n_bridge_libraries_target": 143,
+  "read_only_source_files": true,
+  "status": "ASSAY_BRIDGE_EXPRESSION_DIAGNOSTIC_COMPLETE_NOT_RELEASE_CERTIFIED",
+  "ARCHS4_verified_sample_axis": "meta/samples/geo_accession",
+  "ARCHS4_sample_offset": 0,
+  "ARCHS4_verified_gene_axis": "meta/genes/symbol+meta/genes/ensembl_gene",
+  "ARCHS4_gene_offset": null,
+  "n_common_unambiguous_W_genes": 465,
+  "bridge_exact_GSM_verification": 143,
+  "n_valid_per_gene_correlations": 465,
+  "median_W_gene_across_specimens_r": 0.9990371069042719,
+  "n_positive_gene_correlations": 465,
+  "n_common_W_features": 465,
+  "recount3_n_run_columns_used": 454,
+  "method": "log2(1+1e6*feature_coverage_or_pseudocount/full_gene_axis_sum); matched vs shifted specimen; descriptive",
+  "limitation": "Two processing technologies for overlapping specimens in a single lung study; run-summed coverage for diagnostics only; not an accepted projection or calibration across cancers."
+}

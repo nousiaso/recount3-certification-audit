@@ -1,0 +1,19 @@
+{
+  "version": "recount3_stage5_final_technical_evidence_v1_0_0",
+  "status": "PREFLIGHT_COMPLETE_NOT_MODEL_RELEASE",
+  "n_selected_libraries": 3639,
+  "n_selected_runs": 4166,
+  "n_source_gene_rows": 63856,
+  "n_unique_source_gene_bases": 63811,
+  "n_unique_annotated_gene_bases": 63811,
+  "n_ambiguous_gene_rows": 9618,
+  "n_frozen_W_harmonization_rows": 1497,
+  "n_unique_frozen_W_gene_indices": 499,
+  "n_frozen_W_rows_unambiguous": 1428,
+  "n_frozen_W_rows_missing": 0,
+  "n_frozen_W_rows_ambiguous": 69,
+  "all_study_gene_axis_hash": "3e4bde5146353005a4cdcbe7d5ec3dcc95dbc6f9abdefe8d303014ad8a5c7d69",
+  "frozen_W_harmonization_SHA256": "fee127d95fcd94db2fd8d110c222428cf7298f838b8e5e3ce239de7415e71706",
+  "source_xlsx_sha256": "0b438ac4ceb09648e07f3376e30d227e2a1765af795d8b1820b02985ee2e7001",
+  "caveat": "Candidate mapping only; no claim of compatibility with frozen-W projection algorithm or model calibration"
+}
