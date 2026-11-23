@@ -1,0 +1,14 @@
+{
+  "clinical_admissions": 0,
+  "matrix_sha256": "250e16c6c266058cedb3d8317317c6bca088470dc5057a988b5fefe1d3be71d7",
+  "n_historical_study_source_supported": 494,
+  "n_historical_surgery_unconfirmed": 603,
+  "n_historical_unattested": 599,
+  "n_inventory_studies": 176,
+  "n_other_studies": 99,
+  "n_screen_libraries": 2055,
+  "n_screen_studies": 77,
+  "n_v5_context_other_gates_open": 280,
+  "source_sha256": "08efe2c8f469edcbdfb98231dc87f705d801434e78dcbea85f57c4b94da88eb0",
+  "status": "UNSIGNED_EVIDENCE_ONLY"
+}

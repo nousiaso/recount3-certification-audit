@@ -27,3 +27,9 @@ private_data/
 *.tmp
 
 diagnostics/20261123_v6_evidence_precedence_dryrun/proposed_evidence_2055_UNSIGNED.tsv
+diagnostics/20261123_v6_primary_unattested_review/source_evidence_599_LOCAL_ONLY.tsv
+
+# Detailed accession-level diagnostics retained locally
+diagnostics/20261123_v6_targeted_evidence_review/stdout.txt
+diagnostics/20261123_v6_primary_unattested_review/stdout.txt
+diagnostics/20261123_v6_primary_unattested_review/source_evidence_599_LOCAL_ONLY.tsv
