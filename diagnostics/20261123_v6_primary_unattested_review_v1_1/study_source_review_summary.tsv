@@ -1,0 +1,40 @@
+study	n_historical_unattested	n_exact_sra_matches	n_unmatched	n_multirow_experiments	n_additional_metadata_rows	source_status	source_sha256	observed_attribute_keys
+DRP005276	83	83	0	0	0	READABLE	cba60a28b225d7852e17e180ddaad2680504e7f1cd5cf94de5d73401db12d36c	age:83;disease:83;isolate:83;sample_name:83;sex:83;tissue:83
+ERP010930	17	17	0	0	0	READABLE	b0ae204ec59302aef70e1985c50b0d47559e3b09f1bbf2c30ac1e7cbdd1083fc	age:17;alias:17;broker name:17;disease staging:17;disease:17;ena checklist:17;insdc center alias:17;insdc center name:17;insdc first public:17;insdc last update:17;insdc status:17;organism:17;sample name:17;sex:17;sra accession:17
+ERP023222	25	25	0	0	0	READABLE	b7f51c330136c620be05801c8fa8e0e2b4c899c82ec58d954e9b8564616915e9	alias:25;broker name:25;disease:25;ena checklist:25;individual:25;insdc center alias:25;insdc center name:25;insdc first public:25;insdc last update:25;insdc status:25;organism part:25;organism:25;sample name:25;sex:25;sra accession:25
+SRP012656	6	6	0	6	6	READABLE	ea2abd2996bbda276b6efa9a0cf2ce40425642b4e9fa8cee946daf4cc6343d30	age:6;disease:6;patient:6;sex:6;smoker:6;source_name:6;stage:6;tissue:6
+SRP018008	3	3	0	1	1	READABLE	324f1cf829d25104be944a0091d3e9ad4e798c83a2479a391ddc038fc5e7cc09	
+SRP039694	8	8	0	0	0	READABLE	a19bed401d46510bf679f30ddfa86dfd3b7c1a12b0b45a8463da4dffa9067d84	disease status:8;gender:8;patient:8;source_name:8;tissue:8
+SRP040442	8	8	0	8	8	READABLE	5331d75e5e78e4ad51e071c5bbdce3e0c04da497986ea1dc085202894b60ae0c	gender:8;organ:8;sample donor:8;source_name:8;tissue:8
+SRP042184	20	20	0	0	0	READABLE	4dc365871a74d33cbcc22cea88aa5ae9c79a71d09715b97928b752f40c21af9c	age at diagnosis:20;final gtf2i mutation status:20;sample type:20;sex:20;source_name:20;stage:20;who histotype:20
+SRP045645	3	3	0	0	0	READABLE	2122c6db1230718b37b40f49aeeb73800c74d5a8a2a55b58bdc97bf19230e568	age:3;biomaterial_provider:3;biosamplemodel:3;isolate:3;sex:3;tissue:3
+SRP049592	8	8	0	0	0	READABLE	2389804fd358110624d5e5f65e73ba0c80c87a90e81dfd5d13fb5975bba4bac0	patient age at resection:8;patient id:8;patient sex:8;source_name:8
+SRP058107	8	8	0	0	0	READABLE	550701c2aaa4937ed06f58268a5ced3b66106db9fe1a73fd4d61c127f0f11c4c	age:8;biomaterial_provider:8;biosamplemodel:8;disease:8;isolate:8;sample_type:8;sex:8;tissue:8
+SRP062247	1	1	0	0	0	READABLE	beba613641a7cd365389f0f34cd264606a59573c6bf5cdfb98eb4675883df209	age:1;biomaterial_provider:1;biosamplemodel:1;isolate:1;sex:1;tissue:1
+SRP063460	6	6	0	0	0	READABLE	9a82c696a87e63b652095b71fa1eff2b3de3e4990b2d92694d8a62ec025f182a	age:6;biomaterial_provider:6;biosamplemodel:6;disease:6;isolate:6;sex:6;tissue:6
+SRP072494	20	20	0	0	0	READABLE	f116ff478157ae1984c207322a6882de035c33b8fa9e85bc687d7320037585a1	batch:20;diagnosis:20;first-line therapy:20;gender:20;library preperation date:20;rna-extraction date:20;sample from primary gbm diagnosis:20;source_name:20;subject group:20;subject id:20;subject status:20;time point:20
+SRP076032	8	8	0	0	0	READABLE	f159c2b34b8c5a0451dd4f0a2b5474648366062e7037b102d4d843390210373c	afp:8;age:8;batch:8;ca19_9:8;cea:8;confluent_necrosis:8;differentiation:8;disease state:8;focal_lytic_nec_apop:8;hcv_activity:8;hcv_genotype:8;hcv_viral_load:8;interface_necrosis:8;portal_inflammation:8;race:8
+SRP079899	1	1	0	0	0	READABLE	8f469c71912fffc4c4bcbd7ee93a902ecb18e212a2bd1915aa4298a53a65ae63	gender:1;source_name:1;survival time:1;tissue:1;tumor grade:1;tumor stage:1
+SRP083311	3	3	0	0	0	READABLE	cba91363304403cfca9a82059e7432f471731a2d34ed534f9489fb35d5dd7e85	sex:3;source_name:3;tissue:3
+SRP089805	7	7	0	0	0	READABLE	b63664abde485f7358178c99858211755b14cfdc4901e9ecb2708ec830d6ccfc	age:7;biomaterial_provider:7;biosamplemodel:7;isolate:7;sex:7;tissue:7
+SRP090849	22	22	0	22	110	READABLE	19c17f912f1892d65ee0a32e0cea028cf99e2e3d8ec4c6e41ca9dfb478b67594	source_name:22;tissue:22;tumor type:22
+SRP094795	23	23	0	22	22	READABLE	86f78d4f2268f84389742d1d6e727a40fb1413e855003808478faa7b55d9b8ae	histological tumor classification:23;hpv-type infection:23;source_name:23;tissue:23
+SRP102456	1	1	0	0	0	READABLE	3a0f3be4eb244ea690c4bbbef123495c94f76eb8043d99b844e8ad0a7164f8db	age:1;biomaterial_provider:1;biosamplemodel:1;isolate:1;sex:1;tissue:1
+SRP109781	15	15	0	0	0	READABLE	7d7ad55339e1b8c8bd6277d004d1b43d3706cf502438bd8cdfa00a3e0d5885de	age:15;biomaterial_provider:15;biosamplemodel:15;isolate:15;sex:15;tissue:15
+SRP112751	17	17	0	0	0	READABLE	dfc78bb37b924581c98c9a832d56868653f11c252a170b4ceee153da45d0b7ef	age:17;cohort:17;gender:17;grade:17;m:17;n:17;site:17;source_name:17;stage:17;t:17;tissue:17
+SRP113639	41	41	0	0	0	READABLE	a3b790ef79df953bb8173c7f4930bea958d5822d8a9cff3e911756ee5737ae3e	intrinsic subtype:41;source_name:41;tissue:41
+SRP113755	75	75	0	0	0	READABLE	7aebddc6af7ad8cb62d475a9e3b66c825ddeb88dfb37ad5e5be974696d1149dc	age:75;biomaterial_provider:75;biosamplemodel:75;disease:75;disease_stage:75;isolate:75;sex:75;size_mm:75;tissue:75
+SRP131744	3	3	0	0	0	READABLE	6a646c2983f435ed76377e64eeac3c3f22a3fdb0d74a0874d256dab2e8d7aa0e	age:3;biomaterial_provider:3;biosamplemodel:3;isolate:3;sex:3;tissue:3
+SRP142570	4	4	0	0	0	READABLE	d4a3ee60321acfe84ba2b978955e14cf5aa628a9db77e06b593b3b45f6f37971	age:4;biomaterial_provider:4;biosamplemodel:4;isolate:4;sex:4;tissue:4
+SRP144303	7	7	0	0	0	READABLE	62f8ceb008ea980f25f5a777204994899e1d06b524d8b78d3874f59f5cdeac51	age:7;disease:7;source_name:7;tissue:7
+SRP148500	10	10	0	0	0	READABLE	29210c4c75e27fc66f96a49d1b407b47e234a5a2a71b2ed36f4555c00b8f2285	age:10;biomaterial_provider:10;biosamplemodel:10;isolate:10;sex:10;tissue:10
+SRP156081	25	25	0	0	0	READABLE	d42532f0dede8adbc5a67cfe7a07da4e1739553d3ea98b0292fd8434e1376e5f	age:25;biomaterial_provider:25;biosamplemodel:25;isolate:25;sex:25;tissue:25
+SRP156394	29	29	0	0	0	READABLE	358701c466b2f574c723b28de582ff722618993807ddb050cec15fa219f09693	cell type:29;diagnosis:29;gender:29;lcs subtype:29;phenotype:29;source_name:29;tumor in specimen:29;tumor location:29
+SRP159526	4	4	0	0	0	READABLE	8f5ae823373a80a2535dc8135931284848fdf003f19e0237bc36b90df5ef365e	age:4;gender:4;source_name:4;stage:4;tissue:4
+SRP183009	6	6	0	0	0	READABLE	6f6f6fec2b47792646d3bd2beb8e0939e5e1db1937f44c9314b2563d1387bba3	age:6;biomaterial_provider:6;biosamplemodel:6;isolate:6;sex:6;tissue:6
+SRP194626	4	4	0	0	0	READABLE	6bf5f3b93c3750f37c6bc35e52dfd13719573ad30c51299330a706bb150a0a1c	sequencing platform:4;source_name:4;time point:4;tissue type:4;tissue:4
+SRP211816	1	1	0	0	0	READABLE	1c21b21201cf90a51dced8e2b6189d0e140a064e04a30fc2924307c2f3751deb	source_name:1;tissue:1
+SRP214745	22	22	0	0	0	READABLE	0868caa601f396356d5c1af13e2b3d2cf58a3f44318352534969de55e565e76a	age:22;biomaterial_provider:22;biosamplemodel:22;description:22;disease_stage:22;isolate:22;sex:22;tissue:22
+SRP215995	8	8	0	0	0	READABLE	d58d7a83a5dd8cb37bf4b67e5f298dd3192ef823a9318d4512cc3b0528166dcc	age:8;biomaterial_provider:8;biosamplemodel:8;isolate:8;sex:8;tissue:8
+SRP218959	3	3	0	0	0	READABLE	e547b20be0efad20ac8abf73d212453ab04564b553d8419f17510d3c993f6878	age:3;biomaterial_provider:3;biosamplemodel:3;isolate:3;sex:3;tissue:3
+SRP221385	44	44	0	0	0	READABLE	dea7cb186c896bf482ab0324b58db176ff99a7ebb945c1891a430440ca73a412	age:44;biomaterial_provider:44;biosamplemodel:44;isolate:44;sex:44;tissue:44

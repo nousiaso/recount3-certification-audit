@@ -1,0 +1,248 @@
+
+STUDY DRP005276
+SELECTED 83
+EXACT_RAW_MATCHES 83
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 83), ('disease', 83), ('isolate', 83), ('sample_name', 83), ('sex', 83), ('tissue', 83)]
+
+STUDY ERP010930
+SELECTED 17
+EXACT_RAW_MATCHES 17
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 17), ('alias', 17), ('broker name', 17), ('disease staging', 17), ('disease', 17), ('ena checklist', 17), ('insdc center alias', 17), ('insdc center name', 17), ('insdc first public', 17), ('insdc last update', 17), ('insdc status', 17), ('organism', 17)]
+
+STUDY ERP023222
+SELECTED 25
+EXACT_RAW_MATCHES 25
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('alias', 25), ('broker name', 25), ('disease', 25), ('ena checklist', 25), ('individual', 25), ('insdc center alias', 25), ('insdc center name', 25), ('insdc first public', 25), ('insdc last update', 25), ('insdc status', 25), ('organism part', 25), ('organism', 25)]
+
+STUDY SRP012656
+SELECTED 6
+EXACT_RAW_MATCHES 6
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 6), ('disease', 6), ('patient', 6), ('sex', 6), ('smoker', 6), ('source_name', 6), ('stage', 6), ('tissue', 6)]
+
+STUDY SRP018008
+SELECTED 3
+EXACT_RAW_MATCHES 3
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS []
+
+STUDY SRP039694
+SELECTED 8
+EXACT_RAW_MATCHES 8
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('disease status', 8), ('gender', 8), ('patient', 8), ('source_name', 8), ('tissue', 8)]
+
+STUDY SRP040442
+SELECTED 8
+EXACT_RAW_MATCHES 8
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('gender', 8), ('organ', 8), ('sample donor', 8), ('source_name', 8), ('tissue', 8)]
+
+STUDY SRP042184
+SELECTED 20
+EXACT_RAW_MATCHES 20
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age at diagnosis', 20), ('final gtf2i mutation status', 20), ('sample type', 20), ('sex', 20), ('source_name', 20), ('stage', 20), ('who histotype', 20)]
+
+STUDY SRP045645
+SELECTED 3
+EXACT_RAW_MATCHES 3
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 3), ('biomaterial_provider', 3), ('biosamplemodel', 3), ('isolate', 3), ('sex', 3), ('tissue', 3)]
+
+STUDY SRP049592
+SELECTED 8
+EXACT_RAW_MATCHES 8
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('patient age at resection', 8), ('patient id', 8), ('patient sex', 8), ('source_name', 8)]
+
+STUDY SRP058107
+SELECTED 8
+EXACT_RAW_MATCHES 8
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 8), ('biomaterial_provider', 8), ('biosamplemodel', 8), ('disease', 8), ('isolate', 8), ('sample_type', 8), ('sex', 8), ('tissue', 8)]
+
+STUDY SRP062247
+SELECTED 1
+EXACT_RAW_MATCHES 1
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 1), ('biomaterial_provider', 1), ('biosamplemodel', 1), ('isolate', 1), ('sex', 1), ('tissue', 1)]
+
+STUDY SRP063460
+SELECTED 6
+EXACT_RAW_MATCHES 6
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 6), ('biomaterial_provider', 6), ('biosamplemodel', 6), ('disease', 6), ('isolate', 6), ('sex', 6), ('tissue', 6)]
+
+STUDY SRP072494
+SELECTED 20
+EXACT_RAW_MATCHES 20
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('batch', 20), ('diagnosis', 20), ('first-line therapy', 20), ('gender', 20), ('library preperation date', 20), ('rna-extraction date', 20), ('sample from primary gbm diagnosis', 20), ('source_name', 20), ('subject group', 20), ('subject id', 20), ('subject status', 20), ('time point', 20)]
+
+STUDY SRP076032
+SELECTED 8
+EXACT_RAW_MATCHES 8
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('afp', 8), ('age', 8), ('batch', 8), ('ca19_9', 8), ('cea', 8), ('confluent_necrosis', 8), ('differentiation', 8), ('disease state', 8), ('focal_lytic_nec_apop', 8), ('hcv_activity', 8), ('hcv_genotype', 8), ('hcv_viral_load', 8)]
+
+STUDY SRP079899
+SELECTED 1
+EXACT_RAW_MATCHES 1
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('gender', 1), ('source_name', 1), ('survival time', 1), ('tissue', 1), ('tumor grade', 1), ('tumor stage', 1)]
+
+STUDY SRP083311
+SELECTED 3
+EXACT_RAW_MATCHES 3
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('sex', 3), ('source_name', 3), ('tissue', 3)]
+
+STUDY SRP089805
+SELECTED 7
+EXACT_RAW_MATCHES 7
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 7), ('biomaterial_provider', 7), ('biosamplemodel', 7), ('isolate', 7), ('sex', 7), ('tissue', 7)]
+
+STUDY SRP090849
+SELECTED 22
+EXACT_RAW_MATCHES 22
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('source_name', 22), ('tissue', 22), ('tumor type', 22)]
+
+STUDY SRP094795
+SELECTED 23
+EXACT_RAW_MATCHES 23
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('histological tumor classification', 23), ('hpv-type infection', 23), ('source_name', 23), ('tissue', 23)]
+
+STUDY SRP102456
+SELECTED 1
+EXACT_RAW_MATCHES 1
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 1), ('biomaterial_provider', 1), ('biosamplemodel', 1), ('isolate', 1), ('sex', 1), ('tissue', 1)]
+
+STUDY SRP109781
+SELECTED 15
+EXACT_RAW_MATCHES 15
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 15), ('biomaterial_provider', 15), ('biosamplemodel', 15), ('isolate', 15), ('sex', 15), ('tissue', 15)]
+
+STUDY SRP112751
+SELECTED 17
+EXACT_RAW_MATCHES 17
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 17), ('cohort', 17), ('gender', 17), ('grade', 17), ('m', 17), ('n', 17), ('site', 17), ('source_name', 17), ('stage', 17), ('t', 17), ('tissue', 17)]
+
+STUDY SRP113639
+SELECTED 41
+EXACT_RAW_MATCHES 41
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('intrinsic subtype', 41), ('source_name', 41), ('tissue', 41)]
+
+STUDY SRP113755
+SELECTED 75
+EXACT_RAW_MATCHES 75
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 75), ('biomaterial_provider', 75), ('biosamplemodel', 75), ('disease', 75), ('disease_stage', 75), ('isolate', 75), ('sex', 75), ('size_mm', 75), ('tissue', 75)]
+
+STUDY SRP131744
+SELECTED 3
+EXACT_RAW_MATCHES 3
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 3), ('biomaterial_provider', 3), ('biosamplemodel', 3), ('isolate', 3), ('sex', 3), ('tissue', 3)]
+
+STUDY SRP142570
+SELECTED 4
+EXACT_RAW_MATCHES 4
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 4), ('biomaterial_provider', 4), ('biosamplemodel', 4), ('isolate', 4), ('sex', 4), ('tissue', 4)]
+
+STUDY SRP144303
+SELECTED 7
+EXACT_RAW_MATCHES 7
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 7), ('disease', 7), ('source_name', 7), ('tissue', 7)]
+
+STUDY SRP148500
+SELECTED 10
+EXACT_RAW_MATCHES 10
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 10), ('biomaterial_provider', 10), ('biosamplemodel', 10), ('isolate', 10), ('sex', 10), ('tissue', 10)]
+
+STUDY SRP156081
+SELECTED 25
+EXACT_RAW_MATCHES 25
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 25), ('biomaterial_provider', 25), ('biosamplemodel', 25), ('isolate', 25), ('sex', 25), ('tissue', 25)]
+
+STUDY SRP156394
+SELECTED 29
+EXACT_RAW_MATCHES 29
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('cell type', 29), ('diagnosis', 29), ('gender', 29), ('lcs subtype', 29), ('phenotype', 29), ('source_name', 29), ('tumor in specimen', 29), ('tumor location', 29)]
+
+STUDY SRP159526
+SELECTED 4
+EXACT_RAW_MATCHES 4
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 4), ('gender', 4), ('source_name', 4), ('stage', 4), ('tissue', 4)]
+
+STUDY SRP183009
+SELECTED 6
+EXACT_RAW_MATCHES 6
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 6), ('biomaterial_provider', 6), ('biosamplemodel', 6), ('isolate', 6), ('sex', 6), ('tissue', 6)]
+
+STUDY SRP194626
+SELECTED 4
+EXACT_RAW_MATCHES 4
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('sequencing platform', 4), ('source_name', 4), ('time point', 4), ('tissue type', 4), ('tissue', 4)]
+
+STUDY SRP211816
+SELECTED 1
+EXACT_RAW_MATCHES 1
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('source_name', 1), ('tissue', 1)]
+
+STUDY SRP214745
+SELECTED 22
+EXACT_RAW_MATCHES 22
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 22), ('biomaterial_provider', 22), ('biosamplemodel', 22), ('description', 22), ('disease_stage', 22), ('isolate', 22), ('sex', 22), ('tissue', 22)]
+
+STUDY SRP215995
+SELECTED 8
+EXACT_RAW_MATCHES 8
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 8), ('biomaterial_provider', 8), ('biosamplemodel', 8), ('isolate', 8), ('sex', 8), ('tissue', 8)]
+
+STUDY SRP218959
+SELECTED 3
+EXACT_RAW_MATCHES 3
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 3), ('biomaterial_provider', 3), ('biosamplemodel', 3), ('isolate', 3), ('sex', 3), ('tissue', 3)]
+
+STUDY SRP221385
+SELECTED 44
+EXACT_RAW_MATCHES 44
+SOURCE_STATUS READABLE
+ATTRIBUTE_KEYS [('age', 44), ('biomaterial_provider', 44), ('biosamplemodel', 44), ('isolate', 44), ('sex', 44), ('tissue', 44)]
+
+=== FINAL AUDIT SUMMARY ===
+Historical unattested experiments: 599
+Studies represented: 39
+Exact raw SRA matches: 599
+Unmatched experiments: 0
+Detail SHA256: 8b6f017dd575ec6fc3917b784740d37c8556fe567474e6a5e69dcad066ef35eb
+Summary SHA256: b8d815fb4b508ebaefa1bec7d9ffefb6885e073ca0a5ef1cd20b5c80582c99f8
+No specimen classifications changed
+No clinical approvals
+Multirow experiments: 59
+Additional metadata rows: 147
+Specimen fields concordant; official run accessions not certified
+SOURCE_REVIEW_ASSEMBLY_COMPLETE_V1_1
