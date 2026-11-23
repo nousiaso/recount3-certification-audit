@@ -1,0 +1,263 @@
+{
+  "audit": "ARCHS4_09_13_FROZEN_OUTPUT_CONTRACT_READONLY_V1_1",
+  "frozen_source_sha256": {
+    "09": {
+      "bytes": 76045,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/RELEASES/ARCHS4_SPATIALECOTYPER_FROZEN_v1_0_0/PROJECT_TREE/09_prepare_ARCHS4_locked_expression_and_normalization_v1_0_1.py",
+      "sha256": "46d6ad82433869386227c30027966a22ee61c918abd4f3142319bbdb2e73e500",
+      "sha256_matches_authoritative_frozen_source": true
+    },
+    "10": {
+      "bytes": 80747,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/RELEASES/ARCHS4_SPATIALECOTYPER_FROZEN_v1_0_0/PROJECT_TREE/10_run_ARCHS4_pan_cancer_fixed_anchor_projection_v1_0_4.R",
+      "sha256": "16a3ad13fec0a53f3aad6ef4499d235dae8b1a00137d1cb353063aafaaeeb09c",
+      "sha256_matches_authoritative_frozen_source": true
+    },
+    "11": {
+      "bytes": 71616,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/RELEASES/ARCHS4_SPATIALECOTYPER_FROZEN_v1_0_0/PROJECT_TREE/11_build_ARCHS4_layer1_adequacy_robustness_atlas_v1_0_2_1.R",
+      "sha256": "529551d7ecce253b1ab8626956afd076690631bf7d8b51cfcf0c613440a603f5",
+      "sha256_matches_authoritative_frozen_source": true
+    },
+    "12": {
+      "bytes": 114499,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/RELEASES/ARCHS4_SPATIALECOTYPER_FROZEN_v1_0_0/PROJECT_TREE/12_run_ARCHS4_cancer_specific_fixed_anchor_projection_v1_0_3.R",
+      "sha256": "a63750e5bfae63383a397aefb8af94a3e29b17bf3952b2cf47d8c3fc9b858f69",
+      "sha256_matches_authoritative_frozen_source": true
+    },
+    "13": {
+      "bytes": 64378,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/RELEASES/ARCHS4_SPATIALECOTYPER_FROZEN_v1_0_0/PROJECT_TREE/13_build_ARCHS4_projection_use_analysis_ready_atlas_v1_0_3.R",
+      "sha256": "18ec4761bd1374e9ca6fc63d52048f43e7680cc418d0f61d1fb013026c561907",
+      "sha256_matches_authoritative_frozen_source": true
+    }
+  },
+  "note": "Verifies frozen ARCHS4 metadata/score output and Stage11 outlier contracts only. Does not prove execution provenance from historical job logs, nor recount3 model transfer or cross-assay equivalence.",
+  "problems": [],
+  "result": "PASS_REFERENCE_OUTPUT_CONTRACT",
+  "stage11_study_outlier_replay": {
+    "expected_count": 5,
+    "expected_studies": [
+      [
+        "colorectal_cancer",
+        "GSE152395"
+      ],
+      [
+        "colorectal_cancer",
+        "GSE183984"
+      ],
+      [
+        "colorectal_cancer",
+        "GSE299799"
+      ],
+      [
+        "lung_and_pleural_cancer",
+        "GSE126044"
+      ],
+      [
+        "lung_and_pleural_cancer",
+        "GSE190266"
+      ]
+    ],
+    "found_count": 5,
+    "found_studies": [
+      [
+        "colorectal_cancer",
+        "GSE152395"
+      ],
+      [
+        "colorectal_cancer",
+        "GSE183984"
+      ],
+      [
+        "colorectal_cancer",
+        "GSE299799"
+      ],
+      [
+        "lung_and_pleural_cancer",
+        "GSE126044"
+      ],
+      [
+        "lung_and_pleural_cancer",
+        "GSE190266"
+      ]
+    ],
+    "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/12_layer1_adequacy_robustness_atlas_v1_0_2_1/03_study_level_transferability_summary.tsv",
+    "rows": 489
+  },
+  "stage13_upstream_score_replay_max_abs": {
+    "cs": 0.0,
+    "pan": 0.0
+  },
+  "status_summary": {
+    "09": {
+      "Tier_A_samples": null,
+      "Tier_B_samples": null,
+      "Tier_C_samples": null,
+      "cancer_classes": 18,
+      "canonical_samples": 9465,
+      "directional_features": null,
+      "pan_Tier_A_samples": null,
+      "pan_Tier_B_samples": null,
+      "pan_Tier_C_samples": null,
+      "qc_failures": 0,
+      "script_version": "1.0.1",
+      "status": "PASS"
+    },
+    "10": {
+      "Tier_A_samples": null,
+      "Tier_B_samples": null,
+      "Tier_C_samples": null,
+      "cancer_classes": 18,
+      "canonical_samples": 9465,
+      "directional_features": 500,
+      "pan_Tier_A_samples": null,
+      "pan_Tier_B_samples": null,
+      "pan_Tier_C_samples": null,
+      "qc_failures": 0,
+      "script_version": "1.0.4",
+      "status": "PASS"
+    },
+    "11": {
+      "Tier_A_samples": 4200,
+      "Tier_B_samples": 1026,
+      "Tier_C_samples": 4239,
+      "cancer_classes": 18,
+      "canonical_samples": 9465,
+      "directional_features": null,
+      "pan_Tier_A_samples": null,
+      "pan_Tier_B_samples": null,
+      "pan_Tier_C_samples": null,
+      "qc_failures": 0,
+      "script_version": "1.0.2.1",
+      "status": "PASS"
+    },
+    "12": {
+      "Tier_A_samples": null,
+      "Tier_B_samples": null,
+      "Tier_C_samples": null,
+      "cancer_classes": null,
+      "canonical_samples": 9465,
+      "directional_features": null,
+      "pan_Tier_A_samples": null,
+      "pan_Tier_B_samples": null,
+      "pan_Tier_C_samples": null,
+      "qc_failures": 0,
+      "script_version": "1.0.3",
+      "status": "PASS"
+    },
+    "13": {
+      "Tier_A_samples": null,
+      "Tier_B_samples": null,
+      "Tier_C_samples": null,
+      "cancer_classes": 18,
+      "canonical_samples": 9465,
+      "directional_features": null,
+      "pan_Tier_A_samples": 4200,
+      "pan_Tier_B_samples": 1026,
+      "pan_Tier_C_samples": 4239,
+      "qc_failures": 0,
+      "script_version": "1.0.3",
+      "status": "PASS"
+    }
+  },
+  "table_summary": {
+    "anchor": {
+      "negative_scores": 0,
+      "nonfinite_scores": 0,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/10_preprojection_normalization_v1_0_1/02_cross_sectional_anchor_manifest.tsv.gz",
+      "rows": 8962,
+      "sum_bad": 0,
+      "tier_counts": {},
+      "uq_counts": {}
+    },
+    "atlas_core": {
+      "negative_scores": 0,
+      "nonfinite_scores": 0,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/14_projection_use_analysis_ready_atlas_v1_0_3/03_projection_analysis_ready_core.tsv.gz",
+      "rows": 9465,
+      "sum_bad": 0,
+      "tier_counts": {},
+      "uq_counts": {}
+    },
+    "canonical": {
+      "negative_scores": 0,
+      "nonfinite_scores": 0,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/10_preprojection_normalization_v1_0_1/01_canonical_library_manifest.tsv.gz",
+      "rows": 9465,
+      "sum_bad": 0,
+      "tier_counts": {},
+      "uq_counts": {}
+    },
+    "cs_scale_all": {
+      "negative_scores": 0,
+      "nonfinite_scores": 0,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/13_cancer_specific_fixed_anchor_projection_v1_0_3/03_cancer_specific_scaling_parameters_all_branches.tsv.gz",
+      "rows": 26946,
+      "sum_bad": 0,
+      "tier_counts": {},
+      "uq_counts": {}
+    },
+    "cs_scores": {
+      "negative_scores": 0,
+      "nonfinite_scores": 0,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/13_cancer_specific_fixed_anchor_projection_v1_0_3/17_primary_CPM_cancer_specific_fraction_scores_with_metadata.tsv.gz",
+      "rows": 9465,
+      "sum_bad": 0,
+      "tier_counts": {},
+      "uq_counts": {}
+    },
+    "layer1_sample": {
+      "negative_scores": 0,
+      "nonfinite_scores": 0,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/12_layer1_adequacy_robustness_atlas_v1_0_2_1/01_sample_level_adequacy_robustness_atlas.tsv.gz",
+      "rows": 9465,
+      "sum_bad": 0,
+      "tier_counts": {
+        "Tier_A_fit_and_both_normalizations": 4200,
+        "Tier_B_fit_and_TMM_supported": 1026,
+        "Tier_C_exploratory_or_sensitive": 4239
+      },
+      "uq_counts": {
+        "FALSE": 163,
+        "TRUE": 9302
+      }
+    },
+    "pan_scale_cpm": {
+      "negative_scores": 0,
+      "nonfinite_scores": 0,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/11_pan_cancer_fixed_anchor_projection_v1_0_4/03_pan_cancer_anchor_scaling_CPM.tsv.gz",
+      "rows": 499,
+      "sum_bad": 0,
+      "tier_counts": {},
+      "uq_counts": {}
+    },
+    "pan_scale_tmm": {
+      "negative_scores": 0,
+      "nonfinite_scores": 0,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/11_pan_cancer_fixed_anchor_projection_v1_0_4/04_pan_cancer_anchor_scaling_TMM_CPM.tsv.gz",
+      "rows": 499,
+      "sum_bad": 0,
+      "tier_counts": {},
+      "uq_counts": {}
+    },
+    "pan_scale_uq": {
+      "negative_scores": 0,
+      "nonfinite_scores": 0,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/11_pan_cancer_fixed_anchor_projection_v1_0_4/05_pan_cancer_anchor_scaling_UQ_CPM.tsv.gz",
+      "rows": 499,
+      "sum_bad": 0,
+      "tier_counts": {},
+      "uq_counts": {}
+    },
+    "pan_scores": {
+      "negative_scores": 0,
+      "nonfinite_scores": 0,
+      "path": "/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6/11_pan_cancer_fixed_anchor_projection_v1_0_4/17_primary_CPM_fraction_scores_with_metadata.tsv.gz",
+      "rows": 9465,
+      "sum_bad": 0,
+      "tier_counts": {},
+      "uq_counts": {}
+    }
+  }
+}
