@@ -1,0 +1,27 @@
+# No raw biomedical inputs, full cluster metadata, giant binaries or keys.
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*token*
+*.h5
+*.h5ad
+*.rds
+*.bam
+*.cram
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bigWig
+*.bw
+raw_studies/
+stage2_output/
+stage3_output/
+# Keep data outside Git. Small, explicitly reviewed diagnostic TSVs are allowed.
+cache/
+scratch/
+private_data/
+*.tmp

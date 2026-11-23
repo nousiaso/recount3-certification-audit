@@ -1,0 +1,10 @@
+audit_id	date_recorded	scope	main_finding	primary_source	code_bytes_in_this_repo	decision
+HIST_ARCHS4_FROZEN_STAGE09_13	2026-11-19	ARCHS4 frozen	Reference output contract PASS; original 9465 samples; do not rerun	README_MANUAL_CURATION_UPDATED_20261120.md lines 498-575	NO	COMPLETE_NO_RERUN
+HIST_ARCHS4_SRX_BIOSAMPLE_JOIN	2026-11-20	ARCHS4 9465 GSM	9465/9465 exact identity; 850 recount3 candidate overlaps	README_MANUAL_CURATION_UPDATED_20261120.md lines 774-804	NO	COMPLETE_NO_RERUN
+HIST_STAGE41_RECOUNT3_SCREEN	2026-11-20	3602 candidate libraries	2055 primary screen; 439 study exposed; 258 technical holds; 850 exact overlaps	README_MANUAL_CURATION_UPDATED_20261120.md lines 792-803	NO	COMPLETE_SCREEN_NOT_ADMITTED
+HIST_FUSCC_RNA	2026-11-20	SRP157974	360 candidate tumour RNA specimens; 334 nonheld; 26 held	README_MANUAL_CURATION_UPDATED_20261120.md lines 805-868	NO	PROVISIONAL_NO_RERUN
+HIST_W_499_GENE_MEMBERSHIP	2026-11-20	W fixed interface	490/499 concordant Ensembl-source multisets, 9 differ	README_MANUAL_CURATION_UPDATED_20261120.md lines 929-955	NO	COMPLETE_MEMBERSHIP_TRANSFER_PENDING
+HIST_499_GENE_TRANSFER_PREFLIGHT	2026-11-20	SRP074349 and SRP157974	143 matched technical bridge specimens; calibration not executed	README_MANUAL_CURATION_UPDATED_20261120.md lines 956-1035	NO	PREFLIGHT_PASS_TRANSFER_PENDING
+HIST_V5_CROSSWALK	2026-11-22	5,241 records 176 studies	376 source annotations; 21 non-tumour primary-screen restrictions; unsigned	evidence/V5/08_V5_QA.json	NO	OUTPUT_HASHES_VERIFIED_CERTIFICATION_OPEN
+20261123_SRP060016_SRA_tissue	2026-11-23	SRP060016	5 each normal colon, primary CRC, liver metastases, normal liver	diagnostics/20261123_SRP060016_SRA_tissue/stdout.md	YES_CHAT_RECONSTRUCTION	SPECIMEN_IDENTITY_RESOLVED
+20261123_SRA_attribute_coverage	2026-11-23	77 primary-screen studies	2055/2055 experiments matched; 1984 broad attribute matches, not evidence of primary cancer	diagnostics/20261123_SRA_attribute_coverage/stdout.txt	YES_CHAT_RECONSTRUCTION	METADATA_AVAILABILITY_CONFIRMED

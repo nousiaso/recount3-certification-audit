@@ -1,0 +1,235 @@
+=== GLOBAL RAW SRA COVERAGE ===
+
+Primary-screen records: 2055
+
+Primary-screen studies: 77
+
+Studies with raw source: 77
+
+Missing raw source files: 0
+
+Coverage: {'matched_experiment': 2055, 'has_specific_attributes': 1984}
+
+=== HIGHEST POTENTIAL EVIDENCE RECOVERY ===
+
+SRP057793: screen=140, matched=140, attribute_evidence=140, previously_unattested_or_ambiguous=140
+
+  SRX1013414 [('disease', 'Leiomyosarcoma'), ('tissue', 'Trunk wall')]
+
+  SRX1022687 [('disease', 'Undifferentiated pleomorphic sarcoma'), ('tissue', 'Head and neck')]
+
+SRP158272: screen=129, matched=129, attribute_evidence=129, previously_unattested_or_ambiguous=129
+
+  SRX4563780 [('tissue', 'Breast')]
+
+  SRX4563781 [('tissue', 'Breast')]
+
+DRP005276: screen=83, matched=83, attribute_evidence=83, previously_unattested_or_ambiguous=83
+
+  DRX159123 [('disease', 'bladder cancer'), ('tissue', 'bladder')]
+
+  DRX159124 [('disease', 'bladder cancer'), ('tissue', 'bladder')]
+
+SRP036848: screen=83, matched=83, attribute_evidence=83, previously_unattested_or_ambiguous=83
+
+  SRX467227 [('tissue', 'prostate')]
+
+  SRX467228 [('tissue', 'prostate')]
+
+SRP117020: screen=82, matched=82, attribute_evidence=82, previously_unattested_or_ambiguous=82
+
+  SRX3166614 [('disease state', 'Non-Small Cell Lung Cancer (NSCLC)')]
+
+  SRX3166623 [('disease state', 'Non-Small Cell Lung Cancer (NSCLC)')]
+
+SRP113755: screen=75, matched=75, attribute_evidence=75, previously_unattested_or_ambiguous=75
+
+  SRX3045142 [('disease', 'Malignant mesenchymoma'), ('disease_stage', '3'), ('tissue', 'Trunk wall')]
+
+  SRX3045155 [('disease', 'Malignant mesenchymoma'), ('disease_stage', '3'), ('tissue', 'Upper limb')]
+
+SRP185703: screen=75, matched=75, attribute_evidence=75, previously_unattested_or_ambiguous=75
+
+  SRX5368716 [('tissue', 'Fresh frozen tumor')]
+
+  SRX5368717 [('tissue', 'Fresh frozen tumor')]
+
+SRP045225: screen=54, matched=54, attribute_evidence=54, previously_unattested_or_ambiguous=54
+
+  SRX669035 [('disease status', 'small cell lung cancer')]
+
+  SRX669037 [('disease status', 'small cell lung cancer')]
+
+SRP091303: screen=50, matched=50, attribute_evidence=50, previously_unattested_or_ambiguous=50
+
+  SRX2234173 [('tissue', 'brain')]
+
+  SRX2234174 [('tissue', 'brain')]
+
+SRP221385: screen=44, matched=44, attribute_evidence=44, previously_unattested_or_ambiguous=44
+
+  SRX6831727 [('tissue', 'Breast cancer')]
+
+  SRX6831728 [('tissue', 'Breast cancer')]
+
+SRP113639: screen=41, matched=41, attribute_evidence=41, previously_unattested_or_ambiguous=41
+
+  SRX3040555 [('tissue', 'breast tumor')]
+
+  SRX3040556 [('tissue', 'breast tumor')]
+
+SRP119917: screen=41, matched=41, attribute_evidence=41, previously_unattested_or_ambiguous=41
+
+  SRX3280853 [('tissue', 'higher grade prostate tumor')]
+
+  SRX3280855 [('tissue', 'higher grade prostate tumor')]
+
+SRP067524: screen=40, matched=40, attribute_evidence=40, previously_unattested_or_ambiguous=40
+
+  SRX1513512 [('tissue', 'salivary')]
+
+  SRX1513513 [('tissue', 'salivary')]
+
+SRP119676: screen=29, matched=29, attribute_evidence=29, previously_unattested_or_ambiguous=29
+
+  SRX3266540 [('tissue', 'Hepatoblastoma')]
+
+  SRX3266542 [('tissue', 'Hepatoblastoma')]
+
+SRP156394: screen=29, matched=29, attribute_evidence=29, previously_unattested_or_ambiguous=29
+
+  SRX4509179 [('tumor in specimen', 'Lung'), ('tumor location', 'Central')]
+
+  SRX4509180 [('tumor in specimen', 'Lung'), ('tumor location', 'Peripheral')]
+
+ERP023222: screen=25, matched=25, attribute_evidence=25, previously_unattested_or_ambiguous=25
+
+  ERX2050190 [('disease', 'uterine leiomyosarcoma'), ('organism', 'Homo sapiens'), ('organism part', 'myometrium')]
+
+  ERX2050192 [('disease', 'uterine leiomyosarcoma'), ('organism', 'Homo sapiens'), ('organism part', 'myometrium')]
+
+SRP156081: screen=25, matched=25, attribute_evidence=25, previously_unattested_or_ambiguous=25
+
+  SRX4498764 [('tissue', 'Breast tumour')]
+
+  SRX4498765 [('tissue', 'Breast tumour')]
+
+SRP090799: screen=24, matched=24, attribute_evidence=24, previously_unattested_or_ambiguous=24
+
+  SRX2209155 [('tissue', 'liver')]
+
+  SRX2209156 [('tissue', 'liver')]
+
+SRP094795: screen=23, matched=23, attribute_evidence=23, previously_unattested_or_ambiguous=23
+
+  SRX2407558 [('histological tumor classification', 'Adenocarcinoma'), ('tissue', 'Uterine cervix tumor')]
+
+  SRX2407559 [('histological tumor classification', 'Adenocarcinoma'), ('tissue', 'Uterine cervix tumor')]
+
+SRP090849: screen=22, matched=22, attribute_evidence=22, previously_unattested_or_ambiguous=22
+
+  SRX2210872 [('tissue', 'osteosarcoma'), ('tumor type', 'primary')]
+
+  SRX2210873 [('tissue', 'osteosarcoma'), ('tumor type', 'primary')]
+
+SRP124458: screen=22, matched=22, attribute_evidence=22, previously_unattested_or_ambiguous=22
+
+  SRX3369562 [('tissue', 'hepatoblastoma')]
+
+  SRX3369564 [('tissue', 'hepatoblastoma')]
+
+SRP214745: screen=22, matched=22, attribute_evidence=22, previously_unattested_or_ambiguous=22
+
+  SRX6490584 [('disease_stage', 'T1a N0 stage IA'), ('tissue', 'endometrium')]
+
+  SRX6490585 [('disease_stage', 'T1a N0 stage IA'), ('tissue', 'endometrium')]
+
+SRP152822: screen=21, matched=21, attribute_evidence=21, previously_unattested_or_ambiguous=21
+
+  SRX4368815 [('tissue', 'stomach')]
+
+  SRX4368816 [('tissue', 'stomach')]
+
+SRP042184: screen=20, matched=20, attribute_evidence=20, previously_unattested_or_ambiguous=20
+
+  SRX550522 [('sample type', 'Frozen')]
+
+  SRX550523 [('sample type', 'Frozen')]
+
+SRP072494: screen=20, matched=20, attribute_evidence=20, previously_unattested_or_ambiguous=20
+
+  SRX1668127 [('first-line therapy', 'RT/TMZ+TMZ')]
+
+  SRX1668129 [('first-line therapy', 'RT + TMZ')]
+
+=== FREQUENT EXACT TISSUE VALUES ===
+
+334 'Primary breast tumor tissue'
+
+134 'Breast'
+
+93 'prostate'
+
+85 'primary prostate cancer'
+
+83 'bladder'
+
+79 'Trunk wall'
+
+79 'breast cancer'
+
+75 'Fresh frozen tumor'
+
+58 'brain'
+
+54 'Lower limb'
+
+41 'breast tumor'
+
+40 'salivary'
+
+37 'liver'
+
+29 'Hepatoblastoma'
+
+26 'Internal trunk'
+
+26 'Breast cancer'
+
+25 'Breast tumour'
+
+23 'Uterine cervix tumor'
+
+22 'Upper limb'
+
+22 'osteosarcoma'
+
+22 'higher grade prostate tumor'
+
+22 'hepatoblastoma'
+
+22 'endometrium'
+
+21 'stomach'
+
+19 'Thyroid cancer'
+
+19 'lower grade prostate tumor'
+
+19 'Lung cancer'
+
+17 'tumor'
+
+17 'Primary CRC total RNA'
+
+16 'Head and neck'
+
+=== NONPRIMARY TISSUE LABELS TO REVIEW ===
+
+Total review flags: 0
+
+=== MISSING SOURCE FILES ===
+
+=== SOURCE READ ERRORS ===
+
+READ-ONLY COVERAGE AUDIT COMPLETE

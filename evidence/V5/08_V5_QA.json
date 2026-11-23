@@ -1,0 +1,45 @@
+{
+  "gastric_patient_groups": "21 gastric tumour locations in 7 GEO patient groups",
+  "hepatoblastoma_patient_groups": "30 selected tumour libraries in 24 patient tokens, some regions/technical replicates",
+  "input_sha256": {
+    "STAGE40_3602_SRA_SAMPLE_NAMES.tsv": "50d3640ece5ea036ecc62a4c93a17f596b0e1cbad13f621390037e5d59f4879f",
+    "STAGE40_GEO_CLINICAL_SOURCE_EVIDENCE.tsv": "2513fd25f1beee632f2b04a3b805fe6b3f12c9991a2bd73c27bb4cd6d05e3b41",
+    "V4_5241_CLINICAL_SOURCE_UNSIGNED.tsv": "2c780cbbb0344f7f02882632ea655005f15a03309be3c103064188d3186aaad2",
+    "V4_SOURCE_ONLY_1123_HELD.tsv": "4158097b0ac67ddd338d74781d2fcc370a699309f895f780adb77e763c6adf61",
+    "V4_STUDIES_176_SOURCE_LEDGER.tsv": "b9e1ae8d91307cc47c5411f1b8b201db2a6cfe92a8db0d0f7d79917abaef2db7"
+  },
+  "lung_patient_groups": "45 multiregion libraries in 12 GEO patient groups",
+  "n_affected_source_crosswalk": 376,
+  "n_original": 5241,
+  "n_source_only_held": 1123,
+  "n_stage40_graph": 3602,
+  "n_studies": 176,
+  "primary_screen_non_tumour_by_study": {
+    "SRP055438": 1,
+    "SRP067524": 1,
+    "SRP119917": 19
+  },
+  "primary_screen_non_tumour_found": 21,
+  "primary_screen_original": 2055,
+  "prostate_study_tissue": "24 T vs 20 U, only 24 patient tokens across 44 libraries",
+  "remaining_gates": "STUDY_LEVEL_REVIEW_ALL_176;PATIENT_INDEPENDENCE;TREATMENT;TUMOUR_SAMPLE_SITE;TECHNICAL_QC;MODEL_TRANSFER",
+  "remaining_primary_screen_after_source_non_tumour_restriction_NOT_APPROVED": 2034,
+  "salivary_normal_vs_ACC": "5 normals, 42 ACC tumours by Epi/Myo morphology, not purified cells",
+  "sarcoma_GEO_metastatic_disease_flags_primary_screen_NOT_PROVEN_METASTATIC_SAMPLED_LESIONS": 52,
+  "source_backed_specimen_class_counts": {
+    "BENIGN_UNINVOLVED_PROSTATE_PUNCH_LABEL": 20,
+    "GASTRIC_TUMOUR_REGION_PURITY_VARIABLE": 21,
+    "HEPATOBLASTOMA_TUMOUR_GEO_CONFIRMED": 30,
+    "HEPATOBLASTOMA_TUMOUR_SOURCE_LABEL_ONLY": 24,
+    "NORMAL_COLON_NO_CANCER_IN_SAMPLED_TISSUE": 1,
+    "NORMAL_SALIVARY_SOURCE_LABEL": 5,
+    "NSCLC_MULTI_REGION_TUMOUR_SAMPLE": 45,
+    "PRIMARY_SALIVARY_ACC_SOURCE_LABEL": 42,
+    "PROSTATE_TUMOUR_PUNCH_LABEL": 24,
+    "SARCOMA_GEO_TUMOUR_CONTEXT_METASTASIS_CLINICAL_FLAG": 146,
+    "SARCOMA_SOURCE_LABEL_NO_GEO_METASTASIS_FIELD": 3,
+    "TUMOUR_ESCC_SOURCE_LABEL": 15
+  },
+  "source_gene_clinical_reviewer_queue_flags": 5,
+  "status": "V5_SOURCE_SPECIMEN_AND_PATIENT_GROUP_CROSSWALK_NOT_FINAL_COHORT_LOCK"
+}
