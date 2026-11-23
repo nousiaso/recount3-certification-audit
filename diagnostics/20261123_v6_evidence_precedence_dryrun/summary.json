@@ -1,0 +1,26 @@
+{
+  "additional_non_tumour_experiment": "SRX106046",
+  "buckets": {
+    "EXCLUDE_PRIMARY_NON_TUMOUR_EVIDENCE": 22,
+    "HISTORICAL_EVIDENCE_REVIEW_PENDING": 1696,
+    "HOLD_SAMPLED_SITE_METASTASIS_DISEASE_FLAG": 52,
+    "PRIMARY_TUMOUR_SPECIMEN_ONLY_OTHER_GATES_OPEN": 5,
+    "V5_TUMOUR_OR_CONTEXT_SPECIMEN_GATES_OPEN": 280
+  },
+  "cumulative_union": 22,
+  "exact_primary_SRP060016": 5,
+  "older_non_tumour": 2,
+  "primary_screen": 2055,
+  "remaining_admin_NOT_APPROVED": 2033,
+  "sarcoma_sampled_site_hold": 52,
+  "source_sra_sha256": "f949e15d910326cf99f8e86b4e783980898b69aaecf2ec78959256e924bd530b",
+  "status": "EVIDENCE_ONLY_NOT_CERTIFIED",
+  "v5_input_sha256": {
+    "all": "ea3064b884a823c854bc375e5fe2b38f8b4f187d995ffb6c30674c700e618f7a",
+    "normal": "58d4a4dc718e1b9cc85b31f6dfe6c539536dac44d81170656652ce80b4fa78c5",
+    "sarcoma": "0cf102698e2c94faf660d647507e42ab0261eff35a64dbaadeff12e51018dcec",
+    "screen": "06b7d0443c99b365d0c76671e5bf18dbc9c2f6d5fc09ff9c167d0e2e9cf49e49",
+    "studies": "b9e1ae8d91307cc47c5411f1b8b201db2a6cfe92a8db0d0f7d79917abaef2db7"
+  },
+  "v5_non_tumour": 21
+}

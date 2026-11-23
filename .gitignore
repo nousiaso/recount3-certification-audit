@@ -25,3 +25,5 @@ cache/
 scratch/
 private_data/
 *.tmp
+
+diagnostics/20261123_v6_evidence_precedence_dryrun/proposed_evidence_2055_UNSIGNED.tsv
