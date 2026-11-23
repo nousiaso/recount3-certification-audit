@@ -84,7 +84,7 @@ Failed and superseded investigations remain part of the history.
 
 ### 20261123_V6_DUPLICATE_SRA_AUDIT
 
-- Status: `DIAGNOSTIC_PENDING_INTERPRETATION`
+- Status: `COMPLETED_SPECIMEN_METADATA_CONCORDANCE`
 - Original script: `tools/v6_duplicate_sra_rows_READONLY_v1.py`
 - Script SHA256: `6eb23b4b43ca0f6ff58bb78fd5c0f3d829a16d08e94686a39be2d46a5b827865`
 - Original cluster printout: `diagnostics/20261123_v6_duplicate_sra_rows/stdout.txt`
@@ -117,3 +117,18 @@ Source printouts containing detailed sample attributes remain
 on the cluster unless explicitly cleared for repository upload.
 Their paths and checksums preserve traceability.
 
+#### Interpretation after inspecting original cluster output
+
+- 599/599 exact experiments matched across 39 studies; none missing.
+- 59 experiments have multiple raw metadata rows, in five studies.
+- Repeated-row distribution: SRP012656 6, SRP018008 1,
+  SRP040442 8, SRP090849 22, SRP094795 22.
+- 147 additional raw rows beyond one per experiment.
+- Zero conflicts within the checked fields: sample_acc, biosample,
+  sample_title, sample_attributes.
+- Distinct run_alias values and sequencing totals explain row differences,
+  but run_alias is not a verified official SRA run accession.
+- No patient splitting, specimen exclusion, run aggregation or clinical
+  admission follows from this diagnostic.
+- The earlier 599-source-assembly v1 failure is explained. Preserve that
+  failure; create a separate version with specimen-field concordance checks.
