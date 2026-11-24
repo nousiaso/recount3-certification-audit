@@ -1,0 +1,26 @@
+{
+  "clinical_approvals": 0,
+  "input_sha256": "c77599f38ecfcf16be5f8a4648f0386421f65de215a9a3a3c13bcb965f82291a",
+  "local_review_queue_sha256": "b5fdf922e4791b4b30c2ffa798c6ffed99b43478a0681c02a1faa2aaa248f3bd",
+  "n_experiments": 599,
+  "n_reused_patient_key_groups": 8,
+  "n_studies": 39,
+  "n_study_scoped_patient_keys": 591,
+  "patient_evidence_grades": {
+    "BIOSAMPLE_PROXY_NOT_PATIENT_ID": 90,
+    "CURATED_STUDY_PATIENT_KEY_UNVERIFIED": 467,
+    "STAGE41_PATIENT_PROPOSAL_NOT_VERIFIED": 42
+  },
+  "status": "REVIEW_QUEUE_ASSEMBLED_NOT_ADJUDICATED",
+  "study_summary_sha256": "ba92beb8419e8f0388ce1539ecdf8c2323a95a781ae72c5ddd8f2ea0b48102d0",
+  "treatment_evidence_grades": {
+    "CURATED_PRETREATMENT_LABEL_REQUIRES_SOURCE_CONFIRMATION": 24,
+    "GEO_BASELINE_TEXT_SOURCE_SUPPORTED": 23,
+    "PRETREATMENT_NOT_ESTABLISHED": 552
+  },
+  "treatment_grade_by_timing_value_hash": {
+    "CURATED_PRETREATMENT_LABEL_REQUIRES_SOURCE_CONFIRMATION|780ba78f1e32": 24,
+    "GEO_BASELINE_TEXT_SOURCE_SUPPORTED|ea80f83bbd64": 23,
+    "PRETREATMENT_NOT_ESTABLISHED|ea80f83bbd64": 552
+  }
+}
