@@ -1,0 +1,113 @@
+{
+  "audit": "V6_NSCLC82_TCIA_CLINICAL_V1",
+  "clinical_approval": "NO_UNSIGNED",
+  "clinical_fields": {
+    "Adjuvant Treatment": {
+      "available_records": 82,
+      "literal_value_counts": {
+        "No": 56,
+        "Yes": 26
+      },
+      "missing_or_unknown": 0,
+      "n_distinct_literal_values": 2
+    },
+    "Chemotherapy": {
+      "available_records": 82,
+      "literal_value_counts": {
+        "No": 56,
+        "Yes": 26
+      },
+      "missing_or_unknown": 0,
+      "n_distinct_literal_values": 2
+    },
+    "Histology": {
+      "available_records": 82,
+      "literal_value_counts": {
+        "Adenocarcinoma": 64,
+        "Squamous cell carcinoma": 18
+      },
+      "missing_or_unknown": 0,
+      "n_distinct_literal_values": 2
+    },
+    "Histopathological Grade": {
+      "available_records": 82,
+      "literal_value_counts": {
+        "G1 Well differentiated": 13,
+        "G2 Moderately differentiated": 39,
+        "G3 Poorly differentiated": 18,
+        "Other, Type I: Well to moderately differentiated": 5,
+        "Other, Type II: Moderately to poorly differentiated": 7
+      },
+      "missing_or_unknown": 0,
+      "n_distinct_literal_values": 5
+    },
+    "Pathological M stage": {
+      "available_records": 82,
+      "literal_value_counts": {
+        "M0": 77,
+        "M1a": 1,
+        "M1b": 4
+      },
+      "missing_or_unknown": 0,
+      "n_distinct_literal_values": 3
+    },
+    "Pathological N stage": {
+      "available_records": 82,
+      "literal_value_counts": {
+        "N0": 65,
+        "N1": 8,
+        "N2": 9
+      },
+      "missing_or_unknown": 0,
+      "n_distinct_literal_values": 3
+    },
+    "Pathological T stage": {
+      "available_records": 82,
+      "literal_value_counts": {
+        "T1a": 16,
+        "T1b": 19,
+        "T2a": 25,
+        "T2b": 7,
+        "T3": 8,
+        "T4": 4,
+        "Tis": 3
+      },
+      "missing_or_unknown": 0,
+      "n_distinct_literal_values": 7
+    },
+    "Radiation": {
+      "available_records": 82,
+      "literal_value_counts": {
+        "No": 72,
+        "Yes": 10
+      },
+      "missing_or_unknown": 0,
+      "n_distinct_literal_values": 2
+    }
+  },
+  "clinical_source_records": 211,
+  "exact_unique_subject_links": 82,
+  "explicit_preoperative_treatment_fields": [],
+  "geo": "GSE103584",
+  "histology_agreement": {
+    "cross_tab": [
+      {
+        "geo": "ADENOCARCINOMA",
+        "n": 64,
+        "tcia": "ADENOCARCINOMA"
+      },
+      {
+        "geo": "SQUAMOUS_CELL_CARCINOMA",
+        "n": 18,
+        "tcia": "SQUAMOUS_CELL_CARCINOMA"
+      }
+    ],
+    "matched": 82
+  },
+  "private_crosswalk_sha256": "dbfc06c14511ee031c8cccaec8d020eeb4370fd6ad8cd1b4f7d8b89a79be3c79",
+  "published_treatment_naive_statement": "COHORT_SOURCE_SUPPORTED_NOT_INDIVIDUALLY_ATTESTED",
+  "selected_experiments": 82,
+  "source_sha256": "0a1f7cdf02cef58450db17f116a3fb0ecfd4d737ca6843bb1939dbe421071476",
+  "status": "NSCLC82_TCIA_LINK_AND_HISTOLOGY_CONCORDANT",
+  "study": "SRP117020"
+}
