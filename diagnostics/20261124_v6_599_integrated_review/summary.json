@@ -1,0 +1,20 @@
+{
+  "clinical_approvals": 0,
+  "local_599_matrix_sha256": "c77599f38ecfcf16be5f8a4648f0386421f65de215a9a3a3c13bcb965f82291a",
+  "n_experiments": 599,
+  "n_sra_v5_sample_accession_conflicts": 0,
+  "n_studies": 39,
+  "source_attribute_coverage": {
+    "disease": 441,
+    "patient_token": 75,
+    "specimen": 571,
+    "treatment_timing": 24
+  },
+  "source_hashes": {
+    "26_recount3_external_primary_v1/clinical_specimen_patient_v5_unsigned_20261122/03_2055_ADMIN_PRIMARY_PROPOSED_RESTRICTIONS.tsv": "06b7d0443c99b365d0c76671e5bf18dbc9c2f6d5fc09ff9c167d0e2e9cf49e49",
+    "RECOUNT3_CERTIFICATION_GIT/diagnostics/20261123_v6_evidence_precedence_dryrun/proposed_evidence_2055_UNSIGNED.tsv": "08efe2c8f469edcbdfb98231dc87f705d801434e78dcbea85f57c4b94da88eb0",
+    "RECOUNT3_CERTIFICATION_GIT/diagnostics/20261123_v6_primary_unattested_review_v1_1/source_evidence_599_LOCAL_ONLY.tsv": "8b6f017dd575ec6fc3917b784740d37c8556fe567474e6a5e69dcad066ef35eb"
+  },
+  "status": "INTEGRATED_EVIDENCE_PASS_NOT_CERTIFIED",
+  "study_summary_sha256": "1c38798e7528875d7e17660807c4c407014fc00f1abd72cac3618ee38b198e99"
+}

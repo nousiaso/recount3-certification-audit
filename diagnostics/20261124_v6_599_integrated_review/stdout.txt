@@ -1,0 +1,10 @@
+V6_INTEGRATED_599_EVIDENCE_REVIEW
+Experiments: 599
+Studies: 39
+SRA-to-V5 sample-accession conflicts: 0
+Study coverage totals: {'n': 599, 'has_specimen': 571, 'has_disease': 441, 'has_treatment_timing': 24, 'has_patient_token': 75, 'has_v5_patient_key': 599, 'has_v5_treatment_value': 599}
+Local 599 matrix SHA256: c77599f38ecfcf16be5f8a4648f0386421f65de215a9a3a3c13bcb965f82291a
+39-study summary SHA256: 1c38798e7528875d7e17660807c4c407014fc00f1abd72cac3618ee38b198e99
+Summary JSON SHA256: ac6d2d42065cc98bdf9a88ad541964ba43621d6b79410cfcb4c673e19b34a248
+Clinical approvals: 0
+INTEGRATED_EVIDENCE_PASS_NOT_CERTIFIED

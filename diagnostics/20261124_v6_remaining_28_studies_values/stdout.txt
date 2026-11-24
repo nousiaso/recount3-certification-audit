@@ -1,0 +1,185 @@
+REMAINING_28_STUDIES_SOURCE_VALUES
+Total studies: 28
+Total selected experiments: 217
+Original SRA sources not reread
+No automatic clinical classifications
+
+STUDY SRP156081 N 25
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'Breast tumour'	n=25
+
+STUDY SRP214745 N 22
+FIELD disease_stage N_DISTINCT 5
+VALUE	disease_stage	'T1a N0 stage IA'	n=12
+VALUE	disease_stage	'T1b N0 stage IB'	n=6
+VALUE	disease_stage	'T1b N1 stage IIIC1'	n=2
+VALUE	disease_stage	'T1a N1 stage IIIC1'	n=1
+VALUE	disease_stage	'T1b N2 stage IIIC2'	n=1
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'endometrium'	n=22
+
+STUDY SRP042184 N 20
+FIELD sample type N_DISTINCT 1
+VALUE	sample type	'Frozen'	n=20
+FIELD stage N_DISTINCT 5
+VALUE	stage	'IIA'	n=6
+VALUE	stage	'IIB'	n=5
+VALUE	stage	'IVB'	n=5
+VALUE	stage	'IVA'	n=3
+VALUE	stage	'III'	n=1
+FIELD who histotype N_DISTINCT 7
+VALUE	who histotype	'A'	n=4
+VALUE	who histotype	'B3'	n=4
+VALUE	who histotype	'TC:SCC'	n=4
+VALUE	who histotype	'B2'	n=3
+VALUE	who histotype	'AB'	n=2
+VALUE	who histotype	'TC: Undiferentiated'	n=2
+VALUE	who histotype	'TC: SCC'	n=1
+
+STUDY SRP112751 N 17
+FIELD site N_DISTINCT 7
+VALUE	site	'Colon'	n=6
+VALUE	site	'Colon: splenic flexure'	n=4
+VALUE	site	'Colon: rectosigmoid'	n=2
+VALUE	site	'Rectum: upper'	n=2
+VALUE	site	'Colon: hepatic flexure'	n=1
+VALUE	site	'Colon: sigmoid'	n=1
+VALUE	site	'Rectum'	n=1
+FIELD stage N_DISTINCT 5
+VALUE	stage	'IIA'	n=6
+VALUE	stage	'IIIC'	n=4
+VALUE	stage	'IV'	n=4
+VALUE	stage	'IIB'	n=2
+VALUE	stage	'IIIB'	n=1
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'Primary CRC total RNA'	n=17
+
+STUDY SRP109781 N 15
+FIELD tissue N_DISTINCT 2
+VALUE	tissue	'spine'	n=10
+VALUE	tissue	'skullbase'	n=5
+
+STUDY SRP148500 N 10
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'prostate'	n=10
+
+STUDY SRP039694 N 8
+FIELD disease status N_DISTINCT 1
+VALUE	disease status	'hepatocellular carcinoma (HCC)'	n=8
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'liver tumor'	n=8
+
+STUDY SRP040442 N 8
+FIELD organ N_DISTINCT 1
+VALUE	organ	'endometrium'	n=8
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'endometrial tumor'	n=8
+
+STUDY SRP049592 N 8
+NO_RECOGNIZED_CLINICAL_CATEGORICAL_FIELDS
+
+STUDY SRP058107 N 8
+FIELD disease N_DISTINCT 1
+VALUE	disease	'Ovarian_tumor'	n=8
+FIELD sample_type N_DISTINCT 2
+VALUE	sample_type	'Formalin_Fixed'	n=4
+VALUE	sample_type	'Fresh_Frozen'	n=4
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'Ovarian'	n=8
+
+STUDY SRP076032 N 8
+FIELD disease state N_DISTINCT 1
+VALUE	disease state	'Tumor'	n=8
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'liver'	n=8
+
+STUDY SRP215995 N 8
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'skin'	n=8
+
+STUDY SRP089805 N 7
+FIELD tissue N_DISTINCT 2
+VALUE	tissue	'FF brain'	n=4
+VALUE	tissue	'FFPE brain'	n=3
+
+STUDY SRP144303 N 7
+FIELD disease N_DISTINCT 1
+VALUE	disease	'Cancer'	n=7
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'HPV-positive Cervix tissue'	n=7
+
+STUDY SRP012656 N 6
+FIELD disease N_DISTINCT 1
+VALUE	disease	'Adenocarcinoma, NSCLC'	n=6
+FIELD stage N_DISTINCT 3
+VALUE	stage	'IA'	n=2
+VALUE	stage	'IIA'	n=2
+VALUE	stage	'IIB'	n=2
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'tumor'	n=6
+
+STUDY SRP063460 N 6
+FIELD disease N_DISTINCT 1
+VALUE	disease	'Adenosarcomas of the uterus'	n=6
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'Tumor'	n=6
+
+STUDY SRP183009 N 6
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'tumor'	n=6
+
+STUDY SRP142570 N 4
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'nasopharyngeal carcinoma tissue'	n=4
+
+STUDY SRP159526 N 4
+FIELD stage N_DISTINCT 3
+VALUE	stage	'III'	n=2
+VALUE	stage	'IIA'	n=1
+VALUE	stage	'IIB'	n=1
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'Esophageal squamous cell carcinoma'	n=4
+
+STUDY SRP194626 N 4
+FIELD time point N_DISTINCT 1
+VALUE	time point	'pre-treatment biopsy'	n=4
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'breast cancer'	n=4
+FIELD tissue type N_DISTINCT 1
+VALUE	tissue type	'FFPE'	n=4
+
+STUDY SRP045645 N 3
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'tumor'	n=3
+
+STUDY SRP083311 N 3
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'glioblastoma'	n=3
+
+STUDY SRP131744 N 3
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'Soft tissue'	n=3
+
+STUDY SRP218959 N 3
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'Lung'	n=3
+
+STUDY SRP062247 N 1
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'mesenchymal'	n=1
+
+STUDY SRP079899 N 1
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'adenocarcinoma'	n=1
+
+STUDY SRP102456 N 1
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'primary tumor'	n=1
+
+STUDY SRP211816 N 1
+FIELD tissue N_DISTINCT 1
+VALUE	tissue	'Lung cancer'	n=1
+
+FIRST_PASS_REMAINING_28_COMPLETE
+No original files modified
+No clinical admissions
