@@ -1,0 +1,56 @@
+{
+  "attribute_coverage_totals": {
+    "n_with_disease_key": 167,
+    "n_with_patient_key": 96,
+    "n_with_specimen_key": 946,
+    "n_with_treatment_key": 6,
+    "n_without_parsed_attributes": 0
+  },
+  "clinical_approvals": 0,
+  "input_hashes": {
+    "V5_2055": "06b7d0443c99b365d0c76671e5bf18dbc9c2f6d5fc09ff9c167d0e2e9cf49e49",
+    "V6_2055": "08efe2c8f469edcbdfb98231dc87f705d801434e78dcbea85f57c4b94da88eb0",
+    "prior_599": "b5fdf922e4791b4b30c2ffa798c6ffed99b43478a0681c02a1faa2aaa248f3bd"
+  },
+  "n_exact_source_matches": 1097,
+  "n_experiments": 1097,
+  "n_source_holds": 0,
+  "n_studies": 28,
+  "outputs_sha256": {
+    "grade_cross": "f5dfb15b1a8e5aa5f97854b37abe0f9447da0cf706121024d5a8a6f645cf81f2",
+    "local_source": "194a214e48b0105e9e6a40b1b72a8d6c5c7cf08abf4a728d274f80575f04bf1c",
+    "local_values": "daea3d4755d28983199e9bedcda479363dbfb8789931ca01c33bfc07836802db",
+    "study_summary": "2b107551a8269dc53dc5b2c01adace86ca96db9d87c06571e460cffdc373f82b"
+  },
+  "status": "SOURCE_JOIN_1097_PASS_NOT_CERTIFIED",
+  "study_counts": {
+    "ERP006077": 1,
+    "ERP017433": 4,
+    "ERP117419": 5,
+    "SRP002628": 14,
+    "SRP009386": 1,
+    "SRP027530": 19,
+    "SRP036848": 83,
+    "SRP045225": 54,
+    "SRP049710": 2,
+    "SRP058626": 11,
+    "SRP068551": 5,
+    "SRP070723": 6,
+    "SRP074425": 8,
+    "SRP078535": 1,
+    "SRP089923": 6,
+    "SRP090137": 5,
+    "SRP090799": 24,
+    "SRP091303": 50,
+    "SRP114925": 2,
+    "SRP117020": 82,
+    "SRP134188": 8,
+    "SRP156355": 5,
+    "SRP157974": 334,
+    "SRP158272": 129,
+    "SRP163173": 85,
+    "SRP185703": 75,
+    "SRP199749": 3,
+    "SRP218935": 75
+  }
+}
