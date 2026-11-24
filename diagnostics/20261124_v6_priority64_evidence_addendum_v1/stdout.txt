@@ -1,0 +1,10 @@
+V6_PRIORITY64_SOURCE_EVIDENCE_ADDENDUM
+SRP072494 {'n': 20, 'linked_other_GEO_records': 16, 'with_partner': 16, 'primary_diagnosis_no': 10, 'primary_diagnosis_yes': 10}
+SRP094795 {'n': 23, 'linked_other_GEO_records': 0, 'with_partner': 0}
+SRP112751 {'n': 17, 'linked_other_GEO_records': 0, 'with_partner': 0}
+SRP194626 {'n': 4, 'linked_other_GEO_records': 5, 'with_partner': 4}
+CERVICAL_24TH_TUMOUR: QC_HOLD_RETAINED
+Local addendum SHA256: bd4fa755f8faca19ef27dd99bd0c1590d397fcb57b36297689d6e47365477200
+Summary JSON SHA256: eb0edeae64cd07f5c2f80e226736068a6300b8e5f31aa04d5c9b86f2cb90a871
+Clinical approvals: 0
+SOURCE_EVIDENCE_CLASSIFIED_NOT_CERTIFIED

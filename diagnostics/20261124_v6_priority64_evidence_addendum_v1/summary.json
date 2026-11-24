@@ -1,0 +1,43 @@
+{
+  "cervical_additional_v5_experiment": {
+    "clinical_approval": "NO_UNSIGNED",
+    "experiment": "SRX2407571",
+    "included_in_64": false,
+    "partition": "QC_HOLD_NOT_ADMITTED"
+  },
+  "clinical_approvals": 0,
+  "input_hashes": {
+    "canonical_599_queue": "b5fdf922e4791b4b30c2ffa798c6ffed99b43478a0681c02a1faa2aaa248f3bd",
+    "frozen_v5_5241": "ea3064b884a823c854bc375e5fe2b38f8b4f187d995ffb6c30674c700e618f7a",
+    "geo_exact_64": "71f788ee1fd34edb3adb8b7fe26dc0cd06067a3a87b31e377b9d5124748fdae5"
+  },
+  "local_addendum_sha256": "bd4fa755f8faca19ef27dd99bd0c1590d397fcb57b36297689d6e47365477200",
+  "n_GEO_SRX_relations_already_verified": 64,
+  "n_records": 64,
+  "n_studies": 4,
+  "status": "SOURCE_EVIDENCE_CLASSIFIED_NOT_CERTIFIED",
+  "study_metrics": {
+    "SRP072494": {
+      "linked_other_GEO_records": 16,
+      "n": 20,
+      "primary_diagnosis_no": 10,
+      "primary_diagnosis_yes": 10,
+      "with_partner": 16
+    },
+    "SRP094795": {
+      "linked_other_GEO_records": 0,
+      "n": 23,
+      "with_partner": 0
+    },
+    "SRP112751": {
+      "linked_other_GEO_records": 0,
+      "n": 17,
+      "with_partner": 0
+    },
+    "SRP194626": {
+      "linked_other_GEO_records": 5,
+      "n": 4,
+      "with_partner": 4
+    }
+  }
+}
