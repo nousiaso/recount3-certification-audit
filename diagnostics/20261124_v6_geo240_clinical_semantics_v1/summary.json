@@ -1,0 +1,468 @@
+{
+  "clinical_approvals": 0,
+  "local_evidence_sha256": "0740b18fb374e4f51134469aecda7a01aeb601c78eacefff3aec84c6a1cec292",
+  "status": "EXACT_GEO240_LINK_PASS_CLINICAL_SEMANTICS_REVIEW",
+  "studies": {
+    "SRP036848": {
+      "GEO": "GSE54460",
+      "GEO_SOFT_SHA256": "ec27d7c8a5871dbede0cfda2fc1b8643b2fccbf30fce850444ddbc3cd84e8ddd",
+      "categorical_evidence": {
+        "bcr": {
+          "GEO": {
+            "0": 44,
+            "1": 39
+          },
+          "SRA": {
+            "0": 44,
+            "1": 39
+          }
+        },
+        "collection site": {
+          "GEO": {
+            "Atlanta VA Medical Center": 51,
+            "Moffitt Cancer Center": 8,
+            "U. Toronto Sunnybrook Research Centre": 24
+          },
+          "SRA": {
+            "Atlanta VA Medical Center": 51,
+            "Moffitt Cancer Center": 8,
+            "U. Toronto Sunnybrook Research Centre": 24
+          }
+        },
+        "pstage": {
+          "GEO": {
+            "pT1C": 11,
+            "pT2": 10,
+            "pT2A": 16,
+            "pT2B": 6,
+            "pT2C": 25,
+            "pT3": 2,
+            "pT3A": 5,
+            "pT3B": 8
+          },
+          "SRA": {
+            "pT1C": 11,
+            "pT2": 10,
+            "pT2A": 16,
+            "pT2B": 6,
+            "pT2C": 25,
+            "pT3": 2,
+            "pT3A": 5,
+            "pT3B": 8
+          }
+        },
+        "tissue": {
+          "GEO": {
+            "prostate": 83
+          },
+          "SRA": {
+            "prostate": 83
+          }
+        }
+      },
+      "clinical_approval": "NO_UNSIGNED",
+      "full_GEO": 106,
+      "identifier_structure": {
+        "cgsr_id": {
+          "full_GEO": {
+            "distinct": 106,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 1,
+            "populated": 106,
+            "repeated_groups": 0
+          },
+          "selected": {
+            "distinct": 83,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 1,
+            "populated": 83,
+            "repeated_groups": 0
+          }
+        },
+        "external_id": {
+          "full_GEO": {
+            "distinct": 100,
+            "experiments_in_repeated_groups": 12,
+            "largest_group": 2,
+            "populated": 106,
+            "repeated_groups": 6
+          },
+          "selected": {
+            "distinct": 81,
+            "experiments_in_repeated_groups": 4,
+            "largest_group": 2,
+            "populated": 83,
+            "repeated_groups": 2
+          }
+        },
+        "geo_title": {
+          "full_GEO": {
+            "distinct": 106,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 1,
+            "populated": 106,
+            "repeated_groups": 0
+          },
+          "selected": {
+            "distinct": 83,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 1,
+            "populated": 83,
+            "repeated_groups": 0
+          }
+        },
+        "sra_isolate": {
+          "full_GEO": {
+            "distinct": 0,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 0,
+            "populated": 0,
+            "repeated_groups": 0
+          },
+          "selected": {
+            "distinct": 0,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 0,
+            "populated": 0,
+            "repeated_groups": 0
+          }
+        },
+        "v5_patient_key": {
+          "full_GEO": {
+            "distinct": 81,
+            "experiments_in_repeated_groups": 4,
+            "largest_group": 2,
+            "populated": 83,
+            "repeated_groups": 2
+          },
+          "selected": {
+            "distinct": 81,
+            "experiments_in_repeated_groups": 4,
+            "largest_group": 2,
+            "populated": 83,
+            "repeated_groups": 2
+          }
+        }
+      },
+      "patient_identity_certified": false,
+      "selected_exact": 83,
+      "source_field_agreement": {
+        "cgsr id": {
+          "agree": 83,
+          "comparable": 83
+        },
+        "external id": {
+          "agree": 83,
+          "comparable": 83
+        },
+        "source_name": {
+          "agree": 83,
+          "comparable": 83
+        }
+      }
+    },
+    "SRP113755": {
+      "GEO": "GSE102055",
+      "GEO_SOFT_SHA256": "dff7f303f4d8d8e581de88aa093bdc462e72011532cc29fd137483f6be210b65",
+      "categorical_evidence": {
+        "disease": {
+          "GEO": {},
+          "SRA": {
+            "Angiosarcoma": 23,
+            "Dedifferentiated liposarcoma": 3,
+            "Extraskeletal osteosarcoma": 3,
+            "Intimal sarcoma": 1,
+            "Leiomyosarcoma": 11,
+            "Malignant mesenchymoma": 2,
+            "Malignant peripheral nerve sheath tumour": 1,
+            "Myxofibrosarcoma": 6,
+            "Osteosarcoma": 1,
+            "Pleomorphic rhabdomyosarcoma": 1,
+            "Undifferentiated pleomorphic sarcoma": 19,
+            "Undifferentiated spindle cell sarcoma": 4
+          }
+        },
+        "disease_stage": {
+          "GEO": {},
+          "SRA": {
+            "1": 4,
+            "2": 18,
+            "3": 45,
+            "Unknown": 8
+          }
+        },
+        "tissue": {
+          "GEO": {
+            "Head and neck": 14,
+            "Lower limb": 1,
+            "Trunk wall": 54,
+            "Upper limb": 6
+          },
+          "SRA": {
+            "Head and neck": 14,
+            "Lower limb": 1,
+            "Trunk wall": 54,
+            "Upper limb": 6
+          }
+        },
+        "tissue type": {
+          "GEO": {
+            "Angiosarcoma": 23,
+            "Dedifferentiated liposarcoma": 3,
+            "Extraskeletal osteosarcoma": 3,
+            "Intimal sarcoma": 1,
+            "Leiomyosarcoma": 11,
+            "Malignant mesenchymoma": 2,
+            "Malignant peripheral nerve sheath tumour": 1,
+            "Myxofibrosarcoma": 6,
+            "Osteosarcoma": 1,
+            "Pleomorphic rhabdomyosarcoma": 1,
+            "Undifferentiated pleomorphic sarcoma": 19,
+            "Undifferentiated spindle cell sarcoma": 4
+          },
+          "SRA": {}
+        }
+      },
+      "clinical_approval": "NO_UNSIGNED",
+      "full_GEO": 77,
+      "identifier_structure": {
+        "cgsr_id": {
+          "full_GEO": {
+            "distinct": 0,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 0,
+            "populated": 0,
+            "repeated_groups": 0
+          },
+          "selected": {
+            "distinct": 0,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 0,
+            "populated": 0,
+            "repeated_groups": 0
+          }
+        },
+        "external_id": {
+          "full_GEO": {
+            "distinct": 0,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 0,
+            "populated": 0,
+            "repeated_groups": 0
+          },
+          "selected": {
+            "distinct": 0,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 0,
+            "populated": 0,
+            "repeated_groups": 0
+          }
+        },
+        "geo_title": {
+          "full_GEO": {
+            "distinct": 77,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 1,
+            "populated": 77,
+            "repeated_groups": 0
+          },
+          "selected": {
+            "distinct": 75,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 1,
+            "populated": 75,
+            "repeated_groups": 0
+          }
+        },
+        "sra_isolate": {
+          "full_GEO": {
+            "distinct": 1,
+            "experiments_in_repeated_groups": 75,
+            "largest_group": 75,
+            "populated": 75,
+            "repeated_groups": 1
+          },
+          "selected": {
+            "distinct": 1,
+            "experiments_in_repeated_groups": 75,
+            "largest_group": 75,
+            "populated": 75,
+            "repeated_groups": 1
+          }
+        },
+        "v5_patient_key": {
+          "full_GEO": {
+            "distinct": 75,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 1,
+            "populated": 75,
+            "repeated_groups": 0
+          },
+          "selected": {
+            "distinct": 75,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 1,
+            "populated": 75,
+            "repeated_groups": 0
+          }
+        }
+      },
+      "patient_identity_certified": false,
+      "selected_exact": 75,
+      "source_field_agreement": {
+        "cgsr id": {
+          "agree": 0,
+          "comparable": 0
+        },
+        "external id": {
+          "agree": 0,
+          "comparable": 0
+        },
+        "source_name": {
+          "agree": 0,
+          "comparable": 0
+        }
+      }
+    },
+    "SRP117020": {
+      "GEO": "GSE103584",
+      "GEO_SOFT_SHA256": "26e514f9f57e56909f906df304adfe189f6ec5165134746c1cfafca25c911924",
+      "categorical_evidence": {
+        "disease state": {
+          "GEO": {
+            "Non-Small Cell Lung Cancer (NSCLC)": 82
+          },
+          "SRA": {
+            "Non-Small Cell Lung Cancer (NSCLC)": 82
+          }
+        },
+        "histology": {
+          "GEO": {
+            "Adenocarcinoma": 64,
+            "Squamous cell carcinoma": 18
+          },
+          "SRA": {
+            "Adenocarcinoma": 64,
+            "Squamous cell carcinoma": 18
+          }
+        },
+        "histopathological grade": {
+          "GEO": {
+            "G1 Well differentiated": 13,
+            "G2 Moderately differentiated": 39,
+            "G3 Poorly differentiated": 18,
+            "Other, Type I: Well to moderately differentiated": 5,
+            "Other, Type II: Moderately to poorly differentiated": 7
+          },
+          "SRA": {
+            "G1 Well differentiated": 13,
+            "G2 Moderately differentiated": 39,
+            "G3 Poorly differentiated": 18,
+            "Other, Type I: Well to moderately differentiated": 5,
+            "Other, Type II: Moderately to poorly differentiated": 7
+          }
+        }
+      },
+      "clinical_approval": "NO_UNSIGNED",
+      "full_GEO": 130,
+      "identifier_structure": {
+        "cgsr_id": {
+          "full_GEO": {
+            "distinct": 0,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 0,
+            "populated": 0,
+            "repeated_groups": 0
+          },
+          "selected": {
+            "distinct": 0,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 0,
+            "populated": 0,
+            "repeated_groups": 0
+          }
+        },
+        "external_id": {
+          "full_GEO": {
+            "distinct": 0,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 0,
+            "populated": 0,
+            "repeated_groups": 0
+          },
+          "selected": {
+            "distinct": 0,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 0,
+            "populated": 0,
+            "repeated_groups": 0
+          }
+        },
+        "geo_title": {
+          "full_GEO": {
+            "distinct": 130,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 1,
+            "populated": 130,
+            "repeated_groups": 0
+          },
+          "selected": {
+            "distinct": 82,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 1,
+            "populated": 82,
+            "repeated_groups": 0
+          }
+        },
+        "sra_isolate": {
+          "full_GEO": {
+            "distinct": 0,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 0,
+            "populated": 0,
+            "repeated_groups": 0
+          },
+          "selected": {
+            "distinct": 0,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 0,
+            "populated": 0,
+            "repeated_groups": 0
+          }
+        },
+        "v5_patient_key": {
+          "full_GEO": {
+            "distinct": 82,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 1,
+            "populated": 82,
+            "repeated_groups": 0
+          },
+          "selected": {
+            "distinct": 82,
+            "experiments_in_repeated_groups": 0,
+            "largest_group": 1,
+            "populated": 82,
+            "repeated_groups": 0
+          }
+        }
+      },
+      "patient_identity_certified": false,
+      "selected_exact": 82,
+      "source_field_agreement": {
+        "cgsr id": {
+          "agree": 0,
+          "comparable": 0
+        },
+        "external id": {
+          "agree": 0,
+          "comparable": 0
+        },
+        "source_name": {
+          "agree": 82,
+          "comparable": 82
+        }
+      }
+    }
+  }
+}
