@@ -1,0 +1,31 @@
+{
+  "census": {
+    "in_v5": 39,
+    "not_in_v5": 13,
+    "partition:NOT_IN_FROZEN_V5_UNIVERSE": 13,
+    "partition:NOT_IN_STAGE41_CANDIDATES": 8,
+    "partition:NO_DETECTED_STUDY_ALIAS_OVERLAP_PENDING_GATES": 22,
+    "partition:QC_HOLD_NOT_ADMITTED": 9,
+    "raw_unique_experiments": 52,
+    "tissue:143b cell line": 1,
+    "tissue:mg63 cell line": 1,
+    "tissue:normal bone": 3,
+    "tissue:osteoblast cell line": 1,
+    "tissue:osteosarcoma": 44,
+    "tissue:saos2 cell line": 1,
+    "tissue:u2os cell line": 1,
+    "tumor_type:cell line": 5,
+    "tumor_type:metastasis": 9,
+    "tumor_type:normal bone": 3,
+    "tumor_type:primary": 24,
+    "tumor_type:unknown": 11
+  },
+  "clinical_admissions": 0,
+  "geo_displayed_samples": 52,
+  "local_detail_sha256": "c9f871261e9a64fd7857d443a9ebc14d86e480e0d538c987c506197229703316",
+  "original_geo_series": "GSE87624",
+  "source_sra_sha256": "19c17f912f1892d65ee0a32e0cea028cf99e2e3d8ec4c6e41ca9dfb478b67594",
+  "status": "READ_ONLY_SOURCE_CENSUS_NOT_CERTIFICATION",
+  "study": "SRP090849",
+  "v5_sha256": "ea3064b884a823c854bc375e5fe2b38f8b4f187d995ffb6c30674c700e618f7a"
+}

@@ -1,0 +1,23 @@
+OSTEOSARCOMA_SOURCE_CENSUS_COMPLETE
+in_v5	39
+not_in_v5	13
+partition:NOT_IN_FROZEN_V5_UNIVERSE	13
+partition:NOT_IN_STAGE41_CANDIDATES	8
+partition:NO_DETECTED_STUDY_ALIAS_OVERLAP_PENDING_GATES	22
+partition:QC_HOLD_NOT_ADMITTED	9
+raw_unique_experiments	52
+tissue:143b cell line	1
+tissue:mg63 cell line	1
+tissue:normal bone	3
+tissue:osteoblast cell line	1
+tissue:osteosarcoma	44
+tissue:saos2 cell line	1
+tissue:u2os cell line	1
+tumor_type:cell line	5
+tumor_type:metastasis	9
+tumor_type:normal bone	3
+tumor_type:primary	24
+tumor_type:unknown	11
+LOCAL_DETAIL_SHA256 c9f871261e9a64fd7857d443a9ebc14d86e480e0d538c987c506197229703316
+SUMMARY_SHA256 75dc397f031d77a118476d7224b7c277289faf6bafa45759eadfb0af236f30b4
+No source metadata or clinical decisions changed

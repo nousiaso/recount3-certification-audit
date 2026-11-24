@@ -1,0 +1,58 @@
+{
+  "categories": [
+    "primary",
+    "metastasis",
+    "unknown",
+    "cell line",
+    "normal bone"
+  ],
+  "clinical_approvals": 0,
+  "input_sha256": "c9f871261e9a64fd7857d443a9ebc14d86e480e0d538c987c506197229703316",
+  "n_in_v5": 39,
+  "n_original_experiments": 52,
+  "n_outside_v5": 13,
+  "partitions": {
+    "NOT_IN_FROZEN_V5_UNIVERSE": {
+      "n": 13,
+      "source_tumor_type_counts": {
+        "cell line": 5,
+        "metastasis": 1,
+        "normal bone": 3,
+        "primary": 3,
+        "unknown": 1
+      }
+    },
+    "NOT_IN_STAGE41_CANDIDATES": {
+      "n": 8,
+      "source_tumor_type_counts": {
+        "cell line": 0,
+        "metastasis": 8,
+        "normal bone": 0,
+        "primary": 0,
+        "unknown": 0
+      }
+    },
+    "NO_DETECTED_STUDY_ALIAS_OVERLAP_PENDING_GATES": {
+      "n": 22,
+      "source_tumor_type_counts": {
+        "cell line": 0,
+        "metastasis": 0,
+        "normal bone": 0,
+        "primary": 17,
+        "unknown": 5
+      }
+    },
+    "QC_HOLD_NOT_ADMITTED": {
+      "n": 9,
+      "source_tumor_type_counts": {
+        "cell line": 0,
+        "metastasis": 0,
+        "normal bone": 0,
+        "primary": 4,
+        "unknown": 5
+      }
+    }
+  },
+  "specimen_field_conflicts": 0,
+  "status": "EXACT_SOURCE_MEMBERSHIP_CROSSTAB_NOT_CLINICAL_APPROVAL"
+}
