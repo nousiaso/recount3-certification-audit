@@ -1,0 +1,52 @@
+{
+  "breast_selected_distinct_title_patient_prefixes_UNVERIFIED": 4,
+  "breast_selected_reused_title_patient_prefix_groups_UNVERIFIED": 0,
+  "clinical_approvals": 0,
+  "gbm_full_series_distinct_submitted_subject_tokens": 20,
+  "gbm_full_series_subject_token_multiplicity": {
+    "1": 4,
+    "2": 16
+  },
+  "geo_family_soft_sha256": {
+    "GSE101588": "2974a161614d170a59d5d640192ce808ffb414c8f8ca6d2f25c577866cc1c407",
+    "GSE130469": "44317d378636086bfa304756520251776709efa1f1a36eacbd9d74d3effc9c58",
+    "GSE79671": "25d6a138fa91e90b75bbefc375b06cdb34e01b25608e98a38fa6b89b6266eedc",
+    "GSE91065": "4dd7d20aabbaafb4c2d0b16d541da000787fa880d652e2db0b1aa1b52a7ac730"
+  },
+  "local_detail_sha256": "71f788ee1fd34edb3adb8b7fe26dc0cd06067a3a87b31e377b9d5124748fdae5",
+  "n_exact_gsm_srx": 64,
+  "n_possible_cell_line_selected": 0,
+  "n_selected": 64,
+  "prior_64_sha256": "eb9ccdab319e9531f35b9c5ca2133feb9952fb8f56979b86ae426aea6a244e6b",
+  "status": "EXACT_GEO_RELATIONS_PASS_NOT_CERTIFIED",
+  "studies": {
+    "SRP072494": {
+      "n_original_GEO_samples": 36,
+      "n_selected": 20,
+      "relation_status_counts": {
+        "EXACT_GSM_SRX_RELATION": 20
+      }
+    },
+    "SRP094795": {
+      "n_original_GEO_samples": 25,
+      "n_selected": 23,
+      "relation_status_counts": {
+        "EXACT_GSM_SRX_RELATION": 23
+      }
+    },
+    "SRP112751": {
+      "n_original_GEO_samples": 17,
+      "n_selected": 17,
+      "relation_status_counts": {
+        "EXACT_GSM_SRX_RELATION": 17
+      }
+    },
+    "SRP194626": {
+      "n_original_GEO_samples": 20,
+      "n_selected": 4,
+      "relation_status_counts": {
+        "EXACT_GSM_SRX_RELATION": 4
+      }
+    }
+  }
+}

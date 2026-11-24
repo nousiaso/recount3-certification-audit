@@ -1,0 +1,14 @@
+V6_PRIORITY_64_GEO_EXACT_RELATION_AUDIT
+SRP094795 selected 23 GEO_samples 25 relations {'EXACT_GSM_SRX_RELATION': 23}
+SRP072494 selected 20 GEO_samples 36 relations {'EXACT_GSM_SRX_RELATION': 20}
+SRP194626 selected 4 GEO_samples 20 relations {'EXACT_GSM_SRX_RELATION': 4}
+SRP112751 selected 17 GEO_samples 17 relations {'EXACT_GSM_SRX_RELATION': 17}
+GBM full-series subject-token multiplicity: {1: 4, 2: 16}
+Breast reused title-prefix groups (UNVERIFIED): 0
+Exact GSM-to-SRX relations: 64 of 64
+Possible selected cell lines: 0
+GEO snapshot hashes: {"GSE101588": "2974a161614d170a59d5d640192ce808ffb414c8f8ca6d2f25c577866cc1c407", "GSE130469": "44317d378636086bfa304756520251776709efa1f1a36eacbd9d74d3effc9c58", "GSE79671": "25d6a138fa91e90b75bbefc375b06cdb34e01b25608e98a38fa6b89b6266eedc", "GSE91065": "4dd7d20aabbaafb4c2d0b16d541da000787fa880d652e2db0b1aa1b52a7ac730"}
+Local detail SHA256: 71f788ee1fd34edb3adb8b7fe26dc0cd06067a3a87b31e377b9d5124748fdae5
+Aggregate SHA256: 46939760ddddae2e55ebd20996a14026dc506f76f2c313d3818000a03170b1ee
+STATUS: EXACT_GEO_RELATIONS_PASS_NOT_CERTIFIED
+NO CLINICAL ADMISSIONS

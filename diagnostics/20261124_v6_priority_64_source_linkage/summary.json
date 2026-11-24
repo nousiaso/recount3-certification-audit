@@ -1,0 +1,72 @@
+{
+  "clinical_approvals": 0,
+  "input_queue_sha256": "b5fdf922e4791b4b30c2ffa798c6ffed99b43478a0681c02a1faa2aaa248f3bd",
+  "input_v5_sha256": "06b7d0443c99b365d0c76671e5bf18dbc9c2f6d5fc09ff9c167d0e2e9cf49e49",
+  "local_detail_sha256": "eb9ccdab319e9531f35b9c5ca2133feb9952fb8f56979b86ae426aea6a244e6b",
+  "n_priority_experiments": 64,
+  "n_priority_studies": 4,
+  "status": "SOURCE_ALIAS_REVIEW_COMPLETE_NOT_CERTIFIED",
+  "studies": {
+    "SRP072494": {
+      "n_GSM_alias_missing": 0,
+      "n_GSM_alias_present_unchecked": 20,
+      "n_GSM_in_expected_series_list": 0,
+      "n_GSM_outside_expected_series_list": 0,
+      "n_alias_non_GSM": 0,
+      "n_experiments": 20,
+      "n_nonempty_GSM_aliases": 20,
+      "n_reused_study_scoped_V5_keys": 0,
+      "n_unique_nonempty_GSM_aliases": 20,
+      "source_field_counts": {
+        "source:sample from primary gbm diagnosis:no": 10,
+        "source:sample from primary gbm diagnosis:yes": 10,
+        "source:time point:before bevacizumab combination treatment": 20
+      }
+    },
+    "SRP094795": {
+      "n_GSM_alias_missing": 0,
+      "n_GSM_alias_present_unchecked": 0,
+      "n_GSM_in_expected_series_list": 23,
+      "n_GSM_outside_expected_series_list": 0,
+      "n_alias_non_GSM": 0,
+      "n_experiments": 23,
+      "n_nonempty_GSM_aliases": 23,
+      "n_reused_study_scoped_V5_keys": 0,
+      "n_unique_nonempty_GSM_aliases": 23,
+      "source_field_counts": {
+        "source:histological tumor classification:Adenocarcinoma": 12,
+        "source:histological tumor classification:Squamous cell carcinoma": 11,
+        "source:tissue:Uterine cervix tumor": 23
+      }
+    },
+    "SRP112751": {
+      "n_GSM_alias_missing": 0,
+      "n_GSM_alias_present_unchecked": 0,
+      "n_GSM_in_expected_series_list": 17,
+      "n_GSM_outside_expected_series_list": 0,
+      "n_alias_non_GSM": 0,
+      "n_experiments": 17,
+      "n_nonempty_GSM_aliases": 17,
+      "n_reused_study_scoped_V5_keys": 0,
+      "n_unique_nonempty_GSM_aliases": 17,
+      "source_field_counts": {
+        "source:tissue:Primary CRC total RNA": 17
+      }
+    },
+    "SRP194626": {
+      "n_GSM_alias_missing": 0,
+      "n_GSM_alias_present_unchecked": 4,
+      "n_GSM_in_expected_series_list": 0,
+      "n_GSM_outside_expected_series_list": 0,
+      "n_alias_non_GSM": 0,
+      "n_experiments": 4,
+      "n_nonempty_GSM_aliases": 4,
+      "n_reused_study_scoped_V5_keys": 0,
+      "n_unique_nonempty_GSM_aliases": 4,
+      "source_field_counts": {
+        "source:time point:pre-treatment biopsy": 4,
+        "source:tissue:breast cancer": 4
+      }
+    }
+  }
+}

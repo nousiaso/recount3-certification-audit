@@ -1,0 +1,14 @@
+V6_PRIORITY_64_SOURCE_LINKAGE_REVIEW
+SRP094795	N	23	GSM_present	23	GSM_in_expected_GEO_list	23	GSM_outside_list	0	reused_V5_key_groups	0
+SOURCE_FIELDS SRP094795 {'source:histological tumor classification:Adenocarcinoma': 12, 'source:histological tumor classification:Squamous cell carcinoma': 11, 'source:tissue:Uterine cervix tumor': 23}
+SRP072494	N	20	GSM_present	20	GSM_in_expected_GEO_list	0	GSM_outside_list	0	reused_V5_key_groups	0
+SOURCE_FIELDS SRP072494 {'source:sample from primary gbm diagnosis:no': 10, 'source:sample from primary gbm diagnosis:yes': 10, 'source:time point:before bevacizumab combination treatment': 20}
+SRP194626	N	4	GSM_present	4	GSM_in_expected_GEO_list	0	GSM_outside_list	0	reused_V5_key_groups	0
+SOURCE_FIELDS SRP194626 {'source:time point:pre-treatment biopsy': 4, 'source:tissue:breast cancer': 4}
+SRP112751	N	17	GSM_present	17	GSM_in_expected_GEO_list	17	GSM_outside_list	0	reused_V5_key_groups	0
+SOURCE_FIELDS SRP112751 {'source:tissue:Primary CRC total RNA': 17}
+LOCAL_DETAIL_SHA256 eb9ccdab319e9531f35b9c5ca2133feb9952fb8f56979b86ae426aea6a244e6b
+AGGREGATE_SHA256 d8f7bd376f4926b271114f244b5fb85de6adc84468f9135ec007d9865a8aa14c
+GEO sample-list consistency is NOT independent SRX/GSM certification
+NO CLINICAL ADMISSIONS
+PRIORITY_64_SOURCE_LINKAGE_COMPLETE
