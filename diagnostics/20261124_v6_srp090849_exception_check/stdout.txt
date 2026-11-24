@@ -1,0 +1,32 @@
+SRP090849_EXCEPTION_RECONCILIATION
+Historical metastatic-context field counts: {'tissue_evidence_grade': 8}
+Historical metastatic-context experiments: 8
+SRA metastatic-labelled experiments in V5: 8
+Exact accession intersection: 8
+Historical only: 0
+Source only: 0
+
+NON-V5 SOURCE RECORDS
+NON_V5	SRX2210903	metastasis	osteosarcoma
+NON_V5	SRX2210908	primary	osteosarcoma
+NON_V5	SRX2210909	primary	osteosarcoma
+NON_V5	SRX2210910	primary	osteosarcoma
+NON_V5	SRX2210914	unknown	osteosarcoma
+NON_V5	SRX2210915	normal bone	normal bone
+NON_V5	SRX2210916	normal bone	normal bone
+NON_V5	SRX2210917	normal bone	normal bone
+NON_V5	SRX2210918	cell line	osteoblast cell line
+NON_V5	SRX2210919	cell line	saos2 cell line
+NON_V5	SRX2210920	cell line	u2os cell line
+NON_V5	SRX2210921	cell line	mg63 cell line
+NON_V5	SRX2210922	cell line	143b cell line
+
+QC-HELD PRIMARY-LABELLED EXPERIMENTS
+QC_HOLD_PRIMARY_SOURCE_LABEL SRX2210881
+QC_HOLD_PRIMARY_SOURCE_LABEL SRX2210899
+QC_HOLD_PRIMARY_SOURCE_LABEL SRX2210905
+QC_HOLD_PRIMARY_SOURCE_LABEL SRX2210907
+
+NO SOURCE FILES MODIFIED
+NO CLINICAL ADMISSIONS
+EXCEPTION_REVIEW_COMPLETE

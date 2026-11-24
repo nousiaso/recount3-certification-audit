@@ -1,0 +1,25 @@
+{
+  "gbm_distinct_submitted_subject_tokens_NOT_VERIFIED": 20,
+  "gbm_subject_token_multiplicity": {
+    "1": 20
+  },
+  "limitations": [
+    "Primary-diagnosis label is not treatment-naive certification",
+    "Primary tumour-type label is not cell-line exclusion proof",
+    "Submitted subject IDs are not verified patient identities",
+    "GSE79671 recurrent GBM treatment context requires review",
+    "GSE87624 includes human tumours and cell lines",
+    "No official run QC or clinical admission was performed"
+  ],
+  "local_table_sha256": "80f22d1bae0e56f985afcee7130b772a5b17816aebb633903bc0736cdb8c0603",
+  "n_experiments": 42,
+  "osteosarcoma_possible_culture_keyword_hits_NOT_PROOF": 0,
+  "source_599_sha256": "8b6f017dd575ec6fc3917b784740d37c8556fe567474e6a5e69dcad066ef35eb",
+  "source_label_counts": {
+    "SRP072494:NOT_PRIMARY_DIAGNOSIS_SOURCE_NO": 10,
+    "SRP072494:PRIMARY_DIAGNOSIS_SOURCE_YES": 10,
+    "SRP090849:PRIMARY_TUMOUR_TYPE_SOURCE_LABEL": 17,
+    "SRP090849:TUMOUR_TYPE_UNKNOWN": 5
+  },
+  "status": "SOURCE_EVIDENCE_ONLY_NO_APPROVAL"
+}
