@@ -1,0 +1,53 @@
+V6_DRP005276_STUDY_CONTEXT_V1
+FROZEN_INPUT_SHA256_PASS 2
+
+ORIGINAL_STUDY_DESIGN
+FIELD study_title POPULATED 103
+FIELD study_title DISTINCT 1
+FIELD study_title TEXT_START
+TP53 codon 72 polymorphism is associated with FGFR3 and RAS mutation in non-muscle-invasive bladder cancer
+FIELD study_title TRUNCATED False
+FIELD study_title TEXT_END
+FIELD study_abstract POPULATED 103
+FIELD study_abstract DISTINCT 1
+FIELD study_abstract TEXT_START
+Objective: TP53, a well-known tumor-suppressor gene in bladder carcinogenesis, has a functional single-nucleotide polymorphism on codon 72. The aim of this study was to elucidate the association between TP53 codon 72 polymorphism and somatic mutations in bladder cancer. Material and Method: Germline TP53 codon 72 polymorphism and somatic mutations of 50 cancer-associated genes were analyzed in 103 bladder cancer patients (59 non-muscle-invasive and 44 muscle-invasive), using Taqman genotyping assay and target sequencing, respectively. The expression of FGF-FGFR signaling pathway genes was analyzed by RNA sequencing of frozen tissue. Results: The allele frequency of TP53 codon 72 in our cohort was 37, 42, and 21% for Arg/Arg, Arg/Pro, and Pro/Pro, respectively. Interestingly, the prevalence of FGFR3 mutation was higher in patients with the Arg allele, whereas that of the RAS mutation was higher in patients without the Arg allele. The same association was seen in non-muscle-invasive bladder cancer (NMIBC) patients and no differences were observed in muscle-invasive bladder cancer patients. In NMIBC, FGFR1 expression was higher in patients without the Arg allele and FGFR3 expression was higher in patients with the Arg allele. Conclusion: Germline TP53 codon 72 polymorphism was associated with mutations of FGFR3 or RAS, and expression of FGFR1 and FGFR3 in NMIBC. These findings provide new insight into the molecular mechanisms underlying the influence of the genetic background on carcinogenesis in bladder cancer.
+FIELD study_abstract TRUNCATED False
+FIELD study_abstract TEXT_END
+
+SOURCE_PUBLICATION_METADATA_FIELDS
+FIELD study_accession ABSENT
+FIELD secondary_study_accession ABSENT
+FIELD bioproject ABSENT
+FIELD study_alias ABSENT
+FIELD study_description POPULATED 0 DISTINCT 0
+FIELD publication ABSENT
+FIELD pubmed_id ABSENT
+FIELD doi ABSENT
+FIELD center_name ABSENT
+
+PATIENT_KEY_PROVENANCE_SELECTED_83
+CURATED_PATIENT_KEY POPULATED 83 DISTINCT 83 SHAPE_CLASS_COUNT 3
+CURATED_PATIENT_KEY SHAPE AAA999999?99 COUNT 74
+CURATED_PATIENT_KEY SHAPE AAA999999?9 COUNT 6
+CURATED_PATIENT_KEY SHAPE AAA999999?999 COUNT 3
+SRA_SAMPLE_NAME POPULATED 83 DISTINCT 83 SHAPE_CLASS_COUNT 1
+SRA_SAMPLE_NAME SHAPE AAAA99999999 COUNT 83
+SRA_ISOLATE POPULATED 83 DISTINCT 83 SHAPE_CLASS_COUNT 1
+SRA_ISOLATE SHAPE AA-AAA-999 COUNT 83
+CURATED_KEY_EQUALS EXPERIMENT_ACCESSION 0
+CURATED_KEY_EQUALS SRA_SAMPLE_ACCESSION 0
+CURATED_KEY_EQUALS SRA_SAMPLE_NAME 0
+CURATED_KEY_EQUALS SRA_SAMPLE_TITLE 0
+CURATED_KEY_EQUALS_SOURCE_ISOLATE 0
+
+SCIENTIFIC_STATUS
+SOURCE_STUDY_IDENTITY DESCRIPTION_RETRIEVED
+PUBLICATION_CROSSWALK REQUIRES_VERIFICATION
+BIOLOGICAL_PATIENT_INDEPENDENCE UNSIGNED
+PRIMARY_TUMOUR_STATUS UNSIGNED
+PRETREATMENT_STATUS UNSIGNED
+CLINICAL_ADMISSIONS 0
+NO_INDIVIDUAL_PATIENT_OR_SAMPLE_VALUES_PRINTED
+NO_SOURCE_FILES_MODIFIED
+V6_DRP005276_STUDY_CONTEXT_V1_COMPLETE

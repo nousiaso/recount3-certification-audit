@@ -9,6 +9,8 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-25)
 
+- `docs/STATUS_20261125_DRP005276_STUDY_CONTEXT.md`: exact publication identified; study-level primary-bladder cohort support, patient/treatment unsigned.
+- `diagnostics/20261125_v6_drp005276_study_context_v1/`: executed study-context diagnostic, stdout and SHA256 evidence.
 - `docs/STATUS_20261125_DRP005276_RUNHOLD_QC.md`: original 20/20 QC exclusions reconciled; clinical gates unsigned.
 - `diagnostics/20261125_v6_drp005276_runhold_qc_v1/`: executed run-hold diagnostic, stdout, checksums and interpretation.
 - `docs/STATUS_20261125_DRP005276_FULL103.md`: 103 source experiments = 83 screened + 20 historical QC holds; clinical gates unsigned.
