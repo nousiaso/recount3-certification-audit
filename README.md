@@ -9,6 +9,8 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-25)
 
+- `docs/STATUS_20261125_DRP005276_PUBLIC_CROSSWALK.md`: public 103/103 DRA accession crosswalk, 103 S1 isolate matches; clinical unsigned.
+- `diagnostics/20261125_v6_drp005276_public_crosswalk_v1/`: executed diagnostic, stdout, interpretation and checksums.
 - `docs/STATUS_20261125_DRP005276_STUDY_CONTEXT.md`: exact publication identified; study-level primary-bladder cohort support, patient/treatment unsigned.
 - `diagnostics/20261125_v6_drp005276_study_context_v1/`: executed study-context diagnostic, stdout and SHA256 evidence.
 - `docs/STATUS_20261125_DRP005276_RUNHOLD_QC.md`: original 20/20 QC exclusions reconciled; clinical gates unsigned.
