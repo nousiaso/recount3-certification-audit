@@ -9,6 +9,8 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-25)
 
+- `docs/STATUS_20261125_DRP005276_FULL103.md`: 103 source experiments = 83 screened + 20 historical QC holds; clinical gates unsigned.
+- `diagnostics/20261125_v6_drp005276_full103_source_v1/`: executed full-study census and hashes.
 - `docs/STATUS_20261125_DRP005276.md`: 83 exact SRA joins; patient, primary-site and treatment gates unsigned.
 - `diagnostics/20261125_v6_drp005276_source_identity_v1/`: executed diagnostic, stdout and SHA256 evidence.
 - `docs/STATUS_20261125_SRP218935.md`: completed SRP218935 source + historical-QC reconciliation (no clinical admissions).
