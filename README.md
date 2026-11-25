@@ -7,6 +7,12 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## Latest V6 checkpoint (2026-11-25)
+
+- `docs/STATUS_20261125_SRP218935.md`: completed SRP218935 source + historical-QC reconciliation (no clinical admissions).
+- `diagnostics/20261125_v6_srp218935_reproduced_v1/`: exact script, captured stdout and SHA256s.
+- Default policy: archive and push each completed diagnostic before proceeding, using only redacted public-safe evidence.
+
 ## Read first in a new conversation
 
 1. `docs/STATUS_20261123.md` — latest verified status and open gates.
