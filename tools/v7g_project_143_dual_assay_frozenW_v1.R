@@ -264,42 +264,44 @@ fwrite(norm_aggregate,
        file.path(OUT,"aggregate_normalization_sensitivity.tsv"),sep="\t")
 message("V7G_WITHIN_ASSAY_NORMALIZATION_ROBUSTNESS_COMPLETE")
 
-# Prespecified nine-annotation-difference sensitivity:
-# neutralize exactly these nine scaled inputs (frozen Z = 0) in BOTH assays,
-# without modifying W, anchors, or the primary full-499 results.
+# Prespecified nine-annotation-difference diagnostic:
+# Replace recount3 Z for precisely the nine affected genes with the MATCHED
+# ARCHS4 Z values. W and frozen anchors stay fixed; primary full-499 results
+# remain unchanged. This is a counterfactual feature-swap, not an attribution
+# of observed assay differences solely to annotation mismatch.
 assert(sum(W_genes %in% nine)==9L,
        "The nine known source annotation difference genes are not all in W")
-neutral <- list()
-neutral_per_pair <- data.table(sample_id_LOCAL_ONLY=gsm)
-for (assay in ASSAYS) {
-  ref <- projections[["CPM"]][[assay]]
-  z <- ref$Z
-  z[W_genes %in% nine,] <- 0
-  h <- project(z)
-  neutral[[assay]] <- h/rowSums(h)
-  neutral_per_pair[[paste0("within_",assay,"_fraction_TVD_full_vs_nine_neutralized")]] <-
-    rowSums(abs(neutral[[assay]]-ref$f))/2
-}
-base_tvd <- rowSums(abs(
-  projections[["CPM"]][["ARCHS4"]]$f -
-    projections[["CPM"]][["recount3"]]$f))/2
-neutral_tvd <- rowSums(abs(neutral[["ARCHS4"]]-neutral[["recount3"]]))/2
-neutral_per_pair[["cross_assay_CPM_TVD_full_499"]] <- base_tvd
-neutral_per_pair[["cross_assay_CPM_TVD_nine_neutralized"]] <- neutral_tvd
-neutral_per_pair[["cross_assay_CPM_TVD_neutral_minus_full"]] <- neutral_tvd-base_tvd
-fwrite(neutral_per_pair,
-       file.path(OUT,"143_nine_gene_neutralization_LOCAL_ONLY.tsv"),sep="\t")
-nine_agg <- data.table(
-  sensitivity="set_frozen_Z_to_zero_for_nine_known_annotation_difference_genes",
-  frozen_model_gene_count=499L,neutralized_genes=9L,matched_pairs=143L,
-  median_CPM_TVD_full=median(base_tvd),
-  median_CPM_TVD_neutralized=median(neutral_tvd),
-  median_per_pair_delta_TVD=median(neutral_tvd-base_tvd),
-  p95_absolute_per_pair_delta_TVD=unname(quantile(abs(neutral_tvd-base_tvd),.95))
+primary_arch <- projections[["CPM"]][["ARCHS4"]]
+primary_rec <- projections[["CPM"]][["recount3"]]
+z_hybrid <- primary_rec$Z
+z_hybrid[W_genes %in% nine,] <- primary_arch$Z[W_genes %in% nine,,drop=FALSE]
+h_hybrid <- project(z_hybrid)
+f_hybrid <- h_hybrid/rowSums(h_hybrid)
+base_tvd <- rowSums(abs(primary_arch$f-primary_rec$f))/2
+hybrid_tvd <- rowSums(abs(primary_arch$f-f_hybrid))/2
+sensitivity_per_pair <- data.table(
+  sample_id_LOCAL_ONLY=gsm,
+  cross_assay_CPM_TVD_original_full499=base_tvd,
+  cross_assay_CPM_TVD_with_nine_recount3_Z_replaced_by_ARCHS4=hybrid_tvd,
+  per_pair_TVD_delta_hybrid_minus_original=hybrid_tvd-base_tvd,
+  within_recount3_fraction_TVD_original_vs_hybrid=
+    rowSums(abs(primary_rec$f-f_hybrid))/2
 )
-fwrite(nine_agg,
-       file.path(OUT,"aggregate_nine_gene_sensitivity.tsv"),sep="\t")
-message("V7G_NINE_ANNOTATION_GENE_NEUTRALIZATION_SENSITIVITY_COMPLETE")
+fwrite(sensitivity_per_pair,
+       file.path(OUT,"143_nine_gene_cross_assay_swap_LOCAL_ONLY.tsv"),sep="\t")
+nine_agg <- data.table(
+  sensitivity="replace_nine_recount3_Z_with_matched_ARCHS4_Z_W_and_anchors_fixed",
+  frozen_model_gene_count=499L,
+  swapped_gene_count=9L,
+  matched_pairs=143L,
+  median_CPM_TVD_original_full499=median(base_tvd),
+  median_CPM_TVD_hybrid_nine_genes_swapped=median(hybrid_tvd),
+  median_per_pair_TVD_delta=median(hybrid_tvd-base_tvd),
+  p95_absolute_per_pair_TVD_delta=
+    unname(quantile(abs(hybrid_tvd-base_tvd),.95))
+)
+fwrite(nine_agg,file.path(OUT,"aggregate_nine_gene_sensitivity.tsv"),sep="\t")
+message("V7G_NINE_GENE_MATCHED_Z_SWAP_SENSITIVITY_COMPLETE")
 
 # Optional historical CPM H replay only for GSMs actually present in the
 # frozen 9,465-sample atlas. Absent specimens are NOT silently substituted.
