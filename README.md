@@ -7,6 +7,11 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## Latest V6 checkpoint (2026-11-26)
+
+- `docs/STATUS_20261126_DRP005276_S1_PATIENT_AXIS.md`: 103 unique S1 isolate rows and 59/44 full-cohort stage mapping; clinical unsigned.
+- `diagnostics/20261125_v6_drp005276_s1_patient_axis_v1/`: executed script, stdout, checksums and interpretation.
+
 ## Latest V6 checkpoint (2026-11-25)
 
 - `docs/STATUS_20261125_DRP005276_PUBLIC_CROSSWALK.md`: public 103/103 DRA accession crosswalk, 103 S1 isolate matches; clinical unsigned.
