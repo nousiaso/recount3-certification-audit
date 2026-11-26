@@ -9,6 +9,7 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-26)
 
+- `docs/STATUS_20261126_SRP185703_MEMBERSHIP_PREFLIGHT.md`: SRP185703 75 Stage41 records; primary-screen check pending.
 - `docs/STATUS_20261126_V6_NEXT_STUDY_QUEUE.md`: 147-study unresolved queue; priority ranking pending.
 - `docs/STATUS_20261126_DRP005276_CLINICAL_HOLD.md`: DRP005276 treatment/assay hold; 83 retained, zero clinical admissions.
 - `docs/STATUS_20261126_DRP005276_CLINICAL_SOURCE_CONTENT.md`: V2/V3 treatment review text found; source interpretation pending.
