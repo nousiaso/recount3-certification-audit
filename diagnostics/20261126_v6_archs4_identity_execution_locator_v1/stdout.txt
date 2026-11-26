@@ -1,0 +1,108 @@
+ARCHS4_IDENTITY_EXECUTION_LOCATOR_V1
+ORIGINAL_ARCHIVE_SHA256 20c22c10e07ec8d9bc5847b42c65eae3786614eabdf675afd46ad21b48502c05
+SOURCE_SCRIPT_AST_PASS
+SCRIPT_SHA256 ff713734d101b34269eaabbf4397740ab1972fc355e64090d7526f72476c1765
+README_SHA256 6cbd24a6ed89038d8947008f21e7136680229c0db6db67f6eb1e530b1da77950
+INTERNAL_MANIFEST_VALIDATED_MEMBERS 2
+
+ORIGINAL_README_LINES
+README_LINE 1 # Frozen ARCHS4 ↔ recount3 exact identity join (read-only)
+README_LINE 2 
+README_LINE 3 Purpose: determine whether any recount3 Stage 41 v1.0.1 candidate experiment or BioSample is represented by a frozen ARCHS4 GSM, even when Stage 41 did not recover the GEO alias.
+README_LINE 4 
+README_LINE 5 The script reads two original ARCHS4 `relation` fields from Stage 04 and Stage 05 (these originate from the same GEO data; agreement is only an internal consistency check), the frozen 9,465-GSM atlas, and two Stage 41 v1.0.1 TSVs. It emits only conso
+README_LINE 6 
+README_LINE 7 ## Usage on the cluster
+README_LINE 8 
+README_LINE 9 Copy the ZIP to the working directory, then run:
+README_LINE 10 
+README_LINE 11 ```bash
+README_LINE 12 set -euo pipefail
+README_LINE 13 BASE=/maps/projects/andersen_group/people/tpn890/ST_ECOTYPES/ARCHS4_V2_6
+README_LINE 14 PYTHON=/home/tpn890/orestis/conda_envs/spatialecotyper_v1_0_3_human/bin/python
+README_LINE 15 PKGDIR=$(mktemp -d "${TMPDIR:-/tmp}/archs4_identity_join.XXXXXX")
+README_LINE 16 trap 'rm -rf "$PKGDIR"' EXIT
+README_LINE 17 unzip -q ARCHS4_RECOUNT3_EXACT_IDENTITY_JOIN_READONLY_20261120.zip -d "$PKGDIR"
+README_LINE 18 (cd "$PKGDIR" && sha256sum -c SHA256SUMS.txt)
+README_LINE 19 "$PYTHON" -m pip install --disable-pip-version-check --no-input --no-cache-dir --only-binary=:all: --target "$PKGDIR" pyarrow
+README_LINE 20 PYTHONPATH="$PKGDIR${PYTHONPATH:+:$PYTHONPATH}" "$PYTHON" "$PKGDIR/archs4_recount3_exact_identity_join_READONLY.py" "$BASE"
+README_LINE 21 ```
+README_LINE 22 
+README_LINE 23 The script fails safely if the frozen GSM census, Stage41 candidate census or 850-hit baseline differs. It reads Parquet in batches with only `relation` and sample accession columns. Inspect coverage, source disagreements, previously missed exact hit
+README_LINE 24 
+README_LINE 25 **Limitations:** a missing exact accession match does not establish different patients. Same-study/alias review and population independence remain separate. The two ARCHS4 Parquet tables carry the same GEO `relation` value and are not independent cro
+README_LINE 26 
+README_LINE 27 Local validation: Python syntax compilation and a synthetic full-census mock test (9,465 atlas GSMs, 3,602 Stage41 candidate libraries, 5,221 source experiments, 850 known overlaps, one fabricated *new* BioSample overlap) passed. These are synthetic 
+
+SOURCE_CODE_RELEVANT_LINE_COUNT 66
+SOURCE_LINE 2 """Read-only exact SRA experiment and BioSample intersection: frozen ARCHS4 vs recount3 Stage41."""
+SOURCE_LINE 16 ATLAS = BASE / '14_projection_use_analysis_ready_atlas_v1_0_3/03_projection_analysis_ready_core.tsv.gz'
+SOURCE_LINE 17 SOURCES = [
+SOURCE_LINE 21 CANDIDATES = BASE / '41_recount3_evidence_to_adjudication_unsigned_v1_0_1_20261120/03_candidate_integrated_evidence_3602.tsv'
+SOURCE_LINE 22 FULL_SOURCE = BASE / '41_recount3_evidence_to_adjudication_unsigned_v1_0_1_20261120/01_full_source_experiment_identity_5221.tsv'
+SOURCE_LINE 25 GSM = re.compile(r'(?<![A-Za-z0-9])GSM\d+(?![A-Za-z0-9])', re.I)
+SOURCE_LINE 30 def read_tsv(path, zipped=False):
+SOURCE_LINE 36 atlas_rows = read_tsv(ATLAS, zipped=True)
+SOURCE_LINE 37 atlas_ids = {x['sample_id'].strip().upper() for x in atlas_rows}
+SOURCE_LINE 38 assert len(atlas_rows) == len(atlas_ids) == 9465, 'Unexpected frozen atlas GSM census'
+SOURCE_LINE 39 print('=== A. FROZEN ATLAS GEO → SRA/BioSample COVERAGE ===', flush=True)
+SOURCE_LINE 40 print('Atlas GSMs:', len(atlas_ids))
+SOURCE_LINE 43 for name, p, accession_column in SOURCES:
+SOURCE_LINE 52             gsm = str(row[accession_column] or '').strip().upper()
+SOURCE_LINE 53             if gsm not in atlas_ids:
+SOURCE_LINE 57             if gsm in entries:
+SOURCE_LINE 59                 if entries[gsm] != pair:
+SOURCE_LINE 60                     disagreements.append(gsm)
+SOURCE_LINE 62                 entries[gsm] = pair
+SOURCE_LINE 65     for experiments, biosamples in entries.values():
+SOURCE_LINE 67         counts['with_BioSample'] += bool(biosamples)
+SOURCE_LINE 68         counts['with_both'] += bool(experiments and biosamples)
+SOURCE_LINE 70         counts['with_multiple_BioSamples'] += len(biosamples) > 1
+SOURCE_LINE 72           'frozen_GSMs=', len(entries), 'duplicate_GSM_rows=', duplicate)
+SOURCE_LINE 78 missing = sorted(atlas_ids - set(left) | atlas_ids - set(right))
+SOURCE_LINE 80 print('Missing atlas GSM in either parquet:', len(missing), 'examples:', missing[:10])
+SOURCE_LINE 81 print('Disagreement in parsed SRX/BioSample associations:', len(conflicts))
+SOURCE_LINE 84 # Use only agreed two-source associations. Both datasets derive from the same GEO relation
+SOURCE_LINE 87 srx_to_gsm, bio_to_gsm = defaultdict(set), defaultdict(set)
+SOURCE_LINE 88 for gsm, (exp_set, bio_set) in agreed.items():
+SOURCE_LINE 90         srx_to_gsm[exp].add(gsm)
+SOURCE_LINE 92         bio_to_gsm[bio].add(gsm)
+SOURCE_LINE 93 print('Agreed source GSMs:', len(agreed))
+SOURCE_LINE 94 print('Atlas experiment identifiers indexed:', len(srx_to_gsm))
+SOURCE_LINE 95 print('Atlas BioSample identifiers indexed:', len(bio_to_gsm))
+SOURCE_LINE 98 rows = read_tsv(CANDIDATES)
+SOURCE_LINE 100 assert sum(bool(x['atlas_exact_matches'].strip()) for x in rows) == 850, 'Changed Stage41 direct-GSM baseline'
+SOURCE_LINE 104     bios = ids(BIO, r['biosample_IDs'])
+SOURCE_LINE 105     gsm_aliases = ids(GSM, r['GEO_GSM_aliases'])
+SOURCE_LINE 106     by_exp = set(srx_to_gsm.get(exp, set()))
+SOURCE_LINE 107     by_bio = set().union(*(bio_to_gsm.get(b, set()) for b in bios)) if bios else set()
+SOURCE_LINE 108     by_gsm = gsm_aliases & atlas_ids
+SOURCE_LINE 109     previous = bool(r['atlas_exact_matches'].strip())
+SOURCE_LINE 111     record.update(exp_matches=by_exp, bio_matches=by_bio, gsm_matches=by_gsm,
+SOURCE_LINE 112                   new_exact_match=bool(by_exp or by_bio or by_gsm) and not previous,
+SOURCE_LINE 118     summary['already_known_Stage41_exact_GSM_hits'] += r['prior_exact_match']
+SOURCE_LINE 120     summary['BioSample_hits'] += bool(r['bio_matches'])
+SOURCE_LINE 121     summary['GSM_alias_hits'] += bool(r['gsm_matches'])
+SOURCE_LINE 122     summary['union_any_exact_hits'] += bool(r['exp_matches'] or r['bio_matches'] or r['gsm_matches'])
+SOURCE_LINE 124     summary['previous_hit_not_recovered'] += r['prior_exact_match'] and not (r['exp_matches'] or r['bio_matches'] or r['gsm_matches'])
+SOURCE_LINE 131           'BioSample_matches=', ','.join(sorted(r['bio_matches'])),
+SOURCE_LINE 132           'GSM_matches=', ','.join(sorted(r['gsm_matches'])))
+SOURCE_LINE 134           not (r['exp_matches'] or r['bio_matches'] or r['gsm_matches'])][:10]:
+SOURCE_LINE 135     print(' UNRECOVERED_PREVIOUS_HIT', r['study'], r['library_id'], r['atlas_exact_matches'])
+SOURCE_LINE 143               'old_GSM_hits=', sum(r['prior_exact_match'] for r in subset),
+SOURCE_LINE 145               'BioSample_hits=', sum(bool(r['bio_matches']) for r in subset),
+SOURCE_LINE 148 print('\n=== D. FULL SOURCE EXPERIMENT GRAPH ===')
+SOURCE_LINE 149 full = read_tsv(FULL_SOURCE)
+SOURCE_LINE 151 full_exp_hit = [r for r in full if r['experiment_acc'].strip().upper() in srx_to_gsm]
+SOURCE_LINE 152 full_bio_hit = [r for r in full if ids(BIO, r['biosamples_all_sources']) & set(bio_to_gsm)]
+SOURCE_LINE 153 print('Full source experiments:',len(full))
+SOURCE_LINE 154 print('Experiment accessions present in frozen atlas:',len(full_exp_hit))
+SOURCE_LINE 155 print('Experiments sharing frozen-atlas BioSample:',len(full_bio_hit))
+SOURCE_LINE 157 print('Noncandidate experiments sharing BioSample:',sum(r['in_candidate_3602'] != 'YES' for r in full_bio_hit))
+SOURCE_LINE 159 print('\nREAD_ONLY_EXACT_IDENTITY_JOIN_COMPLETE')
+SOURCE_LINE 160 print('No source metadata, prior Stage41 files, or frozen atlas were modified.')
+ORIGINAL_CROSSWALK_PROGRAM_EXECUTED NO
+ORIGINAL_RESULTS_RECOVERED NOT_YET
+NO_BIOLOGICAL_DATA_READ
+NO_SOURCE_FILES_MODIFIED
+ARCHS4_IDENTITY_EXECUTION_LOCATOR_V1_COMPLETE
