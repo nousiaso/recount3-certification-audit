@@ -9,6 +9,8 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-26)
 
+- `docs/STATUS_20261126_DRP005276_S1_HEADER_TREATMENT.md`: S1 patient-ID header link PASS; treatment timing unsigned, 12 unclassified fields.
+- `diagnostics/20261126_v6_drp005276_s1_header_treatment_v1/`: executed diagnostic, stdout, interpretation and checksums.
 - `docs/STATUS_20261126_DRP005276_S1_PATIENT_AXIS.md`: 103 unique S1 isolate rows and 59/44 full-cohort stage mapping; clinical unsigned.
 - `diagnostics/20261125_v6_drp005276_s1_patient_axis_v1/`: executed script, stdout, checksums and interpretation.
 
