@@ -164,7 +164,7 @@ for (branch in names(B)) {
          "Frozen anchor mean/SD invalid")
   z_input <- sweep(sweep(log2(source+1),1L,mu,"-"),1L,sd,"/")
   assert(all(is.finite(z_input)),"Frozen standardized input invalid")
-  map <- mapping[branch==..branch]
+  map <- mapping[as.character(mapping[["branch"]])==branch]
   setorder(map,W_gene_index)
   assert(nrow(map)==499L &&
          identical(as.character(map$W_model_gene),Wgenes),
