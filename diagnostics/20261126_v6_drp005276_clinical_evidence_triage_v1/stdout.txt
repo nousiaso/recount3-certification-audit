@@ -1,0 +1,66 @@
+DRP005276_CLINICAL_EVIDENCE_TRIAGE_V1
+FROZEN_INPUT_HASHES_VERIFIED 4
+MEMBERSHIP_VALIDATED 103 83 20
+
+TREATMENT_RELATED_COLUMN_NAMES
+SOURCE candidate COLUMN_NAMES pretreatment_source_text_status;pretreatment_evidence_pointers;library_chemistry_source_support;pretreatment_certified;assay_chemistry_certified
+SOURCE full COLUMN_NAMES study_exposure_detected
+SOURCE selected COLUMN_NAMES [NONE]
+
+CATEGORICAL_EVIDENCE
+FIELD candidate pretreatment_source_text_status RETAINED83 COUNTS {'NOT_ESTABLISHED': 83}
+FIELD candidate pretreatment_source_text_status HELD20 COUNTS {'NOT_ESTABLISHED': 20}
+FIELD candidate pretreatment_certified RETAINED83 COUNTS {'NO': 83}
+FIELD candidate pretreatment_certified HELD20 COUNTS {'NO': 20}
+FIELD candidate patient_independence_certified RETAINED83 COUNTS {'NO': 83}
+FIELD candidate patient_independence_certified HELD20 COUNTS {'NO': 20}
+FIELD candidate primary_tumour_certified RETAINED83 COUNTS {'NO': 83}
+FIELD candidate primary_tumour_certified HELD20 COUNTS {'NO': 20}
+FIELD candidate atlas_independence_certified RETAINED83 COUNTS {'NO': 83}
+FIELD candidate atlas_independence_certified HELD20 COUNTS {'NO': 20}
+FIELD candidate cohort_approved RETAINED83 COUNTS {'NO': 83}
+FIELD candidate cohort_approved HELD20 COUNTS {'NO': 20}
+FIELD candidate tissue_review_status RETAINED83 COUNTS {'PRIMARY_TUMOUR_NOT_ATTESTED': 83}
+FIELD candidate tissue_review_status HELD20 COUNTS {'PRIMARY_TUMOUR_NOT_ATTESTED': 20}
+FIELD candidate study_detected_atlas_overlap RETAINED83 COUNTS {'NO': 83}
+FIELD candidate study_detected_atlas_overlap HELD20 COUNTS {'NO': 20}
+FIELD full study_exposure_detected RETAINED83 COUNTS {'NO': 83}
+FIELD full study_exposure_detected HELD20 COUNTS {'NO': 20}
+FIELD full identity_certified RETAINED83 COUNTS {'NO': 83}
+FIELD full identity_certified HELD20 COUNTS {'NO': 20}
+
+EVIDENCE_POINTER_COVERAGE
+POINTER candidate pretreatment_evidence_pointers RETAINED83 POPULATED 0 OF 83
+POINTER candidate pretreatment_evidence_pointers HELD20 POPULATED 0 OF 20
+POINTER candidate tissue_evidence_pointers RETAINED83 POPULATED 0 OF 83
+POINTER candidate tissue_evidence_pointers HELD20 POPULATED 0 OF 20
+POINTER candidate patient_group_evidence_pointers RETAINED83 POPULATED 0 OF 83
+POINTER candidate patient_group_evidence_pointers HELD20 POPULATED 0 OF 20
+POINTER candidate source_record_pointer RETAINED83 POPULATED 83 OF 83
+POINTER candidate source_record_pointer HELD20 POPULATED 20 OF 20
+POINTER candidate GEO_source_series RETAINED83 POPULATED 0 OF 83
+POINTER candidate GEO_source_series HELD20 POPULATED 0 OF 20
+POINTER candidate GEO_GSM_aliases RETAINED83 POPULATED 0 OF 83
+POINTER candidate GEO_GSM_aliases HELD20 POPULATED 0 OF 20
+POINTER full source_patient_evidence_pointers RETAINED83 POPULATED 0 OF 83
+POINTER full source_patient_evidence_pointers HELD20 POPULATED 0 OF 20
+POINTER full biosample_identity_evidence RETAINED83 POPULATED 83 OF 83
+POINTER full biosample_identity_evidence HELD20 POPULATED 20 OF 20
+POINTER full study_exposure_detected RETAINED83 POPULATED 83 OF 83
+POINTER full study_exposure_detected HELD20 POPULATED 20 OF 20
+POINTER full GEO_exact_relation_GSM_aliases RETAINED83 POPULATED 0 OF 83
+POINTER full GEO_exact_relation_GSM_aliases HELD20 POPULATED 0 OF 20
+
+STUDY_LEVEL_GEO_CHECK
+DRP005276_GEO_SERIES_DISTINCT 0
+ATLAS_GEO_SERIES_DISTINCT 533
+ATLAS_BLADDER_LIKE_ROWS 366
+ATLAS_BLADDER_LIKE_GEO_SERIES_DISTINCT 21
+DRP_ATLAS_GEO_SERIES_INTERSECTION 0
+STUDY_LEVEL_ALIAS_CHECK_NOT_PATIENT_INDEPENDENCE
+PATIENT_INDEPENDENCE_CERTIFIED NO
+PRETREATMENT_CERTIFIED NO
+CLINICAL_ADMISSIONS 0
+NO_INDIVIDUAL_IDENTIFIERS_PRINTED
+NO_FROZEN_DATA_MODIFIED
+DRP005276_CLINICAL_EVIDENCE_TRIAGE_V1_COMPLETE
