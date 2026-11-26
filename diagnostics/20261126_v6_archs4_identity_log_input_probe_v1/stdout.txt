@@ -1,0 +1,50 @@
+ARCHS4_IDENTITY_LOG_INPUT_PROBE_V1
+VERIFIED_HISTORICAL_ZIP_SHA256 20c22c10e07ec8d9bc5847b42c65eae3786614eabdf675afd46ad21b48502c05
+VERIFIED_SCRIPT_SHA256 ff713734d101b34269eaabbf4397740ab1972fc355e64090d7526f72476c1765
+ORIGINAL_JOIN_EXECUTED NO
+
+SOURCE_CODE_PATH_DEFINITIONS
+SOURCE_LINE 1 #!/usr/bin/env python3
+SOURCE_LINE 2 """Read-only exact SRA experiment and BioSample intersection: frozen ARCHS4 vs recount3 Stage41."""
+SOURCE_LINE 3 import csv
+SOURCE_LINE 4 import gzip
+SOURCE_LINE 5 import re
+SOURCE_LINE 6 import sys
+SOURCE_LINE 7 from collections import Counter, defaultdict
+SOURCE_LINE 8 from pathlib import Path
+SOURCE_LINE 9 
+SOURCE_LINE 10 try:
+SOURCE_LINE 11     import pyarrow.parquet as pq
+SOURCE_LINE 12 except ImportError as e:
+SOURCE_LINE 13     raise SystemExit('MISSING_PYARROW: run with the isolated pyarrow environment') from e
+SOURCE_LINE 14 
+SOURCE_LINE 15 BASE = Path(sys.argv[1])
+SOURCE_LINE 16 ATLAS = BASE / '14_projection_use_analysis_ready_atlas_v1_0_3/03_projection_analysis_ready_core.tsv.gz'
+SOURCE_LINE 17 SOURCES = [
+SOURCE_LINE 18     ('STAGE04', BASE / '04_candidate_evidence_v1_0_4/04_candidate_sample_full_metadata.parquet', 'geo_accession'),
+SOURCE_LINE 19     ('STAGE05', BASE / '05_study_sample_adjudication_v1_0_2_1/18_complete_adjudication_manifest.parquet', 'sample_id'),
+SOURCE_LINE 20 ]
+SOURCE_LINE 21 CANDIDATES = BASE / '41_recount3_evidence_to_adjudication_unsigned_v1_0_1_20261120/03_candidate_integrated_evidence_3602.tsv'
+SOURCE_LINE 22 FULL_SOURCE = BASE / '41_recount3_evidence_to_adjudication_unsigned_v1_0_1_20261120/01_full_source_experiment_identity_5221.tsv'
+SOURCE_LINE 23 SRX = re.compile(r'(?<![A-Za-z0-9])(?:SRX|ERX|DRX)\d+(?![A-Za-z0-9])', re.I)
+SOURCE_LINE 24 BIO = re.compile(r'(?<![A-Za-z0-9])(?:SAMN|SAMEA|SAMD)\d+(?![A-Za-z0-9])', re.I)
+SOURCE_LINE 25 GSM = re.compile(r'(?<![A-Za-z0-9])GSM\d+(?![A-Za-z0-9])', re.I)
+
+HISTORICAL_LOG_SEARCH
+SEARCH_ROOT_SUMMARY 26_recount3_external_primary_v1 TEXT_FILES_VISITED 579
+SEARCH_ROOT_SUMMARY 27_recount3_final_cert_v1_0_0 TEXT_FILES_VISITED 3
+SEARCH_ROOT_SUMMARY 28_recount3_final_cert_v1_0_1 TEXT_FILES_VISITED 4
+SEARCH_ROOT_SUMMARY 29_recount3_adjudication_20261119 TEXT_FILES_VISITED 5
+SEARCH_ROOT_SUMMARY 31_frozen_execution_contract_audit_v1_1_20261119 TEXT_FILES_VISITED 3
+SEARCH_ROOT_SUMMARY ROOT TEXT_FILES_VISITED 165
+TEXT_FILES_VISITED 759
+LARGE_FILES_SKIPPED 0
+MARKER_CANDIDATES 0
+SEARCH_CAPPED False
+ORIGINAL_RESULTS_AUTHENTICATED NO
+DRP005276_CROSS_ATLAS_INDEPENDENCE NOT_CERTIFIED
+DRP005276_PRETREATMENT NOT_CERTIFIED
+CLINICAL_ADMISSIONS 0
+NO_INDIVIDUAL_SAMPLE_VALUES_PRINTED
+NO_FROZEN_FILES_MODIFIED
+ARCHS4_IDENTITY_LOG_INPUT_PROBE_V1_COMPLETE
