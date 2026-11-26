@@ -9,6 +9,7 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-26)
 
+- `docs/STATUS_20261126_V6_77_STUDY_CLINICAL_TRIAGE.md`: all 77 studies clinically unsigned; next targeted study SRP057793.
 - `docs/STATUS_20261126_V6_PRIMARY_STUDY_PRIORITY.md`: 48 queued primary studies contribute 300/2055 libraries.
 - `docs/STATUS_20261126_SRP185703_CROSSWALK_HOLD.md`: 75 GIST experiments; published clinical subset not accession-linked; no admissions.
 - `docs/STATUS_20261126_SRP185703_JCI_SUPPLEMENT_SCHEMA.md`: JCI supplement verified; clinical crosswalk pending.
