@@ -9,6 +9,7 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-26)
 
+- `docs/STATUS_20261126_SRP185703_UNTREATED_PRIMARY_EVIDENCE.md`: SRP185703 published UPG subgroup; per-experiment crosswalk pending.
 - `docs/STATUS_20261126_SRP185703_PRIMARY2055_RECONCILED.md`: SRP185703 75/75 primary-screen membership; clinical gates unsigned.
 - `docs/STATUS_20261126_SRP185703_MEMBERSHIP_PREFLIGHT.md`: SRP185703 75 Stage41 records; primary-screen check pending.
 - `docs/STATUS_20261126_V6_NEXT_STUDY_QUEUE.md`: 147-study unresolved queue; priority ranking pending.
