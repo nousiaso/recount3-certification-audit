@@ -9,6 +9,8 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-26)
 
+- `docs/STATUS_20261126_DRP005276_ATLAS_GRAPH_DISCOVERY.md`: decoded DRP005276 V5 overlap flags and located historical identity archive; independence unsigned.
+- `diagnostics/20261126_v6_drp005276_atlas_graph_discovery_v1/`: executed file-discovery diagnostic, stdout, hashes and interpretation.
 - `docs/STATUS_20261126_DRP005276_ATLAS_IDENTITY.md`: no direct accession collisions; zero GSM coverage, atlas independence unsigned.
 - `diagnostics/20261126_v6_drp005276_atlas_identity_v1/`: exact executed identity screen, stdout, checksums and interpretation.
 - `docs/STATUS_20261126_DRP005276_S1_COMPLETE_HEADERS.md`: all 18 PLOS S1 headings resolved; patient mapping confirmed, treatment timing unsigned.
