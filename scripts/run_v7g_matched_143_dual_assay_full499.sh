@@ -37,11 +37,13 @@ echo "V7G_RAW_G026_454_RUNS_AND_ARCHS4_143_GSM_PREPARATION_START"
 echo "V7G_FROZEN_W_DUAL_ASSAY_PROJECTION_START"
 "$RSCRIPT" "$PROJ" "$ROOT" "$OUT" 2>&1 | tee "$AUDIT/02_R_projection_stdout.txt"
 cp "$OUT/aggregate_transfer_metrics.tsv" "$AUDIT/aggregate_transfer_metrics.tsv"
+cp "$OUT/aggregate_normalization_sensitivity.tsv" "$AUDIT/aggregate_normalization_sensitivity.tsv"
+cp "$OUT/aggregate_nine_gene_sensitivity.tsv" "$AUDIT/aggregate_nine_gene_sensitivity.tsv"
 cp "$OUT/input_provenance.json" "$AUDIT/input_provenance_aggregate.json"
 
 (
   cd "$AUDIT"
-  sha256sum "$PREP" "$PROJ" *.txt aggregate_transfer_metrics.tsv input_provenance_aggregate.json > SHA256SUMS.txt
+  sha256sum "$PREP" "$PROJ" *.txt aggregate_*.tsv input_provenance_aggregate.json > SHA256SUMS.txt
   sha256sum -c SHA256SUMS.txt
 )
 echo "LOCAL_SPECIMEN_LINKED_RESULTS $OUT"
