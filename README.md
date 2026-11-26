@@ -9,6 +9,8 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-26)
 
+- `docs/STATUS_20261126_ARCHS4_IDENTITY_INPUT_SCHEMA.md`: source inputs found; Stage41 103 versus QC retained 83; Parquet reader unavailable.
+- `diagnostics/20261126_v6_archs4_identity_input_schema_v1/`: executed source input availability/schema audit and hashes.
 - `docs/STATUS_20261126_ARCHS4_IDENTITY_LOG_SEARCH.md`: 759-file historical log search; no original execution marker recovered.
 - `diagnostics/20261126_v6_archs4_identity_log_input_probe_v1/`: executed bounded search and hashes.
 - `docs/STATUS_20261126_ARCHS4_IDENTITY_EXECUTION_LOCATOR.md`: original identity script verified; same-GEO metadata is not independent evidence; original stdout pending.
