@@ -95,7 +95,7 @@ for delim,label in (("\t","TAB"),(",","COMMA"),(" ","SPACE")):
         print("TAB_FIRST_LINE_BRIDGE_RUN_OVERLAP",len(hrun&wanted))
         print("TAB_FIRST_LINE_BRIDGE_RUN_MISSING",len(wanted-hrun))
         print("TAB_FIRST_LINE_NON_BRIDGE_RUNS",len(hrun-wanted))
-        print("TAB_FIRST_LINE_DUPLICATED_RUN_LABELS",sum(v-1 for v in Counter(names).values() if v>1 and RUN.fullmatch(next(iter([k for k in Counter(names) if k in hrun]),"")))) if False else sum(v-1 for k,v in Counter(names).items() if v>1 and RUN.fullmatch(k)))
+        print("TAB_FIRST_LINE_DUPLICATED_RUN_LABELS",sum(v-1 for k,v in Counter(names).items() if v>1 and RUN.fullmatch(k)))
         print("TAB_FIRST_COLUMN_GENE_PATTERN_ROWS_2_TO_20",sum(bool(ENSG.match(split_line(x,"\t")[0].strip().strip('"'))) for x in lines[1:]))
         print("TAB_DATA_ROW_WIDTH_MATCH_FIRST_LINE",sum(len(split_line(x,"\t"))==len(header) for x in lines[1:]))
         if len(hrun & wanted)==454:
