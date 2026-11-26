@@ -9,6 +9,7 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-26)
 
+- `docs/STATUS_20261126_DRP005276_CLINICAL_SOURCE_CONTENT.md`: V2/V3 treatment review text found; source interpretation pending.
 - `docs/STATUS_20261126_DRP005276_NATIVE_METADATA_MANIFEST.md`: native metadata and historical clinical ZIP inventory.
 - `docs/STATUS_20261126_DRP005276_ORIGINAL_METADATA_LOCATOR.md`: historical metadata files located; contents not yet assessed.
 - `docs/STATUS_20261126_DRP005276_CLINICAL_EVIDENCE_TRIAGE.md`: Stage41 clinical pointers absent; treatment and patient independence unresolved.
