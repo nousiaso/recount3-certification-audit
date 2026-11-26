@@ -9,6 +9,8 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-26)
 
+- `docs/STATUS_20261126_DRP005276_IDENTITY_ZIP_SCHEMA.md`: original ZIP contains code, README and checksums only; identity results must be recovered.
+- `diagnostics/20261126_v6_drp005276_identity_archive_schema_v1/`: executed ZIP and old-contract schema diagnostic with checksums.
 - `docs/STATUS_20261126_DRP005276_ATLAS_GRAPH_DISCOVERY.md`: decoded DRP005276 V5 overlap flags and located historical identity archive; independence unsigned.
 - `diagnostics/20261126_v6_drp005276_atlas_graph_discovery_v1/`: executed file-discovery diagnostic, stdout, hashes and interpretation.
 - `docs/STATUS_20261126_DRP005276_ATLAS_IDENTITY.md`: no direct accession collisions; zero GSM coverage, atlas independence unsigned.
