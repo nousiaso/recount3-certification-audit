@@ -9,6 +9,7 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-26)
 
+- `docs/STATUS_20261126_SRP185703_CROSSWALK_HOLD.md`: 75 GIST experiments; published clinical subset not accession-linked; no admissions.
 - `docs/STATUS_20261126_SRP185703_JCI_SUPPLEMENT_SCHEMA.md`: JCI supplement verified; clinical crosswalk pending.
 - `docs/STATUS_20261126_SRP185703_UNTREATED_PRIMARY_EVIDENCE.md`: SRP185703 published UPG subgroup; per-experiment crosswalk pending.
 - `docs/STATUS_20261126_SRP185703_PRIMARY2055_RECONCILED.md`: SRP185703 75/75 primary-screen membership; clinical gates unsigned.

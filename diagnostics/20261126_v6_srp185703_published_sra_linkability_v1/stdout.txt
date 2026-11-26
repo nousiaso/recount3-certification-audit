@@ -1,0 +1,54 @@
+SRP185703_PUBLISHED_SRA_LINKABILITY_V1
+JCI_WORKBOOK_HASH_PASS
+V5_PRIMARY_MEMBERSHIP_PASS 75
+SOURCE_FIELD library_id MATCHABLE_VALUES 75
+SOURCE_FIELD source_SRA_sample_acc MATCHABLE_VALUES 75
+SOURCE_FIELD biosample MATCHABLE_VALUES 75
+SOURCE_FIELD v5_original_sra_sample_name MATCHABLE_VALUES 4
+SHEET Supplemental Table 1 POPULATED_CELLS 70
+EXACT_MATCH Supplemental Table 1 library_id 0
+EXACT_MATCH Supplemental Table 1 source_SRA_sample_acc 0
+EXACT_MATCH Supplemental Table 1 biosample 0
+EXACT_MATCH Supplemental Table 1 v5_original_sra_sample_name 0
+SHEET Supplemental Table 2 POPULATED_CELLS 139
+EXACT_MATCH Supplemental Table 2 library_id 0
+EXACT_MATCH Supplemental Table 2 source_SRA_sample_acc 0
+EXACT_MATCH Supplemental Table 2 biosample 0
+EXACT_MATCH Supplemental Table 2 v5_original_sra_sample_name 0
+SHEET Supplemental Table 3 POPULATED_CELLS 74
+EXACT_MATCH Supplemental Table 3 library_id 0
+EXACT_MATCH Supplemental Table 3 source_SRA_sample_acc 0
+EXACT_MATCH Supplemental Table 3 biosample 0
+EXACT_MATCH Supplemental Table 3 v5_original_sra_sample_name 0
+SHEET Supplemental Table 4 POPULATED_CELLS 59
+EXACT_MATCH Supplemental Table 4 library_id 0
+EXACT_MATCH Supplemental Table 4 source_SRA_sample_acc 0
+EXACT_MATCH Supplemental Table 4 biosample 0
+EXACT_MATCH Supplemental Table 4 v5_original_sra_sample_name 0
+SHEET Supplemental Table 5 POPULATED_CELLS 120
+EXACT_MATCH Supplemental Table 5 library_id 0
+EXACT_MATCH Supplemental Table 5 source_SRA_sample_acc 0
+EXACT_MATCH Supplemental Table 5 biosample 0
+EXACT_MATCH Supplemental Table 5 v5_original_sra_sample_name 0
+SHEET Supplemental Table 6 POPULATED_CELLS 1009
+EXACT_MATCH Supplemental Table 6 library_id 0
+EXACT_MATCH Supplemental Table 6 source_SRA_sample_acc 0
+EXACT_MATCH Supplemental Table 6 biosample 0
+EXACT_MATCH Supplemental Table 6 v5_original_sra_sample_name 0
+SHEET Supplemental Table 7 POPULATED_CELLS 118
+EXACT_MATCH Supplemental Table 7 library_id 0
+EXACT_MATCH Supplemental Table 7 source_SRA_sample_acc 0
+EXACT_MATCH Supplemental Table 7 biosample 0
+EXACT_MATCH Supplemental Table 7 v5_original_sra_sample_name 0
+NATIVE_METADATA_DIR_PRESENT True
+NATIVE_METADATA_FILES 5
+NATIVE_FILE sra.recount_pred.SRP185703.MD.gz ROWS 75 CLINICAL_HIT_COLUMNS 0
+NATIVE_FILE sra.recount_project.SRP185703.MD.gz ROWS 75 CLINICAL_HIT_COLUMNS 0
+NATIVE_FILE sra.recount_qc.SRP185703.MD.gz ROWS 75 CLINICAL_HIT_COLUMNS 0
+NATIVE_FILE sra.recount_seq_qc.SRP185703.MD.gz ROWS 75 CLINICAL_HIT_COLUMNS 0
+NATIVE_FILE sra.sra.SRP185703.MD.gz ROWS 75 CLINICAL_HIT_COLUMNS 0
+EXACT_MATCHES_ARE_LINK_CANDIDATES_NOT_CLINICAL_CERTIFICATION
+NO_INDIVIDUAL_IDENTIFIERS_PRINTED
+PRETREATMENT_UNSIGNED
+CLINICAL_ADMISSIONS 0
+SRP185703_PUBLISHED_SRA_LINKABILITY_V1_COMPLETE
