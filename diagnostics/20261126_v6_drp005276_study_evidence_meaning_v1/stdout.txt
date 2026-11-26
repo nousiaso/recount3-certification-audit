@@ -1,0 +1,38 @@
+DRP005276_STUDY_EVIDENCE_MEANING_V1
+
+SOURCE V2
+STUDY_ROWS 1
+ALL_FIELD_COUNT 61
+SOURCE_AND_CLINICAL_FIELD_NAMES STUDY_EVIDENCE_URL;on_or_after_treatment_libraries;publication_doi;libraries_source;runs_source;patient_keys_source;biosamples_source;collection_procedures;full_source_curation_comment;study_level_source_verification;required_evidence;qa_source_only_experiments;qa_missing_pretreatment;public_source_review_status;public_source_review_date;public_source_url;public_source_tissue_evidence;public_source_treatment_evidence;public_source_patient_evidence;public_source_scope;review_action_from_publication;review_caveat;SOURCE_VERIFIED_SRX_MEMBERSHIP
+FIELD on_or_after_treatment_libraries VALUE 0 SHA256 5feceb66ffc86f38
+FIELD collection_procedures VALUE Formalin-fixed paraffin-embedded and frozen. SHA256 1db621c58701564c
+FIELD qa_missing_pretreatment VALUE 103 SHA256 454f63ac30c83229
+FIELD public_source_treatment_evidence VALUE Pretreatment status remains unverified for screened SRXs SHA256 fd145aac9c03ca57
+FIELD full_source_curation_comment VALUE The publication associated with the study (DOI: 10.1371/journal.pone.0220173) was found because its title matched the title associated with the BioProject code of the study (PRJDB7980). The "subject_identifier_numeric_id" was derived from the "isolate" field in the Recount3 metadata file associated with the study since the values of the field matched the values in the "patient ID" column in Table S1 in the publication. Data for the "sample_organ_or_tissue", "subject_demographics_age_years", "sub [TRUNCATED] SHA256 81c21ba3043e9fd5
+FIELD review_action_from_publication VALUE HOLD_PRETREATMENT_AND_ASSAY_CONTEXT SHA256 47df08d54c653623
+FIELD review_caveat VALUE Avoid treating FFPE/frozen as equivalent without per-sample sample preparation evidence. SHA256 454ec2c69ba51809
+FIELD required_evidence VALUE Specimen pathology and tumour/normal status; protocol and whole-tissue representation; BioSample/GSM/SRA crosswalk; patient identity/repeated sampling; processing and expression QC SHA256 137535bf43a2e786
+
+SOURCE V3
+STUDY_ROWS 1
+ALL_FIELD_COUNT 61
+SOURCE_AND_CLINICAL_FIELD_NAMES STUDY_EVIDENCE_URL;on_or_after_treatment_libraries;publication_doi;libraries_source;runs_source;patient_keys_source;biosamples_source;collection_procedures;full_source_curation_comment;study_level_source_verification;required_evidence;qa_source_only_experiments;qa_missing_pretreatment;public_source_review_status;public_source_review_date;public_source_url;public_source_tissue_evidence;public_source_treatment_evidence;public_source_patient_evidence;public_source_scope;review_action_from_publication;review_caveat;SOURCE_VERIFIED_SRX_MEMBERSHIP
+FIELD on_or_after_treatment_libraries VALUE 0 SHA256 5feceb66ffc86f38
+FIELD collection_procedures VALUE Formalin-fixed paraffin-embedded and frozen. SHA256 1db621c58701564c
+FIELD qa_missing_pretreatment VALUE 103 SHA256 454f63ac30c83229
+FIELD public_source_treatment_evidence VALUE Pretreatment status remains unverified for screened SRXs SHA256 fd145aac9c03ca57
+FIELD full_source_curation_comment VALUE The publication associated with the study (DOI: 10.1371/journal.pone.0220173) was found because its title matched the title associated with the BioProject code of the study (PRJDB7980). The "subject_identifier_numeric_id" was derived from the "isolate" field in the Recount3 metadata file associated with the study since the values of the field matched the values in the "patient ID" column in Table S1 in the publication. Data for the "sample_organ_or_tissue", "subject_demographics_age_years", "sub [TRUNCATED] SHA256 81c21ba3043e9fd5
+FIELD review_action_from_publication VALUE HOLD_PRETREATMENT_AND_ASSAY_CONTEXT SHA256 47df08d54c653623
+FIELD review_caveat VALUE Avoid treating FFPE/frozen as equivalent without per-sample sample preparation evidence. SHA256 454ec2c69ba51809
+FIELD required_evidence VALUE Specimen pathology and tumour/normal status; protocol and whole-tissue representation; BioSample/GSM/SRA crosswalk; patient identity/repeated sampling; processing and expression QC SHA256 137535bf43a2e786
+V3_JSON_STUDY_MATCH_PATHS 1
+JSON_STUDY_PATH $.verified_studies[4].study
+JSON_STUDY_PATHS_NOT_PRINTED 0
+STUDY_LEVEL_REVIEW_TEXT_ONLY
+NO_INDIVIDUAL_PATIENT_ROWS_PRINTED
+DERIVED_REVIEW_NOT_INDEPENDENT_SOURCE_PROOF
+PATIENT_INDEPENDENCE_UNSIGNED
+PRETREATMENT_UNSIGNED
+CLINICAL_ADMISSIONS 0
+NO_SOURCE_FILES_MODIFIED
+DRP005276_STUDY_EVIDENCE_MEANING_V1_COMPLETE
