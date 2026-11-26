@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # V7G real dual-assay projection: child Bash process, not source.
-# Prefer dispatch via sbatch scripts/slurm_v7g_matched_143_dual_assay.sbatch
+# Prefer dispatch via sbatch scripts/slurm_v7g_matched_143_dual_assay_full499.sbatch
 set -euo pipefail
 umask 077
 export OPENBLAS_NUM_THREADS=1
@@ -28,7 +28,7 @@ for name in ("h5py","numpy","pandas"):
         raise SystemExit("MISSING_PYTHON_DEPENDENCY "+name)
 print("V7G_PYTHON_SYNTAX_AND_DEPENDENCIES_PASS")
 PY
-"$RSCRIPT" -e 'parse(file=commandArgs(trailingOnly=TRUE)[[1]]);cat("V7G_R_SYNTAX_PASS\n")' "$PROJ"
+"$RSCRIPT" -e 'invisible(parse(file=commandArgs(trailingOnly=TRUE)[[1]]));cat("V7G_R_SYNTAX_PASS\n")' "$PROJ"
 "$RSCRIPT" -e 'stopifnot(requireNamespace("SpatialEcoTyper",quietly=TRUE), requireNamespace("NMF",quietly=TRUE), requireNamespace("data.table",quietly=TRUE));cat("V7G_R_LIBRARIES_PASS\n")'
 mkdir -p "$AUDIT"
 
