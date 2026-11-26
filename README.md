@@ -9,6 +9,7 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-26)
 
+- `docs/STATUS_20261126_DRP005276_ORIGINAL_METADATA_LOCATOR.md`: historical metadata files located; contents not yet assessed.
 - `docs/STATUS_20261126_DRP005276_CLINICAL_EVIDENCE_TRIAGE.md`: Stage41 clinical pointers absent; treatment and patient independence unresolved.
 - `docs/STATUS_20261126_DRP005276_ARCHS4_EXACT_ACCESSION_SCREEN.md`: 9,465/9,465 atlas accession mapping; DRP005276 zero exact overlaps in 83 retained; patient independence UNSIGNED.
 - Membership, GEO coverage and exact accession-join diagnostics archived with original stdout checksums.
