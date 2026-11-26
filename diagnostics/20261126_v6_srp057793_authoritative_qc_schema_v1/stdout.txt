@@ -1,0 +1,66 @@
+SRP057793_AUTHORITATIVE_QC_SCHEMA_V1
+SOURCE_EXPERIMENTS 149
+HELD_EXPERIMENTS 8
+RETAINED_EXPERIMENTS 140
+SOURCE_ONLY_EXPERIMENTS 1
+
+FILE LIBRARY_QC_ALL
+PRESENT True
+ROWS 3639
+FIELDS 13
+COLUMN_NAMES library_id;study;patient_key;patient_key_basis;biosample;cancer;n_runs_expected;n_runs_expression_verified;sum_technical_run_coverage_bp_DESCRIPTIVE;min_run_n_genes_gt0;max_run_n_genes_gt0;run_count_status;not_collapsed
+EXACT_IDENTIFIER_COLUMN library_id SOURCE 148 HELD 8 RETAINED 140 SOURCE_ONLY 0
+EXACT_ID_COLUMNS 1
+TOTAL_SOURCE_ID_COVERAGE 148
+TOTAL_HELD_ID_COVERAGE 8
+TOTAL_SOURCE_ONLY_ID_COVERAGE 0
+QC_REASON_FIELD_CANDIDATES sum_technical_run_coverage_bp_DESCRIPTIVE
+QC_FIELD_COVERAGE sum_technical_run_coverage_bp_DESCRIPTIVE HELD_MATCHED_ROWS 8 RETAINED_MATCHED_ROWS 140
+
+FILE RUN_QC_ALL
+PRESENT True
+ROWS 4166
+FIELDS 13
+COLUMN_NAMES study;cancer;library_id;run_id;biosample;n_genes_in_source;gene_body_coverage_bp;n_genes_coverage_gt0;fraction_genes_detected;max_single_gene_coverage_bp;basic_expression_flag;pred_metadata_status;gene_order_sha256
+EXACT_IDENTIFIER_COLUMN library_id SOURCE 148 HELD 8 RETAINED 140 SOURCE_ONLY 0
+EXACT_ID_COLUMNS 1
+TOTAL_SOURCE_ID_COVERAGE 148
+TOTAL_HELD_ID_COVERAGE 8
+TOTAL_SOURCE_ONLY_ID_COVERAGE 0
+QC_REASON_FIELD_CANDIDATES 
+
+FILE STUDY_RUN_QC
+PRESENT True
+ROWS 148
+FIELDS 13
+COLUMN_NAMES study;cancer;library_id;run_id;biosample;n_genes_in_source;gene_body_coverage_bp;n_genes_coverage_gt0;fraction_genes_detected;max_single_gene_coverage_bp;basic_expression_flag;pred_metadata_status;gene_order_sha256
+EXACT_IDENTIFIER_COLUMN library_id SOURCE 148 HELD 8 RETAINED 140 SOURCE_ONLY 0
+EXACT_ID_COLUMNS 1
+TOTAL_SOURCE_ID_COVERAGE 148
+TOTAL_HELD_ID_COVERAGE 8
+TOTAL_SOURCE_ONLY_ID_COVERAGE 0
+QC_REASON_FIELD_CANDIDATES 
+
+FILE RUN_HOLD_QUEUE
+PRESENT True
+ROWS 409
+FIELDS 22
+COLUMN_NAMES study;cancer;library_id;run_id;biosample;gene_detection_fraction;top10_coverage_fraction;average_mapped_length_bp;gene_sum_coverage_bp;automatic_proposal;decision;reason_codes;evidence_reference;reviewer;review_note;n_comparable_pairs;min_within_library_r;median_within_library_r;triage_priority;proposed_action_not_applied;scientific_rationale;source_study_url
+EXACT_IDENTIFIER_COLUMN library_id SOURCE 8 HELD 8 RETAINED 0 SOURCE_ONLY 0
+EXACT_ID_COLUMNS 1
+TOTAL_SOURCE_ID_COVERAGE 8
+TOTAL_HELD_ID_COVERAGE 8
+TOTAL_SOURCE_ONLY_ID_COVERAGE 0
+QC_REASON_FIELD_CANDIDATES reason_codes
+QC_FIELD_COVERAGE reason_codes HELD_MATCHED_ROWS 8 RETAINED_MATCHED_ROWS 0
+
+STUDY_QC_JSON_PRESENT True
+JSON_ROOT_TYPE dict
+JSON_TOP_LEVEL_KEYS gene_order_sha256;metadata_issues;metadata_status;n_genes;n_selected_runs;n_source_runs;note;pred_status;source_gene_sha256;source_xlsx_sha256;status;study;timestamp_utc;version;zero_coverage_runs
+
+NO_INDIVIDUAL_ACCESSIONS_PRINTED
+QC_REASONS_NOT_ASSIGNED_WITHOUT_SOURCE_JOIN
+NO_FROZEN_FILES_MODIFIED
+PATIENT_INDEPENDENCE_UNSIGNED
+CLINICAL_ADMISSIONS 0
+SRP057793_AUTHORITATIVE_QC_SCHEMA_V1_COMPLETE

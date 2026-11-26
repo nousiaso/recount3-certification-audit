@@ -9,6 +9,7 @@ provided have **not** been invented or declared archived.
 
 ## Latest V6 checkpoint (2026-11-26)
 
+- `docs/STATUS_20261126_SRP057793_AUTHORITATIVE_QC_SCHEMA.md`: SRP057793 eight held experiments exactly join to the original QC reason queue.
 - `docs/STATUS_20261126_SRP057793_EXCLUSION_BIOSAMPLE.md`: SRP057793 140 nonheld exact V5 match; one source-only record and eight hold reasons pending.
 - `docs/STATUS_20261126_SRP057793_COHORT_MEMBERSHIP.md`: SRP057793 149→148→140 membership; exclusions pending.
 - `docs/STATUS_20261126_V6_77_STUDY_CLINICAL_TRIAGE.md`: all 77 studies clinically unsigned; next targeted study SRP057793.
