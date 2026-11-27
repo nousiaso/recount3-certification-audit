@@ -7,6 +7,13 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7N executed: four lost W features penalize original H; V7O controlled KL test next (2026-11-27)
+
+- **V7N PASS:** all four lost W features are exactly zero across the 143 matching ARCHS4 specimens, yet each has nonzero W loadings. At archived original H, their summed KL penalty is median **1.8961**, representing median **1.397%** and maximum **2.466%** of the original full 500-feature KL objective (median full KL **137.630**). This is **not** a percentage of ecotype H/fraction error and cannot establish causation by itself.
+- [Actual V7N results and V7O controlled experiment](docs/STATUS_20261127_V7N_EXECUTED_4_FEATURE_KL_AND_V7O_EXPERIMENT.md).
+- **Next controlled numerical audit:** `sbatch scripts/slurm_v7o_143_frozen_ARCHS4_500_vs_496_KL.sbatch` after pulling main. It uses only the **original ARCHS4 143 frozen Z/H**, calculates original official 143-context H again, then compares mathematically converged fixed-W KL solutions for 500 versus 496 features with **two independent initial values** per sample. This **secondary numerical optimizer is NOT the original official implementation**, and the outcome will not directly validate recount3 transfer.
+- Previous V7J STOP, V7H2 original replay PASS and all frozen source states are preserved; recount3 clinical admissions remain **0**.
+
 ## V7M executed: original sample-context dependence verified (2026-11-27)
 
 - Actual V7M original ARCHS4 test: `DeconvoluteSE` automatic log transformation **OFF in both 9,465 and 143 contexts**. Full cohort retains **500 W features**, but 143 matched GSMs retain **496**, losing `F12__pos`, `JUND__pos`, `PSMA3__neg`, `SURF4__neg`. **26** nonvariable rows across the full posneg expansion are *not* 26 W rows.
