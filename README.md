@@ -7,6 +7,11 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7P component-level agreement reviewed — single-study scope (2026-11-27)
+
+- All ten CPM component Pearson correlations >0.99, but systematic signed biases remain (SE6 median +0.01016). Three dominant disagreements occur in a group with small median archived margin. Four dominant classes absent.
+- All 143 pairs come from SRP074349 (verified V7I/V7J source selection); pooled agreement is not multi-study validation. [Component review and coverage limits](docs/STATUS_20261127_V7P_COMPONENT_AGREEMENT_SINGLE_STUDY_SCOPE.md). Next: exact frozen metadata/bridge census and assess feasible additional controls; no projection rerun, clinical admissions 0.
+
 ## V7P v1.0.1 shellfix1 executed — computational FULL PASS (2026-11-27)
 
 - Job 13805260 COMPLETED 0:0 in 92 s; all four aggregate tables and seven checksum entries verified. All 143 pairs, 499 genes and 500 W rows retained. Original archive unchanged.
