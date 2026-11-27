@@ -7,6 +7,14 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7O executed PASS — 500-vs-496 features explain original projection drift (2026-11-27)
+
+- **V7O executed:** all **572** fixed-W KL optimizations converged, with two-start maximum objective-relative discrepancy **1.56e-08** and maximum final fraction TVD between starts **5.81e-05**.
+- **Feature-universe effect (controlled 500 vs 496):** median fraction TVD **0.0075865**, maximum **0.0095901**. This closely reproduces the previous original-9,465 versus isolated-143 official projection difference: median **0.0075874**, maximum **0.0095906**.
+- Original archived 500-feature H versus controlled full-500 optimizer: median TVD **0**, maximum **0.0001515**. Isolated official 143 H versus controlled reduced-496 optimizer: median **0.0000058**, maximum **0.0001724**. **Strong numerical evidence** that the four missing nonvariable W rows—not primarily the RNG seed or stopping rule—explain the observed context discrepancy. Do not interpret as exact per-specimen causal decomposition.
+- [Executed V7O results](docs/STATUS_20261127_V7O_EXECUTED_500_VS_496_CAUSE_CONFIRMED.md). The isolated-143 original-solver invariance requirement in V7J is now known to be inappropriate for 500-vs-496 different feature sets; retain V7J failed record, **do not overwrite or silently relax it**.
+- **Next major task: one versioned paired ARCHS4–recount3 assay calibration using the complete frozen 500 directional features for both assays and archived 9,465-sample ARCHS4 reference H**, with the independent fixed-W optimizer clearly labeled and validation checks. Reuse successful V7J extraction; do not rerun 454 SRR streaming. Clinical admissions **0**.
+
 ## V7N executed: four lost W features penalize original H; V7O controlled KL test next (2026-11-27)
 
 - **V7N PASS:** all four lost W features are exactly zero across the 143 matching ARCHS4 specimens, yet each has nonzero W loadings. At archived original H, their summed KL penalty is median **1.8961**, representing median **1.397%** and maximum **2.466%** of the original full 500-feature KL objective (median full KL **137.630**). This is **not** a percentage of ecotype H/fraction error and cannot establish causation by itself.
