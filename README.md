@@ -7,6 +7,11 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7S two-study technical calibration complete (2026-11-27)
+
+- V7R job 13805281 COMPLETED 0:0; both audits and V7S review PASS. All 165 matched controls calibrated, CPM pooled median TVD 0.02312456, max 0.04921636, dominant agreement 161/165. Component bias signs match 9/10 CPM, 10/10 TMM, 5/10 UQ.
+- [Final technical calibration decision and limitations](docs/STATUS_20261127_V7S_TWO_STUDY_TECHNICAL_CALIBRATION_COMPLETE.md). Close matched technical investigation; no more projection reruns. Return to clinical certification at SRP057793 exact QC reason interpretation. No clinical admissions; original aggregate bytes remain local pending archival.
+
 ## V7R prostate result generation PASS — all 165 matched controls calibrated (2026-11-27)
 
 - Prostate 22 pairs, CPM median TVD 0.0335757, 21/22 dominant agreement. All four aggregates and 12 final checksum entries PASS, private checkpoint saved. SLURM completion record and final stdout markers still to verify. Combined CPM 161/165 descriptive agreement across two studies.
