@@ -7,6 +7,18 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## Current checkpoint — V7I PASS, recount3 calibration not yet run (2026-11-27)
+
+**Frozen-source and numerical reproducibility: PASS. Clinical validation/admission: HOLD (0 admissions).**
+
+- **V7H2 original ARCHS4 replay PASS:** 9,465 original atlas samples, 499 W genes, 500 directional features, and CPM/TMM-CPM/UQ-CPM. The largest frozen-Z discrepancy was `4.44e-14`, the largest raw-H discrepancy `4.44e-15`, and dominant-component concordance was **100%** in every branch. See [executed replay results](docs/STATUS_20261127_V7H2_ARCHS4_EXACT_NUMERICAL_REPLAY_PASS.md).
+- **V7I exact-input preflight PASS:** 143 matching SRX experiments, 143 GSMs, 143 BioSamples, 454 SRR runs. Original G026 matrix contains these runs; G026 source map has 63,856 genes, all **499 model genes** resolve in both assays (0 recount3 alias resolutions, 7 ARCHS4). The bridge, map and original G026 SHA256s match V7G's exact source expectations. See [executed V7I audit](docs/STATUS_20261127_V7I_EXECUTED_BRIDGE_LOCK_AND_TRANSFER_NEXT.md).
+- **Crucial update: all 143/143 bridge GSMs are in the original 9,465-sample frozen atlas.** The exact archived ARCHS4 Stage09 normalization, Stage10 scaled-Z/raw-H and scores must be the comparison baseline. Do **not** re-estimate ARCHS4 TMM/UQ on 143 specimens.
+- **V7G v1 remains HELD, superseded in design, NOT an executed or approved assay-transfer result.** A new version must reconcile authentic Stage10 W-gene harmonization, directional-feature variance gating, adequacy and frozen-ARCHS4 baseline equality. recount3 G026 is gene-body base-pair coverage, not ARCHS4 Kallisto pseudocounts; paired assay equivalence remains unproven.
+- Prior V7C/H failures and their versioned audits are preserved; the frozen ARCHS4 source and cohort certifications have not been modified. Zero clinical admissions and no FUSCC release.
+
+**Next scientific step:** implement and check a new immutable matched-assay transfer version, explicitly anchored against the original frozen 143-GSM ARCHS4 outputs. Keep clinical specimen review separate.
+
 ## Latest V6 checkpoint (2026-11-26)
 
 - `docs/STATUS_20261126_SRP057793_AUTHORITATIVE_QC_SCHEMA.md`: SRP057793 eight held experiments exactly join to the original QC reason queue.
