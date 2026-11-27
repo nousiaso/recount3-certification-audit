@@ -41,6 +41,7 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Clinical studies — SRP057793 (current focus)
 
+- [Protocol and reciprocal pairing executed (27 Nov)](STATUS_20261127_SRP057793_PROTOCOL_PAIRING_EXECUTED.md)
 - [Exact GEO crosswalk PASS (27 Nov)](STATUS_20261127_SRP057793_GEO_EXACT_CROSSWALK_PASS.md)
 - [Native categories verified (27 Nov)](STATUS_20261127_SRP057793_NATIVE_CATEGORIES_VERIFIED.md)
 - [Native evidence and archival inventory (27 Nov)](STATUS_20261127_SRP057793_NATIVE_EVIDENCE_AND_ARCHIVAL_INVENTORY.md)
