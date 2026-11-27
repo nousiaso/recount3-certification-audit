@@ -44,7 +44,9 @@ Sources: [historical counts](STATUS_20261123.md), [clinical triage](STATUS_20261
 
 Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIVE_OUTLIER, HOLD_REASON_NOT_YET_DECISIVE. Keep the holds; these are not proven permanent failures or acceptable samples. Source-only record remains excluded. All 140 candidates lack populated proposed patient groups and patient/pretreatment evidence pointers. Populated certification flags have not yet been interpreted from their actual values.
 
-**Next diagnostic:** inspect aggregate actual values of clinical status flags and native study source metadata; establish exact specimen and patient identity, pretreatment and assay evidence, and atlas independence. Do not admit or reinstate any record based on cardinalities or outlier ranges. [Latest evidence](STATUS_20261127_SRP057793_HISTORICAL_HOLD_REASONS_RESOLVED.md).
+**Latest native evidence:** actual values confirm all five clinical certification gates are NO for 140/140; no explicit patient IDs or pretreatment proof. All 140 match native SRA and have unique RNA-seq IDs, seven tissue categories and nine disease categories. SRP057793 links to sarcoma BioProject PRJNA282597 and GEO GSE71119/GSE75885; published subset membership needs exact crosswalk. [Evidence and archival inventory](STATUS_20261127_SRP057793_NATIVE_EVIDENCE_AND_ARCHIVAL_INVENTORY.md).
+
+**Next diagnostic:** inspect actual aggregate tissue/disease labels, library selection, and RNA-seq ID relations using the [read-only native categories script](../tools/v8_srp057793_native_clinical_categories_READONLY_v1.py); then establish exact GEO/publication specimen crosswalk, patient and treatment evidence. All five gates remain unsigned. Do not admit or reinstate any record based on cardinalities or outlier ranges. [Latest evidence](STATUS_20261127_SRP057793_HISTORICAL_HOLD_REASONS_RESOLVED.md).
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
@@ -60,4 +62,4 @@ Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md),
 
 ## Priorities
 
-First archive the remaining verified original aggregate execution records without rerunning. Then resume targeted clinical review, consolidate evidence across the 77 screen studies, resolve the broader unresolved source universe, and build one versioned end-to-end release workflow. An administrative candidate is not an admission. No inference on the external cohort before signoff.
+The local inventory identified 24 untracked V7 audit directories and two untracked V6 implementations. Archive verified aggregate tables first, review remaining logs and scripts before staging, without rerunning. Then resume targeted clinical review, consolidate evidence across the 77 screen studies, resolve the broader unresolved source universe, and build one versioned end-to-end release workflow. An administrative candidate is not an admission. No inference on the external cohort before signoff.
