@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next clinical diagnostic: [native categories review](../tools/v8_srp057793_native_clinical_categories_READONLY_v1.py) (read-only; not yet executed). Actual status flags are NO; inspect tissue/disease and library labels, then exact GEO/publication crosswalk. The configured V7R calibration is for the two known matched control studies, not an approved arbitrary external-cohort projection/release tool.
+Next clinical diagnostic: [exact GEO clinical census](../tools/v8_srp057793_geo_exact_clinical_READONLY_v1.py) (read-only; not yet executed). Native categories reviewed; obtain original family SOFT files locally and pass both paths explicitly. No clinical release.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 

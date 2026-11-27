@@ -46,7 +46,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Latest native evidence:** actual values confirm all five clinical certification gates are NO for 140/140; no explicit patient IDs or pretreatment proof. All 140 match native SRA and have unique RNA-seq IDs, seven tissue categories and nine disease categories. SRP057793 links to sarcoma BioProject PRJNA282597 and GEO GSE71119/GSE75885; published subset membership needs exact crosswalk. [Evidence and archival inventory](STATUS_20261127_SRP057793_NATIVE_EVIDENCE_AND_ARCHIVAL_INVENTORY.md).
 
-**Next diagnostic:** inspect actual aggregate tissue/disease labels, library selection, and RNA-seq ID relations using the [read-only native categories script](../tools/v8_srp057793_native_clinical_categories_READONLY_v1.py); then establish exact GEO/publication specimen crosswalk, patient and treatment evidence. All five gates remain unsigned. Do not admit or reinstate any record based on cardinalities or outlier ranges. [Latest evidence](STATUS_20261127_SRP057793_HISTORICAL_HOLD_REASONS_RESOLVED.md).
+**Native categories verified:** 140 frozen sarcoma tumours, PolyA paired RNA-seq, HiSeq 2000; nine histologies and seven anatomical labels, unique specimen IDs not patient IDs. [Executed evidence](STATUS_20261127_SRP057793_NATIVE_CATEGORIES_VERIFIED.md).
+
+**Next diagnostic:** exact GEO SRX crosswalk across GSE71119/GSE75885 and treatment-protocol evidence census using [read-only script](../tools/v8_srp057793_geo_exact_clinical_READONLY_v1.py). All clinical gates remain unsigned.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
