@@ -7,6 +7,11 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## Clinical certification resumed — SRP057793 hold reasons reviewed (2026-11-27)
+
+- All eight historical holds are WITHIN_STUDY_OUTLIER / REVIEW_QC / HOLD, not decisive permanent failures. Preserve 8 holds and 140 primary-screen candidates; patient and pretreatment evidence pointers absent. [Current clinical audit](docs/STATUS_20261127_SRP057793_HISTORICAL_HOLD_REASONS_RESOLVED.md).
+- Technical calibration V7S closed. Clinical admissions 0. Original cluster-generated V7 audit bytes not all archived in GitHub; documentation and executable code are committed. Review and archive aggregate-only evidence separately.
+
 ## V7S two-study technical calibration complete (2026-11-27)
 
 - V7R job 13805281 COMPLETED 0:0; both audits and V7S review PASS. All 165 matched controls calibrated, CPM pooled median TVD 0.02312456, max 0.04921636, dominant agreement 161/165. Component bias signs match 9/10 CPM, 10/10 TMM, 5/10 UQ.
