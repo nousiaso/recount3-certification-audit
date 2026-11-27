@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next clinical diagnostic: [exact GEO clinical census](../tools/v8_srp057793_geo_exact_clinical_READONLY_v1.py) (read-only; not yet executed). Native categories reviewed; obtain original family SOFT files locally and pass both paths explicitly. No clinical release.
+Next clinical diagnostic: [GEO protocol and reciprocal microarray pairing review](../tools/v8_srp057793_geo_protocol_pairing_READONLY_v1.py) (not yet executed). Reuse the locked GSE71119/GSE75885 files and acquire GSE71118 locally; pass the three paths in that order. No clinical release.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 

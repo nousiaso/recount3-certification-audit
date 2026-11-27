@@ -42,13 +42,15 @@ Sources: [historical counts](STATUS_20261123.md), [clinical triage](STATUS_20261
 | Primary-screen candidates | 140 |
 | Source-only record | 1 |
 
-Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIVE_OUTLIER, HOLD_REASON_NOT_YET_DECISIVE. Keep the holds; these are not proven permanent failures or acceptable samples. Source-only record remains excluded. All 140 candidates lack populated proposed patient groups and patient/pretreatment evidence pointers. Populated certification flags have not yet been interpreted from their actual values.
+Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIVE_OUTLIER, HOLD_REASON_NOT_YET_DECISIVE. Keep the holds; these are not proven permanent failures or acceptable samples. Source-only record remains excluded. All 140 candidates lack populated proposed patient groups and patient/pretreatment evidence pointers. All five certification flags explicitly NO, confirmed in later diagnostic.
 
-**Latest native evidence:** actual values confirm all five clinical certification gates are NO for 140/140; no explicit patient IDs or pretreatment proof. All 140 match native SRA and have unique RNA-seq IDs, seven tissue categories and nine disease categories. SRP057793 links to sarcoma BioProject PRJNA282597 and GEO GSE71119/GSE75885; published subset membership needs exact crosswalk. [Evidence and archival inventory](STATUS_20261127_SRP057793_NATIVE_EVIDENCE_AND_ARCHIVAL_INVENTORY.md).
+**Latest native evidence:** actual values confirm all five clinical certification gates are NO for 140/140; no explicit patient IDs or pretreatment proof. All 140 match native SRA and have unique RNA-seq IDs, seven tissue categories and nine disease categories. SRP057793 links to sarcoma BioProject PRJNA282597 and GEO GSE71119/GSE75885; published subset membership now reconciled below. [Evidence and archival inventory](STATUS_20261127_SRP057793_NATIVE_EVIDENCE_AND_ARCHIVAL_INVENTORY.md).
 
 **Native categories verified:** 140 frozen sarcoma tumours, PolyA paired RNA-seq, HiSeq 2000; nine histologies and seven anatomical labels, unique specimen IDs not patient IDs. [Executed evidence](STATUS_20261127_SRP057793_NATIVE_CATEGORIES_VERIFIED.md).
 
-**Next diagnostic:** exact GEO SRX crosswalk across GSE71119/GSE75885 and treatment-protocol evidence census using [read-only script](../tools/v8_srp057793_geo_exact_clinical_READONLY_v1.py). All clinical gates remain unsigned.
+**Exact GEO crosswalk PASS:** 138/140 retained linked (129 GSE71119, 106 GSE75885; 97 overlap), original hashes verified. Treatment protocol absent; extraction protocol present for all linked. [Executed evidence](STATUS_20261127_SRP057793_GEO_EXACT_CROSSWALK_PASS.md).
+
+**Next diagnostic:** [GEO protocol and reciprocal microarray pairing review](../tools/v8_srp057793_geo_protocol_pairing_READONLY_v1.py) using locked RNA-seq GEO sources and GSE71118. Resolve pretreatment/primary evidence and possible PolyA versus rRNA-depletion discordance; no clinical gates signed.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 

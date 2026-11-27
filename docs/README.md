@@ -41,6 +41,7 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Clinical studies — SRP057793 (current focus)
 
+- [Exact GEO crosswalk PASS (27 Nov)](STATUS_20261127_SRP057793_GEO_EXACT_CROSSWALK_PASS.md)
 - [Native categories verified (27 Nov)](STATUS_20261127_SRP057793_NATIVE_CATEGORIES_VERIFIED.md)
 - [Native evidence and archival inventory (27 Nov)](STATUS_20261127_SRP057793_NATIVE_EVIDENCE_AND_ARCHIVAL_INVENTORY.md)
 - [STATUS 20261126 SRP057793 AUTHORITATIVE QC SCHEMA](STATUS_20261126_SRP057793_AUTHORITATIVE_QC_SCHEMA.md)
