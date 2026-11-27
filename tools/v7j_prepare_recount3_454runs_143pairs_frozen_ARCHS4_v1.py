@@ -238,6 +238,7 @@ def main():
               "RAW_RUN_COLUMNS",len(headers),
               "MATCHED_RUN_COLUMNS",len(run_cols),flush=True)
         n=0
+        max_relative_aggregation_mass_error=0.0
         for line in f:
             if not line.strip():
                 raise ValueError("Unexpected blank row in raw G026")
@@ -256,13 +257,22 @@ def main():
             if not np.isfinite(numeric).all() or (numeric<0).any():
                 raise ValueError("Invalid G026 gene-body coverage at row "+str(n))
             g026[n,:]=np.bincount(groups,weights=numeric[run_cols],minlength=143)
+            source_total=float(np.sum(numeric[run_cols]))
+            group_total=float(np.sum(g026[n,:]))
+            max_relative_aggregation_mass_error=max(
+                max_relative_aggregation_mass_error,
+                abs(source_total-group_total)/max(1.0,source_total))
             n+=1
             if n%12000==0:
                 print("G026_SOURCE_GENE_ROWS_PROCESSED",n,flush=True)
         if n!=63856:
             raise ValueError("Raw G026 gene rows incomplete: "+str(n))
+    if max_relative_aggregation_mass_error > 1e-12:
+        raise ValueError("Raw technical-run coverage mass was not conserved")
     print("RAW_G026_SOURCE_GENE_ROWS_PASS",n,flush=True)
     print("TECHNICAL_RUNS_SUMMED_WITHIN_EXPERIMENTS",454,143,flush=True)
+    print("MAX_RELATIVE_RAW_COVERAGE_AGGREGATION_MASS_ERROR",
+          format(max_relative_aggregation_mass_error,".12g"),flush=True)
 
     out.mkdir(parents=True,mode=0o700)
     recount_stats=record_matrix(g026,symbols,genes,old,"recount3",gsm,out)
@@ -310,7 +320,7 @@ def main():
     print("RECOUNT3_UQ_EVALUABLE",int(recount_stats["uq_valid"].sum()),flush=True)
     print("ARCHS4_ONLY_ORIGINAL_IMMUTABLE_STAGE09_STAGE10_REFERENCE",flush=True)
     print("NO_SOURCE_OR_FROZEN_FILE_MODIFICATION",flush=True)
-    print("V7J_PREPARED_143_MATCHED_FULL499_DUAL_ASSAY_PASS",flush=True)
+    print("V7J_RECOUNT3_ONLY_143_MATCHED_FULL499_PREPARATION_PASS",flush=True)
 
 if __name__=="__main__":
     main()
