@@ -1297,7 +1297,7 @@ for (branch in BRANCHES) {
      normalized_KL_per_input_mass,reconstruction_RMSE,
      reconstruction_MAE,reconstruction_R2,reconstruction_cosine
   )]))),"Nonfinite recount3 original adequacy metrics")
-  cat("V7P_RECOUNT3_ORIGINAL_PROJECTION_PASS",branch,"\n")
+  cat("V7P_RECOUNT3_INDEPENDENT_FIXED500_KL_PASS",branch,"\n")
 
   # Original archived ARCHS4 H was obtained from the full 9465 atlas. For the
   # 143-subset we align all 500 features without REFITTING or SELECTING W.
@@ -1459,7 +1459,7 @@ fwrite(data.table(
 ),file.path(FINAL,"aggregate_nine_gene_sensitivity.tsv"),sep="\t")
 cat("V7P_NINE_ANNOTATION_DIFFERENCE_SWAP_DIAGNOSTIC_COMPLETE\n")
 
-# Repeat/order sentinel: original Stage10 deconvolution procedure and thresholds.
+# Repeat/order sentinel: independent fixed500 KL estimator on 12 paired samples.\n# Compare against numerical order/repeat limits originally adopted by Stage10.
 r0 <- base$recount3$Z[,gsm[seq_len(12L)],drop=FALSE]
 rr1 <- fixed500_project_raw_h(r0,W,"RECOUNT3_CPM_SENTINEL_REPEAT")
 rr2 <- fixed500_project_raw_h(r0,W,"RECOUNT3_CPM_SENTINEL_REPEAT2")
