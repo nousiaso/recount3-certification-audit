@@ -1459,7 +1459,8 @@ fwrite(data.table(
 ),file.path(FINAL,"aggregate_nine_gene_sensitivity.tsv"),sep="\t")
 cat("V7P_NINE_ANNOTATION_DIFFERENCE_SWAP_DIAGNOSTIC_COMPLETE\n")
 
-# Repeat/order sentinel: independent fixed500 KL estimator on 12 paired samples.\n# Compare against numerical order/repeat limits originally adopted by Stage10.
+# Repeat/order sentinel: independent fixed500 KL estimator on 12 paired samples.
+# Compare against numerical order/repeat limits originally adopted by Stage10.
 r0 <- base$recount3$Z[,gsm[seq_len(12L)],drop=FALSE]
 rr1 <- fixed500_project_raw_h(r0,W,"RECOUNT3_CPM_SENTINEL_REPEAT")
 rr2 <- fixed500_project_raw_h(r0,W,"RECOUNT3_CPM_SENTINEL_REPEAT2")
