@@ -1,11 +1,5 @@
-# Paste this in any future ChatGPT conversation
+# New conversation handoff
 
-I am continuing ARCHS4/recount3 clinical certification. Before suggesting new diagnostics,
-read the GitHub repository `<INSERT_REPOSITORY_URL>` (private; connect GitHub if needed),
-starting with `docs/STATUS_20261123.md`, `AUDIT_REGISTRY.tsv`, the newest status checkpoint,
-and diagnostic scripts + stdout. Do not repeat completed read-only tests. The original ARCHS4
-frozen W, scaling and Stage09–13 outputs must never be altered. The recount3 V5 primary-screen
-is UNSIGNED. If actual cluster code, paths or mappings are uncertain, give a short inline
-read-only diagnostic and capture the exact script, stdout and conclusion back in Git.
+Continue the ARCHS4/recount3 certification project using the [repository](https://github.com/nousiaso/recount3-certification-audit). Read the latest remote revision and the [README](../README.md), then [current status](CURRENT_STATUS.md), [technical calibration](TECHNICAL_CALIBRATION.md), [working procedures](WORKFLOW.md) and [audit registry](../AUDIT_REGISTRY.tsv). Follow the linked evidence for the specific active question; the [historical index](README.md) is for provenance, not current commands.
 
-Use the latest repository revision and report which prior evidence you consulted.
+Original frozen ARCHS4 W, anchors and Stage09–13 outputs must not change. Matched technical calibration is closed for the available bridge; clinical certification UNSIGNED. Do not rerun completed tests or infer admissions. If uncertain about actual cluster paths, schema or behavior, use a short read-only diagnostic and inspect its output first. Version new code, archive reviewed original evidence and do not push private records. Identify the consulted revision and distinguish observed results from assumptions.
