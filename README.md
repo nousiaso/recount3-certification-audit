@@ -7,6 +7,16 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## Next execution gate — V7J frozen-reference matched assay calibration (2026-11-27)
+
+**V7J code committed, NOT EXECUTED. Run the read-only syntax/source-fidelity preflight before submitting any full recount3 model job.** The earlier V7G remains immutable and on HOLD.
+
+- [V7J implementation and scientific protocol](docs/V7J_FROZEN_ARCHS4_143_RECOUNT3_TRANSFER_IMPLEMENTATION.md): direct comparison of the **actual original frozen 9,465-cohort ARCHS4 Stage09/Stage10 normalized inputs, Z, H and fractions for the 143 matching GSMs** against new recount3 G026 projection; 143 SRX samples from all 454 original SRR runs.
+- Original Stage10 R functions (harmonization, directional features, original DeconvoluteSE call, raw-H fractions, adequacy, normalization robustness) are copied **verbatim**, with a static byte-fidelity check against original verified Stage10 source.
+- Three branches CPM (primary), TMM-CPM and UQ-CPM (external-assay cohort-specific sensitivities), unchanged official W and frozen pan-cancer anchors. Strict 500-feature retention, original archived ARCHS4 Z/H/adequacy equality checks, repeat/order sentinel, nine-gene counterfactual and local-only per-specimen outputs.
+- First command after `git pull --ff-only origin main`: `bash scripts/run_v7j_static_frozen_transfer_preflight_READONLY.sh`. Review PASS markers, including `V7J_R_SOURCE_SYNTAX_PASS`. **Do not submit full job before preflight review.**
+- Full job (ONLY after preflight review): `sbatch scripts/slurm_v7j_frozen_ARCHS4_vs_recount3_calibration.sbatch`. The runner refuses existing versioned output directories. Technical assay transfer results and clinical patient/sample independence remain **unverified**; clinical admissions **0**.
+
 ## Current checkpoint — V7I PASS, recount3 calibration not yet run (2026-11-27)
 
 **Frozen-source and numerical reproducibility: PASS. Clinical validation/admission: HOLD (0 admissions).**
