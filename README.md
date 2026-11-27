@@ -7,6 +7,13 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7L installed solver source verified — V7M initialization/feature test next (2026-11-27)
+
+- The actual installed SpatialEcoTyper 1.0.3 `.nmf.predict` implementation **sets seed 39 but creates random initial H** using `NMF::rnmf`, filters directional features by variance **across the submitted samples**, and runs KL-divergence NMF with `Stop="connectivity"` rather than a guaranteed per-sample-independent convergence rule. These are *verified source properties*, not yet individually proven causes of the observed V7J 143-versus-9,465 H mismatch.
+- No NMFpredict chunking occurs in either original scenario (both below 10,000 samples). The potential wrapper auto-log condition remains to be checked on actual frozen Z.
+- [Executed V7L source findings](docs/STATUS_20261127_V7L_SOLVER_SOURCE_VERIFIED_V7M_NEXT.md). **Next small read-only diagnostic:** `bash scripts/run_v7m_frozen_ARCHS4_initializer_READONLY.sh` after pull. It checks the 500 directional features, actual auto-log predicate, and seeded initial-H dependence for the same 143 GSMs, without rerunning the model.
+- **V7J calibration remains HOLD; recount3 H not computed.** Previous partial V7J preparation remains intact, frozen original W/anchors unchanged, clinical admissions 0.
+
 ## V7K source inspection PASS — inspect .nmf.predict next (2026-11-27)
 
 - Installed SpatialEcoTyper v1.0.3 source verified: neither 143- nor 9,465-sample case triggers `NMFpredict`'s explicit `>10000` sample-chunk branch. Original Stage10 sets `scale=FALSE`, `sum2one=FALSE` and freezes W, so the wrapper does not explicitly re-estimate gene scaling. The conditional automatic log transform remains to be checked against actual inputs.
