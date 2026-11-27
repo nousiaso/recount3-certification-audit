@@ -7,6 +7,13 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7M executed: original sample-context dependence verified (2026-11-27)
+
+- Actual V7M original ARCHS4 test: `DeconvoluteSE` automatic log transformation **OFF in both 9,465 and 143 contexts**. Full cohort retains **500 W features**, but 143 matched GSMs retain **496**, losing `F12__pos`, `JUND__pos`, `PSMA3__neg`, `SURF4__neg`. **26** nonvariable rows across the full posneg expansion are *not* 26 W rows.
+- Original RNG seed 39 nevertheless produces **different initial H for all 143 matched samples** in the 9,465 vs 143 matrix contexts: median initial fraction TVD **0.3189**, maximum **0.5639**. These are *unoptimized starting values*, **not final ecotype disagreement**. The relative roles of missing features, initial H and connectivity stopping in the final V7J H discrepancy are not quantified.
+- [Executed V7M results and interpretation](docs/STATUS_20261127_V7M_EXECUTED_500_VS_496_W_FEATURES_INITIAL_H.md). **Next short read-only check:** `bash scripts/run_v7n_original_four_feature_KL_READONLY.sh` after `git pull`. It evaluates the four lost W features' KL penalty using archived original H, **without rerunning NMF**.
+- Original V7H2 frozen 9,465-sample numerical replay is still PASS; recount3 G026 extraction PASS but assay ecotype comparison **HOLD**; no clinical admissions. Do not overwrite the stopped V7J run or silently relax its fidelity contract.
+
 ## V7L installed solver source verified — V7M initialization/feature test next (2026-11-27)
 
 - The actual installed SpatialEcoTyper 1.0.3 `.nmf.predict` implementation **sets seed 39 but creates random initial H** using `NMF::rnmf`, filters directional features by variance **across the submitted samples**, and runs KL-divergence NMF with `Stop="connectivity"` rather than a guaranteed per-sample-independent convergence rule. These are *verified source properties*, not yet individually proven causes of the observed V7J 143-versus-9,465 H mismatch.
