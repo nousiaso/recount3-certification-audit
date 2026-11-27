@@ -50,7 +50,7 @@ for field in ("study_title","library_strategy","library_source","library_selecti
 print("\n=== RETAINED AND HELD CLINICAL LABELS ===")
 for name,ids in (("RETAINED",retained),("HELD",held)):
     print("SCOPE",name,"N",len(ids))
-    for field in ("disease","tissue","sample_type","cell_type","isolate"):
+    for field in ("disease","tissue","sample_type","cell_type"):
         print(field,dict(Counter(category(k,field) for k in ids)))
     print("TISSUE_DISEASE_CROSSTAB")
     for (tissue,disease),n in sorted(Counter((category(k,"tissue"),category(k,"disease")) for k in ids).items()):
