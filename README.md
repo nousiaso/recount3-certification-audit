@@ -7,6 +7,12 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7P v1.0.1 shellfix1 executed — computational FULL PASS (2026-11-27)
+
+- Job 13805260 COMPLETED 0:0 in 92 s; all four aggregate tables and seven checksum entries verified. All 143 pairs, 499 genes and 500 W rows retained. Original archive unchanged.
+- CPM median fraction TVD 0.02182098, P95 0.03106810, maximum 0.04339521; dominant agreement 140/143 (97.90%). TMM and UQ also complete. Nine-gene substitution did not improve pooled agreement; repeat/reverse-order sentinel exactly zero.
+- [Executed results and limits](docs/STATUS_20261127_V7P_V101_EXECUTED_PAIRED_CALIBRATION_PASS.md). Strong descriptive paired technical agreement, not formal assay equivalence or independent biological validation. Original aggregate bytes remain local pending separate archive. Next: bounded component/coverage/adequacy review from private checkpoint, then clinical certification. No extraction or projection rerun. Clinical admissions 0.
+
 ## V7P v1.0.1 shell-wrapper failure; shellfix1 next (2026-11-27)
 
 - v1.0.1 static R/input/regression preflight PASS. SLURM job 13805257 FAILED 2:0 before R started due to malformed wrapper quotation and duplicated commands; both v1.0.1 output directories absent.
