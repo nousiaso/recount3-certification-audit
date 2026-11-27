@@ -61,7 +61,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Repeated-group source review executed PASS:** 22 groups/75 repeated libraries have concordant V5 source partitions across NSCLC, gastric and hepatoblastoma (95 total study records); remaining 14 groups/29 records across eight studies unresolved, including one explicit SRP163173 conflict. [Executed evidence](STATUS_20261128_V8_REPEATED_GROUP_SOURCE_REVIEW_PASS.md).
 
-**Next:** [additive private grouping evidence and unresolved review queue](../tools/v8_repeated_group_evidence_addendum_v1.py) to preserve verified source evidence per accession and hold unresolved groups; no collapse or clinical approvals.
+**Grouping addendum executed PASS:** 124 private evidence records, 95 source-supported and 29 unresolved; all five checksums passed. Preserve 14 unresolved groups and SRP163173 conflict; no automatic collapse. [Executed evidence](STATUS_20261128_V8_GROUP_ADDENDUM_PASS_FUSCC_NEXT.md).
+
+**Next:** [FUSCC release-gate review](../tools/v8_fuscc_release_gate_review_READONLY_v1.py) for the largest candidate study (334 libraries), reuse published exact specimen bridge, review original run-QC and chemistry, locate local clinical evidence. Keep all approvals unsigned.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 

@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: [additive grouping evidence and unresolved review queue](../tools/v8_repeated_group_evidence_addendum_v1.py) (not yet executed). Pass ROOT and $REPO/private_data/v8_repeated_group_evidence_addendum_v1; locked ledger and native metadata, standard library only. Do not rerun completed group source review; keep row-level outputs private.
+Next: [FUSCC release-gate review](../tools/v8_fuscc_release_gate_review_READONLY_v1.py) (not yet executed). Pass ROOT. Grouping addendum complete; keep private and do not repeat. Review actual historical QC and source evidence; no clinical release.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 
