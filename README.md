@@ -7,6 +7,11 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7P v1.0.1 shell-wrapper failure; shellfix1 next (2026-11-27)
+
+- v1.0.1 static R/input/regression preflight PASS. SLURM job 13805257 FAILED 2:0 before R started due to malformed wrapper quotation and duplicated commands; both v1.0.1 output directories absent.
+- [Wrapper failure and shellfix1](docs/STATUS_20261127_V7P_V101_WRAPPER_FAILURE_SHELLFIX1.md). Original R unchanged; reuse verified preflight. Run `bash -n scripts/run_v7p_full500_frozen_ARCHS4_recount3_calibration_v1_0_1_shellfix1.sh` and `bash -n scripts/slurm_v7p_full500_ARCHS4_vs_recount3_calibration_v1_0_1_shellfix1.sbatch`, verify preflight manifest, then submit `sbatch scripts/slurm_v7p_full500_ARCHS4_vs_recount3_calibration_v1_0_1_shellfix1.sbatch`. No clinical admissions.
+
 ## V7P v1 partial PASS / HOLD; v1.0.1 correction next (2026-11-27)
 
 - V7O job 13805107 confirmed completed. V7P all three projection branches completed; CPM median TVD 0.02182098, dominant concordance 97.9021%. Post-processing stopped at reproduced list-key bug. No final aggregates.
