@@ -1357,6 +1357,9 @@ base <- per_branch[["CPM"]]
 hybrid <- base$recount3$Z
 affected <- which(W_genes %in% anno)
 hybrid[affected,] <- base$arch$Z[affected,,drop=FALSE]
+hybrid_directional <- make_directional_bundle(hybrid,W)
+assert(hybrid_directional$retained_feature_count==nrow(W),
+       "Nine-gene counterfactual loses original 500 W features; HOLD sensitivity")
 Hhybrid <- project_raw_h(hybrid,W,"RECOUNT3_NINE_GENE_SWAP")
 Fhybrid <- score_fractions(Hhybrid)
 full_tvd <- rowSums(abs(base$arch$f-base$recount3$f))/2
