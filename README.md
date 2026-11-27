@@ -7,6 +7,11 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7P bridge coverage census: second study next (2026-11-27)
+
+- Exact V7P membership and all 165 bridge records in frozen atlas verified. SRP074349 143, SRP157215 22, all calibration-only. First study represents one cancer class; actual cancer labels not yet printed.
+- [Coverage census and next input checks](docs/STATUS_20261127_V7P_BRIDGE165_COVERAGE_SECOND_STUDY_NEXT.md). Inspect second study raw source/run/gene axes before implementing unchanged full500 transfer. No clinical admissions.
+
 ## V7P component-level agreement reviewed — single-study scope (2026-11-27)
 
 - All ten CPM component Pearson correlations >0.99, but systematic signed biases remain (SE6 median +0.01016). Three dominant disagreements occur in a group with small median archived margin. Four dominant classes absent.
