@@ -7,6 +7,18 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## Current critical hold — executed V7J CPM invariance failure (2026-11-27)
+
+**Actual V7J source preparation: PASS. Projection calibration: HOLD — not an assay-transfer result.**
+
+- Original recount3 G026 source: all **454 SRRs** from **143 SRXs** processed across 63,856 genes, grouped without raw coverage mass loss (max relative error **0**). 56,937 valid gene-symbol groups, all 499 W genes, UQ-evaluable 143/143.
+- Original frozen ARCHS4 CPM 143-GSM Z replay **PASS** (max abs **2.04e-14**), exact 499-gene harmonization PASS and archived H/fraction consistency PASS (**8.88e-16**).
+- **New result:** running unchanged frozen W on *only the 143 original ARCHS4 frozen-Z columns* differs from the H originally obtained within the **9,465-sample** projection: max absolute H difference **0.0126241**, maximum ecotype fraction TVD **0.00959059**. This triggered the deliberate stop **before recount3 projection**.
+- Therefore there are **no paired assay ecotype scores, no aggregate transfer TSVs and no clinical admissions**. Do not relax the invariance threshold or overwrite the failed V7J audit.
+- [Executed V7J hold and V7K next diagnostic](docs/STATUS_20261127_V7J_EXECUTED_INVARIANCE_HOLD_V7K_NEXT.md). The immediate next step is the **read-only installed `DeconvoluteSE` 1.0.3 source inspection**, not another full matrix run:
+  `bash scripts/run_v7k_installed_DeconvoluteSE_source_READONLY.sh`.
+- The mechanism of the 143-vs-9465 projection discrepancy is **unverified** pending original installed solver/source inspection. Frozen 9,465-sample V7H2 numerical replay remains PASS.
+
 ## Next execution gate — V7J frozen-reference matched assay calibration (2026-11-27)
 
 **V7J static preflight EXECUTED PASS; full 454-SRR recount3 calibration NOT YET EXECUTED.** Eight original Stage10 functions were confirmed byte-identical, Python/R source and installed dependencies passed, and original input hashes matched. The earlier V7G remains immutable and on HOLD. See [executed static preflight evidence](docs/STATUS_20261127_V7J_STATIC_PREFLIGHT_EXECUTED_PASS.md).
