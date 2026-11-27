@@ -7,6 +7,12 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7K source inspection PASS — inspect .nmf.predict next (2026-11-27)
+
+- Installed SpatialEcoTyper v1.0.3 source verified: neither 143- nor 9,465-sample case triggers `NMFpredict`'s explicit `>10000` sample-chunk branch. Original Stage10 sets `scale=FALSE`, `sum2one=FALSE` and freezes W, so the wrapper does not explicitly re-estimate gene scaling. The conditional automatic log transform remains to be checked against actual inputs.
+- The lower-level `.nmf.predict` implementation was **not** shown by V7K and remains the next exact evidence needed to diagnose the 143-versus-9,465 H discrepancy; no assertion of solver sample dependence yet. See [V7K verified source review](docs/STATUS_20261127_V7K_WRAPPER_VERIFIED_V7L_NMF_NEXT.md).
+- **Next read-only diagnostic:** `bash scripts/run_v7l_installed_nmf_predict_READONLY.sh` after pulling `main`. No model runs or expression extraction. Existing V7J HOLD and zero clinical admissions remain unchanged.
+
 ## Current critical hold — executed V7J CPM invariance failure (2026-11-27)
 
 **Actual V7J source preparation: PASS. Projection calibration: HOLD — not an assay-transfer result.**
