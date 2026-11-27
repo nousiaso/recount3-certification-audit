@@ -1200,6 +1200,20 @@ for (branch in BRANCHES) {
   cat("V7J_ARCHIVED_ARCHS4_H_FRACTION_PASS",branch,
       "MAX_ABSOLUTE_ERROR",format(ferror,scientific=TRUE,digits=12),"\n")
 
+  # The original frozen H was fitted in the 9,465-sample run. Confirm that
+  # unchanged W/anchors applied to JUST these 143 Z columns produces the
+  # SAME original coefficients, so assay comparisons are not confounded by
+  # reference versus query matrix width / solver batch composition.
+  arch_h143 <- project_raw_h(az,W,paste0("ARCHS4_FROZEN_143_BATCH_CHECK_",branch))
+  batch_h_error <- max(abs(arch_h143-ah))
+  batch_f_error <- max(rowSums(abs(score_fractions(arch_h143)-af))/2)
+  cat("V7J_ORIGINAL_ARCHS4_143_VS_9465_PROJECTION_INVARIANCE",branch,
+      "MAX_H_ABSOLUTE_ERROR",format(batch_h_error,digits=12,scientific=TRUE),
+      "MAX_FRACTION_TVD",format(batch_f_error,digits=12,scientific=TRUE),"\n")
+  assert(is.finite(batch_h_error) && is.finite(batch_f_error) &&
+         batch_h_error<=1e-8 && batch_f_error<=1e-8,
+         paste("Frozen original 143-column projection differs from the archived 9465-sample H; HOLD",branch))
+
   rec_dir <- make_directional_bundle(rz,W)
   cat("V7J_RECOUNT3_DIRECTIONAL_FEATURES",branch,
       "SUPPORTED_MODEL_GENES",rec_dir$supported_gene_count,
