@@ -7,6 +7,11 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7R prostate result generation PASS — all 165 matched controls calibrated (2026-11-27)
+
+- Prostate 22 pairs, CPM median TVD 0.0335757, 21/22 dominant agreement. All four aggregates and 12 final checksum entries PASS, private checkpoint saved. SLURM completion record and final stdout markers still to verify. Combined CPM 161/165 descriptive agreement across two studies.
+- [Results and V7S read-only checkpoint review](docs/STATUS_20261127_V7R_PROSTATE_RESULTS_PASS_V7S_REVIEW_NEXT.md). No projection rerun. Assess component biases and coverage before returning to clinical certification. Clinical admissions 0.
+
 ## V7Q source acquired PASS; V7R configured second-study calibration (2026-11-27)
 
 - SRP157215 original G026 source verified: 41 runs, all 22 required, 63,856 mapped gene rows, all acquisition hashes PASS. [Execution evidence and V7R contract](docs/STATUS_20261127_V7Q_SOURCE_ACQUIRED_V7R_CONFIGURED_CALIBRATION.md).
