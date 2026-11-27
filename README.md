@@ -7,6 +7,11 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7Q second-study source missing — targeted acquisition next (2026-11-27)
+
+- SRP074349/GSE81089 lung/pleural (143); SRP157215/GSE118435 prostate (22), one run per library. Second G026 gzip absent locally. [Acquisition contract](docs/STATUS_20261127_V7Q_SRP157215_SOURCE_HOLD_ACQUISITION.md).
+- Next: `bash -n scripts/run_v7q_acquire_SRP157215_G026_v1.sh` then `bash scripts/run_v7q_acquire_SRP157215_G026_v1.sh`. Full gene/run axis gate before source acceptance; no projection or clinical admissions.
+
 ## V7P bridge coverage census: second study next (2026-11-27)
 
 - Exact V7P membership and all 165 bridge records in frozen atlas verified. SRP074349 143, SRP157215 22, all calibration-only. First study represents one cancer class; actual cancer labels not yet printed.
