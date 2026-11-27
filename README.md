@@ -7,6 +7,11 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7Q source acquired PASS; V7R configured second-study calibration (2026-11-27)
+
+- SRP157215 original G026 source verified: 41 runs, all 22 required, 63,856 mapped gene rows, all acquisition hashes PASS. [Execution evidence and V7R contract](docs/STATUS_20261127_V7Q_SOURCE_ACQUIRED_V7R_CONFIGURED_CALIBRATION.md).
+- New configured pipeline inherits V7J/V7P mathematics and uses exact study contracts. Next only: `bash scripts/run_v7r_configured_static_preflight_v1.sh SRP157215` after pulling main, review preflight then `sbatch scripts/slurm_v7r_configured_matched_calibration_v1.sbatch SRP157215`. Do not rerun lung. No clinical admissions.
+
 ## V7Q second-study source missing — targeted acquisition next (2026-11-27)
 
 - SRP074349/GSE81089 lung/pleural (143); SRP157215/GSE118435 prostate (22), one run per library. Second G026 gzip absent locally. [Acquisition contract](docs/STATUS_20261127_V7Q_SRP157215_SOURCE_HOLD_ACQUISITION.md).

@@ -1,0 +1,31 @@
+{
+  "version": "v7r_study_contract_v1",
+  "studies": {
+    "SRP074349": {
+      "n_pairs": 143,
+      "n_runs": 454,
+      "n_raw_runs": 668,
+      "multiplicity": {
+        "1": 84,
+        "2": 4,
+        "3": 22,
+        "8": 1,
+        "9": 32
+      },
+      "raw_sha256": "b056331eb16d6ec612409fd37a266abfe10c4c15329b486dbb9df213612797c5",
+      "cancer": "lung_and_pleural_cancer",
+      "geo": "GSE81089"
+    },
+    "SRP157215": {
+      "n_pairs": 22,
+      "n_runs": 22,
+      "n_raw_runs": 41,
+      "multiplicity": {
+        "1": 22
+      },
+      "raw_sha256": "f5f1e10484cd50bb9768163aaed4b61ba52164d57ce82d54fb41b001df15587f",
+      "cancer": "prostate_cancer",
+      "geo": "GSE118435"
+    }
+  }
+}
