@@ -7,6 +7,12 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7P v1 partial PASS / HOLD; v1.0.1 correction next (2026-11-27)
+
+- V7O job 13805107 confirmed completed. V7P all three projection branches completed; CPM median TVD 0.02182098, dominant concordance 97.9021%. Post-processing stopped at reproduced list-key bug. No final aggregates.
+- [Evidence and v1.0.1 correction](docs/STATUS_20261127_V7P_V1_PARTIAL_PASS_V1_0_1_CORRECTION.md). Preserve v1. Explicit key mapping, private projection checkpoint, synthetic regression. Original optimizer and Stage10 helpers unchanged.
+- Next run only: `bash scripts/run_v7p_reused_input_full500_static_preflight_v1_0_1_READONLY.sh` after fast-forward pull. Review PASS before `sbatch scripts/slurm_v7p_full500_ARCHS4_vs_recount3_calibration_v1_0_1.sbatch`. No raw extraction or clinical admissions.
+
 ## V7P full500 paired ARCHS4–recount3 calibration coded; static preflight next (2026-11-27)
 
 - V7O experimentally resolved most of the original-query context discrepancy: the original isolated 143-subset predictor drops four zero directional W rows, whereas original archived 9465 projection used all 500 rows. **Next objective is the actual same-source 143-specimen two-assay technical calibration**, not further original ARCHS4 numerical micro-audits.
