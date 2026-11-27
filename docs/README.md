@@ -41,6 +41,7 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Cohort-wide clinical certification — V8
 
+- [Patient grouping and gate census PASS (28 Nov)](STATUS_20261128_V8_PRIMARY2055_PATIENT_GATE_CENSUS_PASS.md)
 - [2055 candidate exact atlas screen PASS (28 Nov)](STATUS_20261128_V8_PRIMARY2055_ATLAS_EXACT_SCREEN_PASS.md)
 
 ## Clinical studies — SRP057793 (current focus)

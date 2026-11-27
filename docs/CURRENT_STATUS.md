@@ -55,7 +55,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Cohort-wide exact accession screen executed PASS:** all 2055 candidates / 77 studies, zero detected SRX/ERX/DRX or BioSample overlaps and zero missing or discordant BioSample token sets. 138 exact sarcoma GEO aliases also zero atlas hits. Full 9465 atlas graph verified. Dedicated PyArrow environment retained. [Execution and limits](STATUS_20261128_V8_PRIMARY2055_ATLAS_EXACT_SCREEN_PASS.md). Do not repeat unchanged inputs.
 
-**Next diagnostic:** [cohort-wide historical patient grouping and gate census](../tools/v8_primary2055_patient_group_and_gate_census_READONLY_v1.py) to prioritize repeated specimen/patient-key groups and cross-study BioSample reuse; reuse V6 precedence ledger and distinguish historical grades from new source evidence. All clinical gates remain unsigned.
+**Cohort-wide patient grouping census executed PASS:** 2055 distinct BioSamples, 1969 provisional study-scoped keys, 54 repeated groups spanning 140 libraries across 13 studies; no verified patient count. All five historical certification flags NO. [Executed evidence](STATUS_20261128_V8_PRIMARY2055_PATIENT_GATE_CENSUS_PASS.md).
+
+**Next:** [private integrated unsigned evidence ledger](../tools/v8_primary2055_integrated_unsigned_evidence_ledger_v1.py) to join historical source evidence and exact sarcoma addendum per accession, recompute grouping after 22 proposed exclusions, preserve all 2055 records and no admissions. This is an integration step, not a new clinical approval or completed release.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 

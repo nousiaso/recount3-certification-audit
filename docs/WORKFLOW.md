@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next clinical diagnostic: [cohort-wide historical patient grouping and gate census](../tools/v8_primary2055_patient_group_and_gate_census_READONLY_v1.py) (not yet executed). Exact atlas screen executed PASS; use existing V5/Stage41/V6 local evidence. No Parquet or expression reading for next script. No clinical release.
+Next: [private integrated unsigned evidence ledger](../tools/v8_primary2055_integrated_unsigned_evidence_ledger_v1.py) (not yet executed). Pass ROOT and new output path $REPO/private_data/v8_primary2055_integrated_unsigned_evidence_ledger_v1; all inputs locked, no expression or Parquet reading. Patient census and exact atlas screen completed; do not repeat. Never stage the private ledger. No clinical release.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 
