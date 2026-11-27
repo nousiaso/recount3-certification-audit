@@ -190,11 +190,7 @@ summarize <- function(v) {
   c(median=median(v),p90=unname(quantile(v,.9)),
     p95=unname(quantile(v,.95)),max=max(v))
 }
-boot_median <- function(values,n=1000L) {
-  set.seed(20261127)
-  estimates <- replicate(n,median(sample(values,length(values),replace=TRUE)))
-  unname(quantile(estimates,c(.025,.975)))
-}
+# No specimen-level bootstrap: SRX is not established as independent patient.
 
 # The following EXACT original Stage10 function bodies are not recreated from
 # summaries. They were extracted from the source commit with verified SHA.
@@ -1250,8 +1246,6 @@ for (branch in BRANCHES) {
   }
 
   tvd <- rowSums(abs(rf-af))/2
-  ds <- summarize(tvd)
-  ci <- boot_median(tvd)
   dom_arch <- dominant_component(af)
   dom_rec <- dominant_component(rf)
   joint <- if (branch=="UQ_CPM") uq_arch & uq_rec else rep(TRUE,143L)
@@ -1300,8 +1294,6 @@ for (branch in BRANCHES) {
     p90_fraction_TVD=used[["p90"]],
     p95_fraction_TVD=used[["p95"]],
     max_fraction_TVD=used[["max"]],
-    bootstrap_95ci_median_TVD_low=boot_median(tvd[joint])[[1]],
-    bootstrap_95ci_median_TVD_high=boot_median(tvd[joint])[[2]],
     dominant_component_concordance=mean(dom_arch[joint]==dom_rec[joint]),
     median_frozen_Z_MAE=median(colMeans(abs(diffZ))[joint]),
     median_original_ARCHS4_norm_KL=median(arch_adequacy$normalized_KL_per_input_mass[joint]),
