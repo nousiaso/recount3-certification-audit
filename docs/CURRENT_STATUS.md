@@ -52,7 +52,7 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Protocol and reciprocal pairing executed PASS:** 138/140 source-supported frozen PolyA chemistry (remaining 2 native labels only); 90/140 reciprocal frozen microarray links with explicit untreated primary tumour wording. 89/90 metastasis annotations concordant, one exception preserved. No patient independence established. [Executed review](STATUS_20261127_SRP057793_PROTOCOL_PAIRING_EXECUTED.md).
 
-**Next diagnostic:** [cohort-wide frozen atlas exact accession screen](../tools/v8_primary2055_frozen_atlas_exact_screen_READONLY_v1.py) for all 2055 primary-screen candidates, including exact sarcoma GEO aliases. Separately recover original patient/pretreatment evidence for study-level certification. All formal gates unsigned.
+**Next diagnostic:** [cohort-wide frozen atlas exact accession screen](../tools/v8_primary2055_frozen_atlas_exact_screen_READONLY_v1.py) for all 2055 primary-screen candidates, including exact sarcoma GEO aliases. Separately recover original patient/pretreatment evidence for study-level certification. All formal gates unsigned. Preflight on 28 November stopped before audit creation: PyArrow absent from the SpatialEcoTyper environment; previous temporary reader was removed. Provision/reuse the dedicated pinned metadata reader in [workflow](WORKFLOW.md); no scientific code change or execution result.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 

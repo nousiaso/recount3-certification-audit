@@ -1,0 +1,9 @@
+# Dedicated metadata reader; never modify the frozen SpatialEcoTyper environment.
+# Versions observed in the successful 2026-11-26 temporary environment.
+# Requested package versions are pinned; this is not a complete transitive lock.
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12.16
+  - pyarrow=26.0.1
