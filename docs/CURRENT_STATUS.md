@@ -57,7 +57,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Cohort-wide patient grouping census executed PASS:** 2055 distinct BioSamples, 1969 provisional study-scoped keys, 54 repeated groups spanning 140 libraries across 13 studies; no verified patient count. All five historical certification flags NO. [Executed evidence](STATUS_20261128_V8_PRIMARY2055_PATIENT_GATE_CENSUS_PASS.md).
 
-**Next:** [private integrated unsigned evidence ledger](../tools/v8_primary2055_integrated_unsigned_evidence_ledger_v1.py) to join historical source evidence and exact sarcoma addendum per accession, recompute grouping after 22 proposed exclusions, preserve all 2055 records and no admissions. This is an integration step, not a new clinical approval or completed release.
+**Integrated unsigned ledger executed PASS:** 2055 rows, 1696/599 historical source attachments, 138/90 sarcoma evidence attachments. After 22 proposed exclusions: 2033 records, 1965 provisional keys, 36 repeated groups spanning 104 libraries in 11 studies. Private ledger and study aggregate checksums verified. [Executed evidence](STATUS_20261128_V8_PRIMARY2055_INTEGRATED_LEDGER_PASS.md).
+
+**Next:** [source review of remaining repeated groups](../tools/v8_remaining_repeated_groups_source_review_READONLY_v1.py) using the locked ledger and original native metadata. Reuse V5 documented region/patient evidence, inspect agreement with provisional key partitions, preserve unresolved exceptions. No certification or group collapse.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
