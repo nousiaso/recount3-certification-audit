@@ -1,5 +1,5 @@
 # Current project status
-**27 November 2026 | Clinical certification UNSIGNED | Clinical admissions: 0**
+**28 November 2026 | Clinical certification UNSIGNED | Clinical admissions: 0**
 
 This is the authoritative human-readable checkpoint for current work. Dated reports retain their historical scope and should not be used as current run instructions.
 
@@ -16,7 +16,8 @@ Expand the frozen ARCHS4 SpatialEcoTyper atlas using independent, clinically doc
 | Stage41 original source identity table | 5,221 experiment records | Distinct source ledger; do not equate to historical library count |
 | Stage41 provisional candidate universe | 3,602 libraries / 126 studies | Administrative integrated evidence |
 | Primary screen | 2,055 libraries / 77 studies | Unsigned, physical screen unchanged |
-| V5 source-supported non-tumour flags | 21 | Proposed exclusion; 2,034 is not a new certified cohort |
+| V5 source-supported non-tumour flags | 21 | Historical V5 proposed exclusions |
+| V6 cumulative proposed non-tumour exclusions | 22 | Earlier precedence audit; 2,033 administrative remainder, NOT approved |
 | Publication-reviewed primary-screen studies | 29 / 1,755 libraries | Reviewed, not signed |
 | Remaining-queue primary-screen studies | 48 / 300 libraries | Prioritize evidence resolution |
 | Exact matched technical bridge | 165 specimens / 476 runs / 2 studies | Calibration only, excluded from primary cohort |
@@ -52,7 +53,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Protocol and reciprocal pairing executed PASS:** 138/140 source-supported frozen PolyA chemistry (remaining 2 native labels only); 90/140 reciprocal frozen microarray links with explicit untreated primary tumour wording. 89/90 metastasis annotations concordant, one exception preserved. No patient independence established. [Executed review](STATUS_20261127_SRP057793_PROTOCOL_PAIRING_EXECUTED.md).
 
-**Next diagnostic:** [cohort-wide frozen atlas exact accession screen](../tools/v8_primary2055_frozen_atlas_exact_screen_READONLY_v1.py) for all 2055 primary-screen candidates, including exact sarcoma GEO aliases. Separately recover original patient/pretreatment evidence for study-level certification. All formal gates unsigned. Preflight on 28 November stopped before audit creation: PyArrow absent from the SpatialEcoTyper environment; previous temporary reader was removed. Provision/reuse the dedicated pinned metadata reader in [workflow](WORKFLOW.md); no scientific code change or execution result.
+**Cohort-wide exact accession screen executed PASS:** all 2055 candidates / 77 studies, zero detected SRX/ERX/DRX or BioSample overlaps and zero missing or discordant BioSample token sets. 138 exact sarcoma GEO aliases also zero atlas hits. Full 9465 atlas graph verified. Dedicated PyArrow environment retained. [Execution and limits](STATUS_20261128_V8_PRIMARY2055_ATLAS_EXACT_SCREEN_PASS.md). Do not repeat unchanged inputs.
+
+**Next diagnostic:** [cohort-wide historical patient grouping and gate census](../tools/v8_primary2055_patient_group_and_gate_census_READONLY_v1.py) to prioritize repeated specimen/patient-key groups and cross-study BioSample reuse; reuse V6 precedence ledger and distinguish historical grades from new source evidence. All clinical gates remain unsigned.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 

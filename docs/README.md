@@ -39,6 +39,10 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 - [V7P FULL500 ARCHS4 RECOUNT3 PAIRED CALIBRATION IMPLEMENTATION](V7P_FULL500_ARCHS4_RECOUNT3_PAIRED_CALIBRATION_IMPLEMENTATION.md)
 - [V7 COHORT WIDE PREFLIGHT](V7_COHORT_WIDE_PREFLIGHT.md)
 
+## Cohort-wide clinical certification — V8
+
+- [2055 candidate exact atlas screen PASS (28 Nov)](STATUS_20261128_V8_PRIMARY2055_ATLAS_EXACT_SCREEN_PASS.md)
+
 ## Clinical studies — SRP057793 (current focus)
 
 - [Protocol and reciprocal pairing executed (27 Nov)](STATUS_20261127_SRP057793_PROTOCOL_PAIRING_EXECUTED.md)

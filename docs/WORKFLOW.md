@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next clinical diagnostic: [cohort-wide exact accession screen](../tools/v8_primary2055_frozen_atlas_exact_screen_READONLY_v1.py) (not yet executed). Run with ROOT using the dedicated metadata reader described below on a compute node. Existing GEO protocol pairing PASS; raw stdout contains specimen tokens, retain locally. No clinical release.
+Next clinical diagnostic: [cohort-wide historical patient grouping and gate census](../tools/v8_primary2055_patient_group_and_gate_census_READONLY_v1.py) (not yet executed). Exact atlas screen executed PASS; use existing V5/Stage41/V6 local evidence. No Parquet or expression reading for next script. No clinical release.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 
@@ -44,7 +44,7 @@ The successful 26 November temporary reader used Python 3.12.16 and PyArrow 26.0
 
 Use the retained dedicated prefix `$REPO/private_data/environments/atlas_metadata_reader_v1` on the project filesystem, created from [the pinned environment specification](../configs/atlas_metadata_reader_v1.yml). Use `conda env create --prefix "$META_ENV" --file "$REPO/configs/atlas_metadata_reader_v1.yml"` only if the prefix does not exist; if it exists, verify its exact Python and PyArrow versions instead of overwriting or reinstalling. Keep it for subsequent metadata audits. Store explicit package export locally after successful provisioning; the YAML pins the two direct requirements, not every transitive package. No environment binary files or package caches should be committed. Use its bin/python for Parquet diagnostics; continue using the original SpatialEcoTyper environment for frozen model computations.
 
-The environment is proposed, not yet provisioned or tested. The primary2055 scientific script is unchanged and unexecuted. The previous failure is a dependency preflight failure, not a result or clinical decision.
+Dedicated environment provisioned and verified on 28 November 2026; Python 3.12.16 / PyArrow 26.0.1, explicit package export SHA256 abc130c76768c74dc6d63928b53b2500d9e2b7ad643924d6f733821531b733cf. Primary2055 scientific script executed PASS with all four checksum entries verified. Retain environment; no repeated provisioning.
 
 ## 4. Outstanding archival task
 
