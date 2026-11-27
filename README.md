@@ -7,6 +7,13 @@ It tracks the exact diagnostic scripts, outputs, checksums, interpretation and o
 It was initialized from user-supplied November 2026 evidence; historical scripts not physically
 provided have **not** been invented or declared archived.
 
+## V7P full500 paired ARCHS4–recount3 calibration coded; static preflight next (2026-11-27)
+
+- V7O experimentally resolved most of the original-query context discrepancy: the original isolated 143-subset predictor drops four zero directional W rows, whereas original archived 9465 projection used all 500 rows. **Next objective is the actual same-source 143-specimen two-assay technical calibration**, not further original ARCHS4 numerical micro-audits.
+- [V7P technical assay calibration implementation](docs/V7P_FULL500_ARCHS4_RECOUNT3_PAIRED_CALIBRATION_IMPLEMENTATION.md). A new versioned R script reuses **unchanged frozen archived 9465 ARCHS4 H/fractions** and successfully prepared **V7J 454 SRRs→143 SRXs recount3 matrices**, runs an **independent, clearly labeled fixed-W 500-feature nonnegative convex KL optimizer** on recount3, and performs CPM/TMM/UQ branch comparison, original-archive replay, adequacy, normalization/annotation sensitivities and sample-order sentinels. It does not claim to be the original `.nmf.predict` implementation or to refit W/anchors.
+- **Code committed, NOT EXECUTED**. First run only: `bash scripts/run_v7p_reused_input_full500_static_preflight_READONLY.sh` after pulling GitHub `main`. This verifies the R parser, installed packages, V7O PASS evidence and SHA256 of all reused V7J prepared inputs. Do not submit the compute job until its stdout has been reviewed.
+- After static preflight PASS only: `sbatch scripts/slurm_v7p_full500_ARCHS4_vs_recount3_calibration.sbatch` (normal_prio, 4 CPUs, 64GB, 8h). All specimen-linked data stay private; aggregate-only logs and results can be reviewed. **Zero clinical admissions**.
+
 ## V7O executed PASS — 500-vs-496 features explain original projection drift (2026-11-27)
 
 - **V7O executed:** all **572** fixed-W KL optimizations converged, with two-start maximum objective-relative discrepancy **1.56e-08** and maximum final fraction TVD between starts **5.81e-05**.
