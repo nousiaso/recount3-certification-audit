@@ -93,7 +93,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Joint461 robustness review executed PASS:** technical investigation complete for current scope, FUSCC batch-dependent sensitivity described, no exclusions or admissions. [Checkpoint](STATUS_20261128_V8_JOINT461_ROBUSTNESS_COMPLETE.md).
 
-**Next:** [FUSCC original Table S1 acquisition/intake](../tools/v8_fuscc_original_clinical_table_READONLY_v1.py); [source acquisition checkpoint](STATUS_20261128_V8_FUSCC_ORIGINAL_CLINICAL_ACQUISITION.md). Original workbook not acquired; acquire through authorized access, exact source key reconciliation, no clinical release. No projection rerun.
+**FUSCC original clinical intake executed PASS:** exact 360 RNA-to-project matches and independent content hash, 334 retained distinct patient/project records. [Checkpoint](STATUS_20261128_V8_FUSCC_ORIGINAL_CLINICAL_CROSSWALK_PASS.md).
+
+**Next:** [private patient crosswalk addendum](../tools/v8_fuscc_patient_crosswalk_addendum_v1.py); 331 proposed suffix-concordant candidates, 3 provenance holds, 26 historical QC holds; all unsigned, no projection rerun.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
