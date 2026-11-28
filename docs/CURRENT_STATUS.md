@@ -89,7 +89,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Fixed500 V1.0.1 executed computational PASS:** job 13805508, 461 libraries × 3 branches, completion marker and final checksums PASS. [Checkpoint](STATUS_20261128_V8_JOINT461_FIXED500_V1_0_1_EXECUTED.md).
 
-**Next:** inspect already generated aggregate adequacy, normalization robustness, determinism and original ARCHS4 reference results. No rerun; no clinical release.
+**Fixed500 scientific aggregate review completed:** numerical PASS, descriptive adequacy broadly comparable to three original cancer classes; FUSCC largest normalization sensitivity tail, cervical lacks dedicated reference. [Review](STATUS_20261128_V8_JOINT461_SCIENTIFIC_REVIEW.md).
+
+**Next:** [bounded existing-output robustness review](../tools/v8_joint461_existing_projection_robustness_READONLY_v1.py) (no refits) by study and FUSCC batch; then prioritize clinical patient/source evidence, no automatic admissions.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
