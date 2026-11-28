@@ -63,7 +63,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Grouping addendum executed PASS:** 124 private evidence records, 95 source-supported and 29 unresolved; all five checksums passed. Preserve 14 unresolved groups and SRP163173 conflict; no automatic collapse. [Executed evidence](STATUS_20261128_V8_GROUP_ADDENDUM_PASS_FUSCC_NEXT.md).
 
-**Next:** [FUSCC release-gate review](../tools/v8_fuscc_release_gate_review_READONLY_v1.py) for the largest candidate study (334 libraries), reuse published exact specimen bridge, review original run-QC and chemistry, locate local clinical evidence. Keep all approvals unsigned.
+**FUSCC release-gate review executed PASS:** 334 nonheld tumour libraries, all one verified run, zero historical hold hits; 26 held (25 within-study outlier only, one additionally top10 concentration >50%). Retain holds. Native protocol absent, source-level Ribo-Zero evidence; quantitative compatibility and formal clinical gates unresolved. [Executed evidence](STATUS_20261128_V8_FUSCC_RELEASE_GATE_REVIEW_PASS.md).
+
+**Next:** [pinned author annotation join](../tools/v8_fuscc_author_annotation_join_READONLY_v1.py) for FUSCC 360 tumour / 448 batch source tables; new evidence for ascertainment, batch and tumour membership, not clinical patient certification. Original clinical Table S1 still needed if available.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 

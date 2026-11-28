@@ -41,6 +41,7 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Cohort-wide clinical certification — V8
 
+- [FUSCC release-gate review PASS (28 Nov)](STATUS_20261128_V8_FUSCC_RELEASE_GATE_REVIEW_PASS.md)
 - [Grouping addendum PASS; FUSCC next (28 Nov)](STATUS_20261128_V8_GROUP_ADDENDUM_PASS_FUSCC_NEXT.md)
 - [Repeated-group source review PASS (28 Nov)](STATUS_20261128_V8_REPEATED_GROUP_SOURCE_REVIEW_PASS.md)
 - [Integrated unsigned ledger PASS (28 Nov)](STATUS_20261128_V8_PRIMARY2055_INTEGRATED_LEDGER_PASS.md)
