@@ -67,7 +67,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **FUSCC author annotation join executed PASS:** 448/448 base+material, 360 tumour bases, three unresolved REP suffix differences among retained. All 334 subtype/batch annotations at base level; 291 purity estimates (43 missing all batch3), native selection labels perfectly aliased with batch. [Executed evidence](STATUS_20261128_V8_FUSCC_AUTHOR_ANNOTATION_JOIN_PASS.md).
 
-**Next:** [persist verified FUSCC author annotation addendum](../tools/v8_fuscc_author_annotation_addendum_v1.py) locally, obtain original clinical Table S1 (mmc2.xlsx) for exact patient mapping if accessible; otherwise hold clinical gate and progress other studies. Model compatibility unresolved.
+**FUSCC author annotation addendum executed PASS:** 360 private rows, 334 retained/26 held, three suffix exceptions preserved; all three checksum entries passed. FUSCC annotation complete; clinical Table S1, suffix exceptions and quantitative compatibility remain open. [Executed checkpoint](STATUS_20261128_V8_FUSCC_ANNOTATION_ADDENDUM_PASS_SRP158272_NEXT.md).
+
+**Next:** [SRP158272 publication membership review](../tools/v8_srp158272_publication_membership_READONLY_v1.py) for 129 candidates. Published FFPE tumour cores and possible outcome-selected subset require exact source mapping and explicit clinical timing evidence; no release.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
