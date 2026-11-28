@@ -41,6 +41,7 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Cohort-wide clinical certification — V8
 
+- [FUSCC private patient crosswalk addendum PASS (28 Nov)](STATUS_20261128_V8_FUSCC_PATIENT_CROSSWALK_ADDENDUM_PASS.md)
 - [FUSCC original clinical crosswalk PASS (28 Nov)](STATUS_20261128_V8_FUSCC_ORIGINAL_CLINICAL_CROSSWALK_PASS.md)
 - [FUSCC original clinical acquisition/intake (28 Nov)](STATUS_20261128_V8_FUSCC_ORIGINAL_CLINICAL_ACQUISITION.md)
 - [Joint461 robustness PASS; clinical acquisition next (28 Nov)](STATUS_20261128_V8_JOINT461_ROBUSTNESS_COMPLETE.md)

@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: [FUSCC patient crosswalk addendum](../tools/v8_fuscc_patient_crosswalk_addendum_v1.py) (not executed), ROOT and private output path. Exact original Table S1 intake PASS; materialize additive evidence and review dispositions, no final clinical signature. [Checkpoint](STATUS_20261128_V8_FUSCC_ORIGINAL_CLINICAL_CROSSWALK_PASS.md).
+Next: [FUSCC project-key nonoverlap review](../tools/v8_fuscc_project_key_nonoverlap_READONLY_v1.py) (not executed), ROOT, read-only aggregate output. [Crosswalk completion](STATUS_20261128_V8_FUSCC_PATIENT_CROSSWALK_ADDENDUM_PASS.md). Preserve completed private crosswalk; no final admission or expression rerun.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 

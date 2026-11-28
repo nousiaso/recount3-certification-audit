@@ -95,7 +95,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **FUSCC original clinical intake executed PASS:** exact 360 RNA-to-project matches and independent content hash, 334 retained distinct patient/project records. [Checkpoint](STATUS_20261128_V8_FUSCC_ORIGINAL_CLINICAL_CROSSWALK_PASS.md).
 
-**Next:** [private patient crosswalk addendum](../tools/v8_fuscc_patient_crosswalk_addendum_v1.py); 331 proposed suffix-concordant candidates, 3 provenance holds, 26 historical QC holds; all unsigned, no projection rerun.
+**FUSCC private patient crosswalk executed PASS:** 360 exact distinct project links, 331 proposed candidates, 3 suffix holds, 26 historical holds; all three checksums OK. [Checkpoint](STATUS_20261128_V8_FUSCC_PATIENT_CROSSWALK_ADDENDUM_PASS.md).
+
+**Next:** [new project-key nonoverlap review](../tools/v8_fuscc_project_key_nonoverlap_READONLY_v1.py); exact namespaced project IDs against frozen atlas metadata and other external candidates. No rerun, no admissions.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
