@@ -41,6 +41,7 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Cohort-wide clinical certification — V8
 
+- [Joint461 manifest checksum stop and recovery (28 Nov)](STATUS_20261128_V8_JOINT461_MANIFEST_HASH_RECOVERY.md)
 - [Two-study direct GEO evidence PASS; joint461 technical preflight (28 Nov)](STATUS_20261128_V8_TWO_STUDY_GEO_EVIDENCE_PASS.md)
 - [Joint clinical evidence priority PASS (28 Nov)](STATUS_20261128_V8_JOINT_EVIDENCE_PRIORITY_PASS.md)
 - [SRP158272 negative clinical linkage; evidence-first priorities (28 Nov)](STATUS_20261128_V8_SRP158272_CLINICAL_KEY_NEGATIVE.md)

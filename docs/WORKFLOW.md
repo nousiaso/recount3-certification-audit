@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: [joint461 technical input manifest](../tools/v8_joint461_technical_input_manifest_v1.py) (not executed). Pass ROOT and new private output path v8_joint461_technical_input_manifest_v1. Use locked prior evidence and Stage2 QC; header only, no full raw matrix reads or projection. Direct GEO evidence complete; do not repeat.
+Next: [joint461 technical manifest V1.0.1](../tools/v8_joint461_technical_input_manifest_v1_0_1.py) (not executed). Pass ROOT and new private output path v8_joint461_technical_input_manifest_v1_0_1. Preserve failed V1 audit and original inputs. Verify prior FUSCC audit and compare recorded QC hashes, header only. Do not rerun V1.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 

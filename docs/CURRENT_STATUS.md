@@ -77,7 +77,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Direct GEO source evidence executed PASS:** 37/37 exact SRX/BioSample/tissue/pretreatment support, zero GSM overlaps; 461 joint leads across four studies, all unsigned. [Executed checkpoint](STATUS_20261128_V8_TWO_STUDY_GEO_EVIDENCE_PASS.md).
 
-**Next:** [joint461 technical input manifest](../tools/v8_joint461_technical_input_manifest_v1.py) to prepare exact run membership and raw-header readiness for a separate quantitative compatibility protocol. No model execution or clinical release. Patient independence and assay interpretation remain open.
+**Joint461 technical manifest V1 stopped at the first QC hash assertion:** no partial manifest; recovered current displayed hashes match the checksum-verified earlier FUSCC log. Cause not established. [Recovery checkpoint](STATUS_20261128_V8_JOINT461_MANIFEST_HASH_RECOVERY.md).
+
+**Next:** [joint461 technical manifest V1.0.1](../tools/v8_joint461_technical_input_manifest_v1_0_1.py) reads prior verified QC fingerprints programmatically, retains strict comparisons and uses fresh private output. No model execution or clinical release.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
