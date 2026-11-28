@@ -79,7 +79,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Joint461 technical manifest V1 stopped at the first QC hash assertion:** no partial manifest; recovered current displayed hashes match the checksum-verified earlier FUSCC log. Cause not established. [Recovery checkpoint](STATUS_20261128_V8_JOINT461_MANIFEST_HASH_RECOVERY.md).
 
-**Next:** [joint461 technical manifest V1.0.1](../tools/v8_joint461_technical_input_manifest_v1_0_1.py) reads prior verified QC fingerprints programmatically, retains strict comparisons and uses fresh private output. No model execution or clinical release.
+**Joint461 technical manifest V1.0.1 executed PASS:** 439 header/input-ready, 22 cervical holds; all four final checksums passed. [Executed checkpoint](STATUS_20261128_V8_JOINT461_MANIFEST_V1_0_1_PASS.md).
+
+**Next:** [cervical native run-cardinality check](../tools/v8_srp094795_native_run_cardinality_READONLY_v1.py); resolve legitimate multi-run metadata versus conflicts, no automatic release. Prepare subsequent full G026 QC without changing clinical gates.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
