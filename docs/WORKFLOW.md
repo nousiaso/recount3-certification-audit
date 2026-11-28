@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: [FUSCC project-key nonoverlap review](../tools/v8_fuscc_project_key_nonoverlap_READONLY_v1.py) (not executed), ROOT, read-only aggregate output. [Crosswalk completion](STATUS_20261128_V8_FUSCC_PATIENT_CROSSWALK_ADDENDUM_PASS.md). Preserve completed private crosswalk; no final admission or expression rerun.
+Next: explicit investigator approval of [FUSCC331 proposed release policy](V8_FUSCC331_PROPOSED_RELEASE_POLICY.md); project-key nonoverlap [executed PASS](STATUS_20261128_V8_FUSCC_PROJECT_KEY_NONOVERLAP_PASS.md). Then immutable private signed cohort manifest, no expression rerun.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 

@@ -41,6 +41,8 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Cohort-wide clinical certification — V8
 
+- [FUSCC project-key nonoverlap PASS (28 Nov)](STATUS_20261128_V8_FUSCC_PROJECT_KEY_NONOVERLAP_PASS.md)
+- [Proposed FUSCC331 release policy — unsigned](V8_FUSCC331_PROPOSED_RELEASE_POLICY.md)
 - [FUSCC private patient crosswalk addendum PASS (28 Nov)](STATUS_20261128_V8_FUSCC_PATIENT_CROSSWALK_ADDENDUM_PASS.md)
 - [FUSCC original clinical crosswalk PASS (28 Nov)](STATUS_20261128_V8_FUSCC_ORIGINAL_CLINICAL_CROSSWALK_PASS.md)
 - [FUSCC original clinical acquisition/intake (28 Nov)](STATUS_20261128_V8_FUSCC_ORIGINAL_CLINICAL_ACQUISITION.md)
