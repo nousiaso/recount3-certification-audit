@@ -1,5 +1,5 @@
 # Current project status
-**28 November 2026 | Clinical certification UNSIGNED | Clinical admissions: 0**
+**28 November 2026 | Partial clinical release | Clinical admissions: 331 (FUSCC331 V1)**
 
 This is the authoritative human-readable checkpoint for current work. Dated reports retain their historical scope and should not be used as current run instructions.
 
@@ -21,7 +21,7 @@ Expand the frozen ARCHS4 SpatialEcoTyper atlas using independent, clinically doc
 | Publication-reviewed primary-screen studies | 29 / 1,755 libraries | Reviewed, not signed |
 | Remaining-queue primary-screen studies | 48 / 300 libraries | Prioritize evidence resolution |
 | Exact matched technical bridge | 165 specimens / 476 runs / 2 studies | Calibration only, excluded from primary cohort |
-| Clinical admissions | 0 | No release |
+| Clinical admissions | 331 | FUSCC331 V1 separate locked stratum; all other candidates unsigned |
 
 Sources: [historical counts](STATUS_20261123.md), [clinical triage](STATUS_20261126_V6_77_STUDY_CLINICAL_TRIAGE.md), [priority reconciliation](STATUS_20261126_V6_PRIMARY_STUDY_PRIORITY.md), [V7S closure](STATUS_20261127_V7S_TWO_STUDY_TECHNICAL_CALIBRATION_COMPLETE.md). Counts refer to distinct historical ledgers and units; no new filtering or reconciliation was performed during documentation cleanup.
 
@@ -99,9 +99,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **FUSCC project-key nonoverlap executed PASS:** zero detected FUSCC tokens in all 9465 frozen atlas records and 1721 other primary-screen records. [Checkpoint](STATUS_20261128_V8_FUSCC_PROJECT_KEY_NONOVERLAP_PASS.md).
 
-**FUSCC331 policy approved in conversation:** [approval record](V8_FUSCC331_POLICY_APPROVAL_20261128.md); clinical admissions remain zero until local lock execution verified.
+**FUSCC331 V1 executed clinical lock PASS:** 331 admissions, 29 holds, all release/audit checksums verified, original 9465 unchanged. [Executed checkpoint](STATUS_20261128_V8_FUSCC331_CLINICAL_LOCK_PASS.md); [release registry](../CLINICAL_RELEASE_REGISTRY.tsv).
 
-**Next:** [FUSCC331 local lock V1](../tools/v8_lock_fuscc331_clinical_stratum_v1.py) (not executed), [execution checkpoint](STATUS_20261128_V8_FUSCC331_LOCK_APPROVED_PENDING_EXECUTION.md); then record actual admission and proceed to other cohorts. No projection rerun.
+**Next:** obtain original SRP057793 Lesluyes 2016 methods and clinical/specimen supplement or equivalent explicit author patient-unit evidence; 90 untreated-primary linked specimens remain unsigned. No routine FUSCC diagnostics or refitting.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 

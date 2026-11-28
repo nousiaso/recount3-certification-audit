@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: [FUSCC331 local lock V1](../tools/v8_lock_fuscc331_clinical_stratum_v1.py) with ROOT and new private output path; [approved policy record](V8_FUSCC331_POLICY_APPROVAL_20261128.md). Actual clinical admissions pending local completion and checksum review; no refit or atlas overwrite.
+Next: SRP057793 original patient-unit evidence (Lesluyes 2016 DOI 10.1016/j.ejca.2015.12.027). [FUSCC331 V1 executed PASS](STATUS_20261128_V8_FUSCC331_CLINICAL_LOCK_PASS.md); [clinical release registry](../CLINICAL_RELEASE_REGISTRY.tsv). Do not rerun or overwrite lock. Other cohorts unsigned.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 
