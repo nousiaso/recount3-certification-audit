@@ -41,6 +41,7 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Cohort-wide clinical certification — V8
 
+- [Joint clinical evidence priority PASS (28 Nov)](STATUS_20261128_V8_JOINT_EVIDENCE_PRIORITY_PASS.md)
 - [SRP158272 negative clinical linkage; evidence-first priorities (28 Nov)](STATUS_20261128_V8_SRP158272_CLINICAL_KEY_NEGATIVE.md)
 - [SRP158272 membership PASS (28 Nov)](STATUS_20261128_V8_SRP158272_MEMBERSHIP_PASS.md)
 - [FUSCC annotation addendum PASS; SRP158272 next (28 Nov)](STATUS_20261128_V8_FUSCC_ANNOTATION_ADDENDUM_PASS_SRP158272_NEXT.md)

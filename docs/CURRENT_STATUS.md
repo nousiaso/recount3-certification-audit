@@ -73,7 +73,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **SRP158272 clinical-key screen executed PASS, linkage negative:** 0/139 exact RR matches; hold all 129 retained until documented clinical bridge. [Checkpoint and Porto source review](STATUS_20261128_V8_SRP158272_CLINICAL_KEY_NEGATIVE.md).
 
-**Next:** [joint clinical evidence priority review](../tools/v8_joint_clinical_evidence_priority_READONLY_v1.py) across remaining unsigned candidates, rather than repeated single-study metadata audits; preserve existing holds and prioritize genuine source-supported clinical evidence. No admissions.
+**Joint clinical evidence priority executed PASS:** 424 leads (334 FUSCC, 90 sarcoma), 1609 without joint evidence under current historical/additive criteria; not eligible patients. [Executed checkpoint](STATUS_20261128_V8_JOINT_EVIDENCE_PRIORITY_PASS.md).
+
+**Next:** [direct GEO evidence for prostate/cervical studies](../tools/v8_two_study_geo_clinical_evidence_v1.py) (37 retained candidates), where original clinical source evidence is promising. Persist accession-level source evidence privately; no release. FUSCC clinical workbook and sarcoma patient identity remain open.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
