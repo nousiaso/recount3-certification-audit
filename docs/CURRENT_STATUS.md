@@ -71,7 +71,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **SRP158272 membership review executed PASS:** 139 source, 134 candidates, 129 retained, five held and five source-only. All native Oligo-dT labels; construction protocol absent; unique isolate labels not patient evidence. [Executed evidence](STATUS_20261128_V8_SRP158272_MEMBERSHIP_PASS.md).
 
-**Next:** [exact author clinical-key screen](../tools/v8_srp158272_author_clinical_key_screen_READONLY_v1.py) using pinned 2026 author outcomes table. No fuzzy matching or demographic linkage; hold if no exact bridge. No admission.
+**SRP158272 clinical-key screen executed PASS, linkage negative:** 0/139 exact RR matches; hold all 129 retained until documented clinical bridge. [Checkpoint and Porto source review](STATUS_20261128_V8_SRP158272_CLINICAL_KEY_NEGATIVE.md).
+
+**Next:** [joint clinical evidence priority review](../tools/v8_joint_clinical_evidence_priority_READONLY_v1.py) across remaining unsigned candidates, rather than repeated single-study metadata audits; preserve existing holds and prioritize genuine source-supported clinical evidence. No admissions.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
