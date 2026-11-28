@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: [SRP094795 native run-cardinality check](../tools/v8_srp094795_native_run_cardinality_READONLY_v1.py) (not executed). Pass ROOT. Verify completed V1.0.1 manifest audit before running. Preserve 439 ready and 22 held, no new manifest or status change until actual output reviewed.
+Next: [joint461 full G026 QC and normalization](../tools/v8_joint461_full_G026_QC_normalization_v1.py) (not executed). Submit scripts/slurm_v8_joint461_full_G026_QC_normalization_v1.sbatch. Preserve prior manifest; verify cervical exact-run evidence, create amended manifest, aggregate and normalize all four studies; review output before projection. All approvals unsigned.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 

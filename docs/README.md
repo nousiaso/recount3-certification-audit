@@ -41,6 +41,7 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Cohort-wide clinical certification — V8
 
+- [Cervical run-cardinality PASS; full G026 preparation next (28 Nov)](STATUS_20261128_V8_CERVICAL_RUN_CARDINALITY_PASS.md)
 - [Joint461 manifest V1.0.1 PASS; cervical input holds (28 Nov)](STATUS_20261128_V8_JOINT461_MANIFEST_V1_0_1_PASS.md)
 - [Joint461 manifest checksum stop and recovery (28 Nov)](STATUS_20261128_V8_JOINT461_MANIFEST_HASH_RECOVERY.md)
 - [Two-study direct GEO evidence PASS; joint461 technical preflight (28 Nov)](STATUS_20261128_V8_TWO_STUDY_GEO_EVIDENCE_PASS.md)
