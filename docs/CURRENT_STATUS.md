@@ -101,7 +101,7 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **FUSCC331 V1 executed clinical lock PASS:** 331 admissions, 29 holds, all release/audit checksums verified, original 9465 unchanged. [Executed checkpoint](STATUS_20261128_V8_FUSCC331_CLINICAL_LOCK_PASS.md); [release registry](../CLINICAL_RELEASE_REGISTRY.tsv).
 
-**Next:** obtain original SRP057793 Lesluyes 2016 methods and clinical/specimen supplement or equivalent explicit author patient-unit evidence; 90 untreated-primary linked specimens remain unsigned. No routine FUSCC diagnostics or refitting.
+**Next:** [SRP057793 full 95-case validation-cohort scope review](../tools/v8_srp057793_full_validation_cohort_READONLY_v1.py) (not executed); [published evidence]( STATUS_20261128_V8_SRP057793_PUBLISHED_COHORT_SCOPE.md). Acquire original methods/supplement or explicit author patient-unit evidence; no new admissions.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
