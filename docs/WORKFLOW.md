@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: [direct GEO evidence for SRP002628 and SRP094795](../tools/v8_two_study_geo_clinical_evidence_v1.py) (not executed). Pass ROOT, private GEO cache with GSE22260 and GSE91065 family SOFT gzip files, and new private output path v8_two_study_geo_clinical_evidence_v1. Joint prioritization completed; do not repeat. Keep private addendum local.
+Next: [joint461 technical input manifest](../tools/v8_joint461_technical_input_manifest_v1.py) (not executed). Pass ROOT and new private output path v8_joint461_technical_input_manifest_v1. Use locked prior evidence and Stage2 QC; header only, no full raw matrix reads or projection. Direct GEO evidence complete; do not repeat.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 

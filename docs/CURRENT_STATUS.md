@@ -75,7 +75,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Joint clinical evidence priority executed PASS:** 424 leads (334 FUSCC, 90 sarcoma), 1609 without joint evidence under current historical/additive criteria; not eligible patients. [Executed checkpoint](STATUS_20261128_V8_JOINT_EVIDENCE_PRIORITY_PASS.md).
 
-**Next:** [direct GEO evidence for prostate/cervical studies](../tools/v8_two_study_geo_clinical_evidence_v1.py) (37 retained candidates), where original clinical source evidence is promising. Persist accession-level source evidence privately; no release. FUSCC clinical workbook and sarcoma patient identity remain open.
+**Direct GEO source evidence executed PASS:** 37/37 exact SRX/BioSample/tissue/pretreatment support, zero GSM overlaps; 461 joint leads across four studies, all unsigned. [Executed checkpoint](STATUS_20261128_V8_TWO_STUDY_GEO_EVIDENCE_PASS.md).
+
+**Next:** [joint461 technical input manifest](../tools/v8_joint461_technical_input_manifest_v1.py) to prepare exact run membership and raw-header readiness for a separate quantitative compatibility protocol. No model execution or clinical release. Patient independence and assay interpretation remain open.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
