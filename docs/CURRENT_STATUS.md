@@ -65,7 +65,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **FUSCC release-gate review executed PASS:** 334 nonheld tumour libraries, all one verified run, zero historical hold hits; 26 held (25 within-study outlier only, one additionally top10 concentration >50%). Retain holds. Native protocol absent, source-level Ribo-Zero evidence; quantitative compatibility and formal clinical gates unresolved. [Executed evidence](STATUS_20261128_V8_FUSCC_RELEASE_GATE_REVIEW_PASS.md).
 
-**Next:** [pinned author annotation join](../tools/v8_fuscc_author_annotation_join_READONLY_v1.py) for FUSCC 360 tumour / 448 batch source tables; new evidence for ascertainment, batch and tumour membership, not clinical patient certification. Original clinical Table S1 still needed if available.
+**FUSCC author annotation join executed PASS:** 448/448 base+material, 360 tumour bases, three unresolved REP suffix differences among retained. All 334 subtype/batch annotations at base level; 291 purity estimates (43 missing all batch3), native selection labels perfectly aliased with batch. [Executed evidence](STATUS_20261128_V8_FUSCC_AUTHOR_ANNOTATION_JOIN_PASS.md).
+
+**Next:** [persist verified FUSCC author annotation addendum](../tools/v8_fuscc_author_annotation_addendum_v1.py) locally, obtain original clinical Table S1 (mmc2.xlsx) for exact patient mapping if accessible; otherwise hold clinical gate and progress other studies. Model compatibility unresolved.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
