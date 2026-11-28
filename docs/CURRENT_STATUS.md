@@ -99,7 +99,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **FUSCC project-key nonoverlap executed PASS:** zero detected FUSCC tokens in all 9465 frozen atlas records and 1721 other primary-screen records. [Checkpoint](STATUS_20261128_V8_FUSCC_PROJECT_KEY_NONOVERLAP_PASS.md).
 
-**Next:** explicit investigator approval of [proposed FUSCC331 release policy](V8_FUSCC331_PROPOSED_RELEASE_POLICY.md), then versioned private cohort lock; no further routine diagnostics or refit. Clinical admissions remain zero.
+**FUSCC331 policy approved in conversation:** [approval record](V8_FUSCC331_POLICY_APPROVAL_20261128.md); clinical admissions remain zero until local lock execution verified.
+
+**Next:** [FUSCC331 local lock V1](../tools/v8_lock_fuscc331_clinical_stratum_v1.py) (not executed), [execution checkpoint](STATUS_20261128_V8_FUSCC331_LOCK_APPROVED_PENDING_EXECUTION.md); then record actual admission and proceed to other cohorts. No projection rerun.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 

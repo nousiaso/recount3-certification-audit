@@ -41,6 +41,7 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Cohort-wide clinical certification — V8
 
+- [FUSCC331 approval and lock execution pending (28 Nov)](STATUS_20261128_V8_FUSCC331_LOCK_APPROVED_PENDING_EXECUTION.md)
 - [FUSCC project-key nonoverlap PASS (28 Nov)](STATUS_20261128_V8_FUSCC_PROJECT_KEY_NONOVERLAP_PASS.md)
 - [Proposed FUSCC331 release policy — unsigned](V8_FUSCC331_PROPOSED_RELEASE_POLICY.md)
 - [FUSCC private patient crosswalk addendum PASS (28 Nov)](STATUS_20261128_V8_FUSCC_PATIENT_CROSSWALK_ADDENDUM_PASS.md)
