@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: [existing-output robustness review](../tools/v8_joint461_existing_projection_robustness_READONLY_v1.py) using the completed fixed500 V1.0.1 outputs and verified FUSCC annotation addendum. No projection rerun. Then clinical evidence/adjudication. [Scientific review](STATUS_20261128_V8_JOINT461_SCIENTIFIC_REVIEW.md).
+Next: acquire original FUSCC clinical Table S1 or verified author patient/sample export through authorized access; retain privately and inspect actual schema before exact reconciliation. [Technical closure and source requirements](STATUS_20261128_V8_JOINT461_ROBUSTNESS_COMPLETE.md). No more projection reruns on unchanged inputs; all clinical gates unsigned.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 

@@ -91,7 +91,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Fixed500 scientific aggregate review completed:** numerical PASS, descriptive adequacy broadly comparable to three original cancer classes; FUSCC largest normalization sensitivity tail, cervical lacks dedicated reference. [Review](STATUS_20261128_V8_JOINT461_SCIENTIFIC_REVIEW.md).
 
-**Next:** [bounded existing-output robustness review](../tools/v8_joint461_existing_projection_robustness_READONLY_v1.py) (no refits) by study and FUSCC batch; then prioritize clinical patient/source evidence, no automatic admissions.
+**Joint461 robustness review executed PASS:** technical investigation complete for current scope, FUSCC batch-dependent sensitivity described, no exclusions or admissions. [Checkpoint](STATUS_20261128_V8_JOINT461_ROBUSTNESS_COMPLETE.md).
+
+**Next:** original FUSCC patient-level clinical source acquisition and exact patient/project-key reconciliation; sarcoma patient bridge and other clinical evidence remain open. Do not rerun normalization or projection.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 

@@ -41,6 +41,7 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Cohort-wide clinical certification — V8
 
+- [Joint461 robustness PASS; clinical acquisition next (28 Nov)](STATUS_20261128_V8_JOINT461_ROBUSTNESS_COMPLETE.md)
 - [Joint461 scientific aggregate review (28 Nov)](STATUS_20261128_V8_JOINT461_SCIENTIFIC_REVIEW.md)
 - [Fixed500 V1.0.1 executed computational PASS (28 Nov)](STATUS_20261128_V8_JOINT461_FIXED500_V1_0_1_EXECUTED.md)
 - [Fixed500 V1 scoping failure and V1.0.1 correction (28 Nov)](STATUS_20261128_V8_JOINT461_FIXED500_SCOPING_FIX.md)
