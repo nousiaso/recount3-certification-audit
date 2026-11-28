@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: [SRP057793 full validation-cohort scope review](../tools/v8_srp057793_full_validation_cohort_READONLY_v1.py) with ROOT, read-only. [Published evidence](STATUS_20261128_V8_SRP057793_PUBLISHED_COHORT_SCOPE.md). Original patient-unit evidence remains required; FUSCC331 unchanged.
+Next: [SRP057793 corrected V1.0.1 audit](../tools/v8_srp057793_full_validation_cohort_READONLY_v1_0_1.py), new audit directory, no refit. [Recovered 95-pair result](STATUS_20261128_V8_SRP057793_95_PAIR_RECONSTRUCTION_PASS.md). Obtain author patient-unit evidence or hold and proceed to other cohorts.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 

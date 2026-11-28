@@ -41,6 +41,7 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Cohort-wide clinical certification — V8
 
+- [SRP057793 95-pair reconstruction recovery (28 Nov)](STATUS_20261128_V8_SRP057793_95_PAIR_RECONSTRUCTION_PASS.md)
 - [SRP057793 published cohort scope (28 Nov)](STATUS_20261128_V8_SRP057793_PUBLISHED_COHORT_SCOPE.md)
 - [FUSCC331 V1 clinical lock PASS (28 Nov)](STATUS_20261128_V8_FUSCC331_CLINICAL_LOCK_PASS.md)
 - [FUSCC331 approval and lock execution pending (28 Nov)](STATUS_20261128_V8_FUSCC331_LOCK_APPROVED_PENDING_EXECUTION.md)

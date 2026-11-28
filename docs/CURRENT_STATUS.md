@@ -101,7 +101,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **FUSCC331 V1 executed clinical lock PASS:** 331 admissions, 29 holds, all release/audit checksums verified, original 9465 unchanged. [Executed checkpoint](STATUS_20261128_V8_FUSCC331_CLINICAL_LOCK_PASS.md); [release registry](../CLINICAL_RELEASE_REGISTRY.tsv).
 
-**Next:** [SRP057793 full 95-case validation-cohort scope review](../tools/v8_srp057793_full_validation_cohort_READONLY_v1.py) (not executed); [published evidence]( STATUS_20261128_V8_SRP057793_PUBLISHED_COHORT_SCOPE.md). Acquire original methods/supplement or explicit author patient-unit evidence; no new admissions.
+**SRP057793 95-pair recovery PASS:** all 95 frozen untreated-primary reciprocal pairs, 90 exact projected membership, zero paired GSM atlas hits, patient fields absent. [Checkpoint](STATUS_20261128_V8_SRP057793_95_PAIR_RECONSTRUCTION_PASS.md).
+
+**Next:** [bounded corrected V1.0.1 audit](../tools/v8_srp057793_full_validation_cohort_READONLY_v1_0_1.py) and obtain author patient-unit evidence; no sarcoma admissions yet, FUSCC331 unchanged.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
