@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: [SRP158272 publication membership review](../tools/v8_srp158272_publication_membership_READONLY_v1.py) (not yet executed). Pass ROOT. FUSCC author addendum complete; retain privately, do not repeat. Review exact native and published subset evidence; no clinical release.
+Next: [SRP158272 exact author clinical-key screen](../tools/v8_srp158272_author_clinical_key_screen_READONLY_v1.py) (not executed). Pass ROOT and local pinned author outcomes CSV; verify Git blob. Native membership completed, do not repeat. Keep clinical data local.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 
