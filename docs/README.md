@@ -41,6 +41,7 @@ The [previous cumulative README at the pre-reorganization revision](https://gith
 
 ## Cohort-wide clinical certification — V8
 
+- [Fixed500 V1 scoping failure and V1.0.1 correction (28 Nov)](STATUS_20261128_V8_JOINT461_FIXED500_SCOPING_FIX.md)
 - [Joint461 full G026 preparation PASS (28 Nov)](STATUS_20261128_V8_JOINT461_FULL_G026_PREPARATION_PASS.md)
 - [Cervical run-cardinality PASS; full G026 preparation next (28 Nov)](STATUS_20261128_V8_CERVICAL_RUN_CARDINALITY_PASS.md)
 - [Joint461 manifest V1.0.1 PASS; cervical input holds (28 Nov)](STATUS_20261128_V8_JOINT461_MANIFEST_V1_0_1_PASS.md)

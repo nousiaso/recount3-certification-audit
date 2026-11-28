@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: [joint461 fixed500 compatibility assessment](../tools/v8_joint461_fixed500_compatibility_v1.R) (not executed). Submit scripts/slurm_v8_joint461_fixed500_compatibility_v1.sbatch. Reuse prepared expression and verified original V7R helper, no source re-extraction, no W or anchor refit. Review results before adjudication.
+Next: [joint461 fixed500 compatibility V1.0.1](../tools/v8_joint461_fixed500_compatibility_v1_0_1.R) (not executed). Submit scripts/slurm_v8_joint461_fixed500_compatibility_v1_0_1.sbatch. Preserve failed V1 directories. Actual-data preflight precedes optimization. Reuse original prepared expression, unchanged mathematical contract.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 
