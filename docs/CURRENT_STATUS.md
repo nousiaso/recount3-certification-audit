@@ -87,7 +87,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Fixed500 V1 stopped:** confirmed two data.table scoping bugs; all three archived Z replays within 3e-14, exact mapping PASS. [Failure and correction](STATUS_20261128_V8_JOINT461_FIXED500_SCOPING_FIX.md).
 
-**Next:** [V1.0.1 fixed500 compatibility assessment](../tools/v8_joint461_fixed500_compatibility_v1_0_1.R) via [SLURM](../scripts/slurm_v8_joint461_fixed500_compatibility_v1_0_1.sbatch); actual-data preflight before optimization, no expression reprocessing or clinical admissions.
+**Fixed500 V1.0.1 executed computational PASS:** job 13805508, 461 libraries × 3 branches, completion marker and final checksums PASS. [Checkpoint](STATUS_20261128_V8_JOINT461_FIXED500_V1_0_1_EXECUTED.md).
+
+**Next:** inspect already generated aggregate adequacy, normalization robustness, determinism and original ARCHS4 reference results. No rerun; no clinical release.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 

@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: [joint461 fixed500 compatibility V1.0.1](../tools/v8_joint461_fixed500_compatibility_v1_0_1.R) (not executed). Submit scripts/slurm_v8_joint461_fixed500_compatibility_v1_0_1.sbatch. Preserve failed V1 directories. Actual-data preflight precedes optimization. Reuse original prepared expression, unchanged mathematical contract.
+Next: review the completed fixed500 V1.0.1 aggregate outputs in diagnostics/20261128_v8_joint461_fixed500_compatibility_v1_0_1. [Executed checkpoint](STATUS_20261128_V8_JOINT461_FIXED500_V1_0_1_EXECUTED.md). Do not rerun unchanged inputs; preserve V1 failure and V1.0.1 outputs. No clinical admissions.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 
