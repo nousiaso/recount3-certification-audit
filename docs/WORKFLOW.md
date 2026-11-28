@@ -34,7 +34,7 @@ Use the existing [record_existing.sh](../tools/record_existing.sh) only for alre
 | V7S two-study review | [v7s_two_study_checkpoint_review_READONLY_v1.R](../tools/v7s_two_study_checkpoint_review_READONLY_v1.R) | Executed PASS; no repeat |
 | Archive import | [record_existing.sh](../tools/record_existing.sh) | Use only with explicit reviewed input paths |
 
-Next: acquire original FUSCC clinical Table S1 or verified author patient/sample export through authorized access; retain privately and inspect actual schema before exact reconciliation. [Technical closure and source requirements](STATUS_20261128_V8_JOINT461_ROBUSTNESS_COMPLETE.md). No more projection reruns on unchanged inputs; all clinical gates unsigned.
+Next: acquire original FUSCC clinical Table S1 privately, run [read-only intake](../tools/v8_fuscc_original_clinical_table_READONLY_v1.py) with ROOT and workbook path, review exact clinical key reconciliation and content reference. [Source checkpoint](STATUS_20261128_V8_FUSCC_ORIGINAL_CLINICAL_ACQUISITION.md). No new expression processing or clinical admission.
 
 For new computation, validate Bash syntax, Python/R parsing, dependencies, source fingerprints and regression tests before SLURM submission. Preserve distinct job logs and output directories; no overwrites. Original frozen W, anchors and Stage09–13 outputs are immutable.
 
