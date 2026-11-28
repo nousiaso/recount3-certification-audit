@@ -83,7 +83,9 @@ Eight exact queue joins: WITHIN_STUDY_OUTLIER, REVIEW_QC, HOLD, P2_STUDY_RELATIV
 
 **Cervical native run-cardinality executed PASS:** all 22 holds explained by exact two-run membership and invariant specimen/experiment fields; 461 leads / 483 runs have resolved input evidence. Original manifest unchanged. [Checkpoint](STATUS_20261128_V8_CERVICAL_RUN_CARDINALITY_PASS.md).
 
-**Next:** [combined full G026 QC and normalization](../tools/v8_joint461_full_G026_QC_normalization_v1.py) via [SLURM wrapper](../scripts/slurm_v8_joint461_full_G026_QC_normalization_v1.sbatch); additive amendment plus actual expression preparation. No clinical release or projection.
+**Joint461 full G026 preparation executed PASS:** 461 libraries/483 runs, 499 mapped genes, all UQ evaluable, eight final checksums OK. [Checkpoint](STATUS_20261128_V8_JOINT461_FULL_G026_PREPARATION_PASS.md).
+
+**Next:** [independent fixed500 compatibility assessment](../tools/v8_joint461_fixed500_compatibility_v1.R) via [SLURM](../scripts/slurm_v8_joint461_fixed500_compatibility_v1.sbatch); reference replay, adequacy and normalization sensitivity, descriptive only. No clinical admissions.
 
 Other documented holds: [DRP005276](STATUS_20261126_DRP005276_CLINICAL_HOLD.md), [SRP185703](STATUS_20261126_SRP185703_CROSSWALK_HOLD.md). SRP060016 specimen classification resolved but treatment and admission unsigned; [evidence-level decisions](../decisions/SPECIMEN_DECISIONS_SRP060016.tsv).
 
